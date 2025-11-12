@@ -2,7 +2,7 @@ from Measure.Measure import Measure
 from Dataset.Dataset import Dataset
 import requests
 
-class URLDiscoveryMeasure(Measure):
+class URLUploadedMeasure(Measure):
     def __init__(self, dataset: Dataset, url, resultDataset: Dataset):
         super().__init__()
         self.dataset = dataset
@@ -20,7 +20,7 @@ class URLDiscoveryMeasure(Measure):
                 fail = True
                 if response.status_code == 200:
                     data = response.json()
-                    if data['in_db']:
+                    if data['uploaded']:
                         correct += 1
                         fail = False
                 else:

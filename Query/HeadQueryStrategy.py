@@ -1,14 +1,15 @@
 from Query.QueryStrategy import QueryStrategy
 from Dataset.Dataset import Dataset
-import random
 
-class RandomQueryStrategy(QueryStrategy):
+
+class HeadQueryStrategy(QueryStrategy):
     def __init__(self, dataset, rawData, keywordNums):
         super().__init__(dataset, rawData, keywordNums)
     
     def getGoldenSet(self):
-        sample = random.sample(self.rawData, self.keywordNums)
-        for s in sample:
+        sorted_data = sorted(self.rawData, key=lambda x: x["frequency"], reverse=True)
+        key_num = len(self.dataset.getKeys())
+        for s in sorted_data[key_num:key_num + self.keywordNums]:
             key = s['keyword']
             urlSet, cnt = self.getQuery(key)
             self.dataset.store(key, urlSet)
