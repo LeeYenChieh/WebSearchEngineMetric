@@ -53,7 +53,7 @@ def test(args):
     resultDataset: Dataset  = DatasetFactory().getDataset(args.resultpath)
     context: MeasureContext = MeasureContext()
 
-    if args.measure == 'discovery':
+    if args.measure == 'discover':
         context.setMeasure(URLDiscoveryMeasure(dataset, args.url, resultDataset))
     elif args.measure == 'fetch':
         context.setMeasure(URLFetchedMeasure(dataset, args.url, resultDataset))
