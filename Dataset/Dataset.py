@@ -18,6 +18,8 @@ class Dataset:
         return result
 
     def getKeys(self):
+        if self.query == None:
+            self.load()
         return self.query.keys()
 
     def load(self):
