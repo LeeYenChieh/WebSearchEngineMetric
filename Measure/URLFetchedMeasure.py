@@ -1,5 +1,6 @@
 from Measure.Measure import Measure
 from Dataset.Dataset import Dataset
+from tqdm import tqdm
 import requests
 
 class URLFetchedMeasure(Measure):
@@ -12,6 +13,7 @@ class URLFetchedMeasure(Measure):
     def test(self):
         correct = 0
         total = 0
+        pbar = tqdm(total=len(self.dataset.getKeys()))
         for keyword in self.dataset.getKeys():
             for goldenurl in self.dataset.get(keyword):
                 total += 1
@@ -30,5 +32,7 @@ class URLFetchedMeasure(Measure):
                     self.resultDataset.store(keyword, [{'url': goldenurl, 'find': not fail}])
                 else:
                     self.resultDataset.get(keyword).append({'url': goldenurl, 'find': not fail})
+            pbar.update(1)
+        pbar.close()
         print(f'Performance: {correct} / {total}')
         self.resultDataset.dump()
