@@ -11,15 +11,15 @@ export default defineConfig({
     proxy: {
       // proxy 給 22225
       '/crawler': {
-        target: 'http://ws2.csie.ntu.edu.tw:22222',
+        target: 'http://ws2.csie.ntu.edu.tw:22225',
         changeOrigin: true,
-        rewrite: path => path.replace(/^\/api221/, '')
+        rewrite: path => path.replace(/^\/crawler/, '')
       },
       // proxy 給 22222
       '/typesense': {
         target: 'http://ws2.csie.ntu.edu.tw:22222',
         changeOrigin: true,
-        rewrite: path => path.replace(/^\/api225/, '')
+        rewrite: path => path.replace(/^\/typesense/, '')
       }
     }
   },
