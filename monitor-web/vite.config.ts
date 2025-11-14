@@ -7,5 +7,6 @@ export default defineConfig({
   server: {
     port: 3000, // 這裡改成你想要的 port
     host: true, // 監聽所有網卡，讓局域網可訪問
+    allowedHosts: true,
   },
 })
