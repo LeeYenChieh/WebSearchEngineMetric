@@ -8,5 +8,19 @@ export default defineConfig({
     port: 3000, // 這裡改成你想要的 port
     host: true, // 監聽所有網卡，讓局域網可訪問
     allowedHosts: true,
+    proxy: {
+      // proxy 給 22225
+      '/crawler': {
+        target: 'http://ws2.csie.ntu.edu.tw:22222',
+        changeOrigin: true,
+        rewrite: path => path.replace(/^\/api221/, '')
+      },
+      // proxy 給 22222
+      '/typesense': {
+        target: 'http://ws2.csie.ntu.edu.tw:22222',
+        changeOrigin: true,
+        rewrite: path => path.replace(/^\/api225/, '')
+      }
+    }
   },
 })

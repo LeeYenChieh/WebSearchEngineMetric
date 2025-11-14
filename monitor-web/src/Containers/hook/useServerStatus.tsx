@@ -1,7 +1,7 @@
 // src/context/ServerStatusContext.tsx
 import React, { createContext, useContext, useEffect, useState, type ReactNode } from "react";
 import { type ServerNumStatsProps, type ServerStatusProps, type GroupCardProps } from "../../type";
-import { SCHEDULER_URL, SCHEDULER_HEALTH_ENDPOINT } from "../../consts";
+import { CRAWLER_URL, CRAWLER_HEALTH_ENDPOINT } from "../../consts";
 
 interface ServerStatusContextProps {
     serverStatus: ServerStatusProps;
@@ -37,7 +37,7 @@ export const ServerStatusProvider = ({ children }: { children: ReactNode }) => {
 	useEffect(() => {
 		const checkScheduleHealth = async () => {
 			try{
-				const res = await fetch(`${SCHEDULER_URL}${SCHEDULER_HEALTH_ENDPOINT}`, {
+				const res = await fetch(`${CRAWLER_HEALTH_ENDPOINT}`, {
 					method: "GET",
 					headers: {
 						"Content-Type": "application/json",
