@@ -1,26 +1,24 @@
 import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react';
 import tailwindcss from '@tailwindcss/vite'
+import path from "path";
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [tailwindcss(),],
+  plugins: [react(), tailwindcss(),],
   server: {
     port: 3000, // 這裡改成你想要的 port
     host: true, // 監聽所有網卡，讓局域網可訪問
     allowedHosts: true,
-    proxy: {
-      // proxy 給 22225
-      '/crawler': {
-        target: 'http://ws2.csie.ntu.edu.tw:22225',
-        changeOrigin: true,
-        rewrite: path => path.replace(/^\/crawler/, '')
-      },
-      // proxy 給 22222
-      '/typesense': {
-        target: 'http://ws2.csie.ntu.edu.tw:22222',
-        changeOrigin: true,
-        rewrite: path => path.replace(/^\/typesense/, '')
-      }
+    fs: {
+      allow: [
+        path.resolve(__dirname, "..")   // 或直接寫絕對路徑
+      ]
     }
   },
+  resolve: {
+    alias: {
+      '@': '/src'
+    }
+  }
 })

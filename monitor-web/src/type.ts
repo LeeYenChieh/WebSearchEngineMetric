@@ -31,3 +31,12 @@ export interface StatCardProps {
     title: string;
     value: number;
 }
+
+export interface ServerStatusContextProps {
+    serverStatus: ServerStatusProps;
+    setServerStatus: React.Dispatch<React.SetStateAction<ServerStatusProps>>;
+    serverNumStats: ServerNumStatsProps;
+    setServerNumStats: React.Dispatch<React.SetStateAction<ServerNumStatsProps>>;
+    metrics: GroupCardProps[];
+    setMetrics: React.Dispatch<React.SetStateAction<GroupCardProps[]>>;
+}
