@@ -3,12 +3,15 @@ from datetime import datetime
 import pandas as pd
 import re
 
+
+# 用於讀取google trending上的csv data
 class CSVRawDataReader(RawDataReader):
-    def __init__(self):
+    def __init__(self, path):
         super().__init__()
+        self.path = path
     
-    def readData(self, path) -> list:
-        df = pd.read_csv(path)
+    def readData(self) -> list:
+        df = pd.read_csv(self.path)
         result = []
 
         for _, row in df.iterrows():

@@ -11,13 +11,12 @@ class HeadQueryStrategy(QueryStrategy):
         key_num = len(self.dataset.getKeys())
         for s in sorted_data[key_num:key_num + self.keywordNums]:
             key = s['keyword']
-            urlSet, cnt = self.getQuery(key)
+            urlSet = self.getQuery(key)
             self.dataset.store(key, urlSet)
 
             print("=" * 30)
             print(f'KeyWord: {key}')
             print(f'Golden URL Nums: {len(urlSet)}')
-            print(f'Query Times: {cnt}')
             print(f'Golden URL Set: {urlSet}')
             print("=" * 30)
         self.dataset.dump()

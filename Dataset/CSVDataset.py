@@ -13,7 +13,18 @@ class CSVDataset(Dataset):
             return
 
         df = pd.read_csv(self.path)
-        self.query = {row["keyword"]: row["urls"].split(",") for _, row in df.iterrows()}
+        result = {}
+        for _, row in df.iterrows():
+            urls_str = row.get("urls")
+
+            if pd.isna(urls_str) or urls_str == "":
+                urls = []
+            else:
+                urls = [u.strip() for u in urls_str.split(",") if u.strip()]
+
+            result[row["keyword"]] = urls
+
+        self.query = result
     
     def dump(self):
         df = pd.DataFrame({

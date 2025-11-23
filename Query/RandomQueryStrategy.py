@@ -10,13 +10,12 @@ class RandomQueryStrategy(QueryStrategy):
         sample = random.sample(self.rawData, self.keywordNums)
         for s in sample:
             key = s['keyword']
-            urlSet, cnt = self.getQuery(key)
+            urlSet = self.getQuery(key)
             self.dataset.store(key, urlSet)
 
             print("=" * 30)
             print(f'KeyWord: {key}')
             print(f'Golden URL Nums: {len(urlSet)}')
-            print(f'Query Times: {cnt}')
             print(f'Golden URL Set: {urlSet}')
             print("=" * 30)
         self.dataset.dump()
