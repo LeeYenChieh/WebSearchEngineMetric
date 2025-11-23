@@ -3698,5 +3698,3561 @@
             "url": "https://invest.cnyes.com/usstock/detail/TSLA",
             "find": false
         }
+    ],
+    "wicked for good": [
+        {
+            "url": "https://en.wikipedia.org/wiki/Wicked:_For_Good",
+            "find": false
+        },
+        {
+            "url": "https://www.imdb.com/title/tt19847976/",
+            "find": false
+        },
+        {
+            "url": "https://www.newyorker.com/culture/the-current-cinema/wicked-for-good-is-very-very-bad",
+            "find": false
+        },
+        {
+            "url": "https://www.reddit.com/r/wicked/comments/1p3wus5/was_anyone_else_kind_of_let_down_by_the_music_of/",
+            "find": false
+        },
+        {
+            "url": "https://www.rottentomatoes.com/m/wicked_for_good",
+            "find": true
+        },
+        {
+            "url": "https://www.fandango.com/wicked-for-good-2025-238985/movie-overview",
+            "find": false
+        },
+        {
+            "url": "https://www.wickedmovie.com/",
+            "find": false
+        }
+    ],
+    "bills vs texans": [
+        {
+            "url": "https://www.youtube.com/watch?v=nwWQvs4NlJA",
+            "find": false
+        },
+        {
+            "url": "https://www.houstontexans.com/video/bills-vs-texans-highlights-week-12",
+            "find": false
+        },
+        {
+            "url": "https://www.buffalobills.com/news/the-top-3-three-things-we-learned-from-bills-vs-texans-week-12",
+            "find": false
+        },
+        {
+            "url": "https://www.reddit.com/r/nfl/comments/1p2pe9p/highlight_all_eight_sacks_from_the_texans_defense/",
+            "find": false
+        },
+        {
+            "url": "https://www.espn.com/nfl/game/_/gameId/401772946/bills-texans",
+            "find": true
+        },
+        {
+            "url": "https://www.nfl.com/news/bills-texans-on-thursday-night-football-what-we-learned-from-houston-s-23-19-win",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=O2eZ6oQRBYA",
+            "find": false
+        }
+    ],
+    "cloudflare": [
+        {
+            "url": "https://www.cloudflare.com/",
+            "find": true
+        },
+        {
+            "url": "https://1.1.1.1/",
+            "find": true
+        },
+        {
+            "url": "https://en.wikipedia.org/wiki/Cloudflare",
+            "find": false
+        },
+        {
+            "url": "https://www.cloudflarestatus.com/",
+            "find": true
+        },
+        {
+            "url": "http://www.cloudflare.net/",
+            "find": false
+        }
+    ],
+    "england vs australia": [
+        {
+            "url": "https://www.reddit.com/r/Cricket/comments/1p3paed/post_match_thread_1st_test_england_vs_australia/",
+            "find": false
+        },
+        {
+            "url": "https://www.espncricinfo.com/series/the-ashes-2025-26-1455609/match-schedule-fixtures-and-results",
+            "find": false
+        },
+        {
+            "url": "https://www.hotstar.com/in/sports/cricket/1st-test-aus-vs-eng-full-match-highlights/1271509281/watch",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=kfxnvB_aDWA",
+            "find": false
+        },
+        {
+            "url": "https://www.skysports.com/cricket/news/12040/13473903/the-ashes-ben-stokes-shellshocked-after-englands-two-day-defeat-as-australia-heap-praise-on-outstanding-travis-head",
+            "find": false
+        },
+        {
+            "url": "https://www.bbc.com/sport/cricket/live/crl5jn5d84kt",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=sufbG77yJXw",
+            "find": false
+        },
+        {
+            "url": "https://www.rugbyworldcup.com/2025/en/match/england-v-australia-pool-a",
+            "find": false
+        }
+    ],
+    "senuran muthusamy": [
+        {
+            "url": "https://en.wikipedia.org/wiki/Senuran_Muthusamy",
+            "find": false
+        },
+        {
+            "url": "https://www.espncricinfo.com/cricketers/senuran-muthusamy-535393",
+            "find": false
+        },
+        {
+            "url": "https://www.reddit.com/r/Cricket/comments/1p4hr02/senuran_muthusamy_scores_his_maiden_test_century/",
+            "find": false
+        },
+        {
+            "url": "https://www.cricbuzz.com/profiles/11432/senuran-muthusamy",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/senseii_67/?hl=en",
+            "find": false
+        },
+        {
+            "url": "https://www.icc-cricket.com/rankings/63717/senuran-muthusamy",
+            "find": false
+        },
+        {
+            "url": "https://www.espncricinfo.com/cricketers/senuran-muthusamy-535393/bowling-batting-stats",
+            "find": false
+        }
+    ],
+    "sarkari result": [
+        {
+            "url": "https://www.sarkariexam.com/",
+            "find": false
+        },
+        {
+            "url": "https://rojgarforum.com/",
+            "find": false
+        },
+        {
+            "url": "https://sarkariresult.com.cm/",
+            "find": false
+        },
+        {
+            "url": "https://play.google.com/store/apps/details?id=com.vinod.sarkarinaukri&hl=en_US",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/sarkariresult.com.cm_/?hl=en",
+            "find": false
+        },
+        {
+            "url": "https://sarkariprep.in/en/",
+            "find": false
+        },
+        {
+            "url": "https://www.sarkari-resultt.com/",
+            "find": false
+        },
+        {
+            "url": "https://sarkariresultf.com/",
+            "find": false
+        },
+        {
+            "url": "https://sarkariresult25.com/",
+            "find": false
+        },
+        {
+            "url": "https://www.adda247.com/jobs/sarkari-result/?srsltid=AfmBOopcOaL7LT5pyFnkWkSadYb8_lO-A1T8km4addEHzPH61GuU-uzQ",
+            "find": false
+        }
+    ],
+    "palmeiras x fluminense": [
+        {
+            "url": "https://www.lance.com.br/fora-de-campo/torcedores-se-revoltam-com-abel-ferreira-apos-palmeiras-x-fluminense-vergonha.html",
+            "find": false
+        },
+        {
+            "url": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2025/11/22/palmeiras-fluminense-brasileirao-como-foi-o-jogo.htm",
+            "find": false
+        },
+        {
+            "url": "https://www.estadao.com.br/esportes/futebol/palmeiras-x-fluminense-brasileirao-2025-rodada-35-allianz-parque-analise/?srsltid=AfmBOoqNreb5K_EvhJLmd9bC17LRmGIFIZZLkLlhc2ggwY5csC-t6FRQ",
+            "find": false
+        },
+        {
+            "url": "https://www.espn.com/soccer/match/_/gameId/732748/palmeiras-fluminense",
+            "find": false
+        },
+        {
+            "url": "https://www.lance.com.br/brasileirao/palmeiras-empata-com-o-fluminense-e-se-complica-na-briga-pelo-titulo.html",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=eukU7sc0DHg",
+            "find": false
+        }
+    ],
+    "flamengo x bragantino": [
+        {
+            "url": "https://www.sofascore.com/football/match/flamengo-red-bull-bragantino/ZOsGuc",
+            "find": false
+        },
+        {
+            "url": "https://www.flashscore.com/match/football/bragantino-jwKvKhGa/flamengo-rj-WjxY29qB/",
+            "find": false
+        },
+        {
+            "url": "https://www.espn.com/soccer/match/_/gameId/732745/flamengo-red-bull-bragantino",
+            "find": false
+        },
+        {
+            "url": "https://www.fctables.com/h2h/bragantino/flamengo/",
+            "find": false
+        },
+        {
+            "url": "https://livescores.biz/h2h/bragantino-vs-flamengo",
+            "find": false
+        },
+        {
+            "url": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/noticia/2025/11/22/flamengo-x-bragantino-onde-assistir-ao-vivo-horario-e-escalacoes.ghtml",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/p/DRYdMfMjS_o/",
+            "find": false
+        }
+    ],
+    "lanús x atlético-mg": [
+        {
+            "url": "https://www.espn.com/soccer/match/_/gameId/760381",
+            "find": false
+        },
+        {
+            "url": "https://www.sofascore.com/football/match/ca-lanus-atletico-mineiro/COstob",
+            "find": false
+        },
+        {
+            "url": "https://www.beinsports.com/en-us/soccer/conmebol-sudamericana/articles/lan%C3%BAs-and-atl%C3%A9tico-mineiro-draw-0-0-at-halftime-in-the-copa-sudamericana-final-2025-11-22",
+            "find": false
+        },
+        {
+            "url": "https://www.beinsports.com/en-us/soccer/conmebol-sudamericana/lans-vs-atltico-mineiro-2025-11-22",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=Ietl0IEr89k",
+            "find": false
+        },
+        {
+            "url": "https://livescores.biz/h2h/atletico-mg-vs-lanus",
+            "find": false
+        },
+        {
+            "url": "https://x.com/rangelteve/status/1992347158469845252",
+            "find": false
+        }
+    ],
+    "brasil x tunísia": [
+        {
+            "url": "https://www.youtube.com/watch?v=-ApNa0X5sXE",
+            "find": false
+        },
+        {
+            "url": "https://www.uol.com.br/esporte/videos/gols/2025/11/18/brasil-1-x-1-tunisia--amistoso-da-selecao-brasileira.htm",
+            "find": false
+        },
+        {
+            "url": "https://www.lance.com.br/fora-de-campo/wesley-vira-assunto-apos-erro-em-brasil-x-tunisia-partida-pessima.html",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/reel/DRN_6FbD6VB/",
+            "find": false
+        },
+        {
+            "url": "https://www.espn.com.br/futebol/partida/_/jogoId/760053/tunisia-brasil",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=CGmwZgNVhSU",
+            "find": false
+        },
+        {
+            "url": "https://www.cnnbrasil.com.br/esportes/futebol/selecao-brasileira/paqueta-perde-penalti-e-brasil-fecha-ano-com-empate-diante-da-tunisia/",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=3S-hGcZUMMg",
+            "find": false
+        },
+        {
+            "url": "https://www.nsctotal.com.br/noticias/ao-vivo-brasil-x-tunisia-em-amistoso-para-a-copa-do-mundo-de-2026",
+            "find": false
+        },
+        {
+            "url": "https://ge.globo.com/futebol/selecao-brasileira/jogo/18-11-2025/brasil-tunisia.ghtml",
+            "find": false
+        }
+    ],
+    "cowboys vs raiders": [
+        {
+            "url": "https://www.espn.com/nfl/game/_/gameId/401772819/cowboys-raiders",
+            "find": true
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=DjyvVv-wvXI",
+            "find": false
+        },
+        {
+            "url": "https://www.nfl.com/games/cowboys-at-raiders-2025-reg-11",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=JIskXGc6Xco",
+            "find": false
+        },
+        {
+            "url": "https://www.raiders.com/game-day/2025/reg-week11/cowboys-at-raiders/",
+            "find": false
+        },
+        {
+            "url": "https://www.footballdb.com/teams/nfl/dallas-cowboys/teamvsteam?opp=23",
+            "find": false
+        },
+        {
+            "url": "https://www.nrl.com/draw/nrl-premiership/2025/round-4/cowboys-v-raiders/",
+            "find": false
+        }
+    ],
+    "nvidia earnings": [
+        {
+            "url": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2026/default.aspx",
+            "find": false
+        },
+        {
+            "url": "https://investor.nvidia.com/financial-info/quarterly-results/default.aspx",
+            "find": false
+        },
+        {
+            "url": "https://www.thestreet.com/investing/stocks/goldman-sachs-jpmorgan-and-bofa-drop-verdicts-on-nvidia-earnings",
+            "find": false
+        },
+        {
+            "url": "https://investor.nvidia.com/events-and-presentations/events-and-presentations/default.aspx",
+            "find": false
+        },
+        {
+            "url": "https://finance.yahoo.com/quote/NVDA/",
+            "find": true
+        },
+        {
+            "url": "https://www.nasdaq.com/market-activity/stocks/nvda/earnings",
+            "find": false
+        },
+        {
+            "url": "https://www.cnbc.com/2025/11/19/nvidia-nvda-earnings-report-q3-2026.html",
+            "find": false
+        },
+        {
+            "url": "https://investor.nvidia.com/financial-info/financial-reports/default.aspx",
+            "find": false
+        }
+    ],
+    "lions": [
+        {
+            "url": "https://www.detroitlions.com/",
+            "find": false
+        },
+        {
+            "url": "https://www.espn.com/nfl/team/_/name/det/detroit-lions",
+            "find": true
+        },
+        {
+            "url": "https://www.lionsclubs.org/en",
+            "find": true
+        },
+        {
+            "url": "https://www.nfl.com/teams/detroit-lions/",
+            "find": false
+        },
+        {
+            "url": "https://www.detroitlions.com/schedule/",
+            "find": false
+        },
+        {
+            "url": "https://x.com/Lions",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/detroitlionsnfl/?hl=en",
+            "find": false
+        }
+    ],
+    "pakistan vs zimbabwe": [
+        {
+            "url": "https://www.espncricinfo.com/series/pakistan-t20i-tri-series-2025-26-1502043/pakistan-vs-zimbabwe-4th-match-1502051/match-report",
+            "find": false
+        },
+        {
+            "url": "https://www.cricbuzz.com/live-cricket-scores/134430/pak-vs-zim-4th-match-pak-t20i-tri-series-2025",
+            "find": false
+        },
+        {
+            "url": "https://www.timesnownews.com/sports/cricket/pakistan-vs-zimbabwe-live-score-4th-t20i-pak-vs-zim-match-pakistan-national-cricket-team-vs-zimbabwe-cricket-team-scorecard-commentary-liveblog-153193121",
+            "find": false
+        },
+        {
+            "url": "https://www.pcb.com.pk/pakistan-sri-lanka-and-zimbabwe-trination-t20i-series-202526/match/36435.html",
+            "find": false
+        },
+        {
+            "url": "https://www.reddit.com/r/Cricket/comments/1p4kiqb/match_thread_4th_match_pakistan_vs_zimbabwe/",
+            "find": false
+        },
+        {
+            "url": "https://www.indiatoday.in/sports/cricket/story/pakistan-vs-zimbabwe-tri-series-updates-babar-azam-salman-agha-2824747-2025-11-23",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/therealpcb/reel/DRZ2TuMDZB4/",
+            "find": false
+        },
+        {
+            "url": "https://indianexpress.com/section/sports/cricket/live-score/pakistan-vs-zimbabwe-4-t20-live-score-full-scorecard-highlights-t20i-tri-series-in-pakistan-2025-pkzm11232025266687/",
+            "find": false
+        }
+    ],
+    "bangladesh vs ireland": [
+        {
+            "url": "https://www.espncricinfo.com/series/ireland-in-bangladesh-2025-26-1506008/bangladesh-vs-ireland-2nd-test-1506013/live-cricket-score",
+            "find": false
+        },
+        {
+            "url": "https://www.reddit.com/r/Cricket/comments/1p4amwx/match_thread_2nd_test_bangladesh_vs_ireland_day_5/",
+            "find": false
+        },
+        {
+            "url": "https://www.cricbuzz.com/cricket-series/10972/ireland-tour-of-bangladesh-2025/matches",
+            "find": false
+        },
+        {
+            "url": "https://www.news18.com/cricket/bangladesh-vs-ireland-live-score-2nd-test-day-5-ban-national-cricket-team-vs-ire-national-cricket-team-scorecard-updates-dhaka-liveblog-9725837.html",
+            "find": false
+        },
+        {
+            "url": "https://cricketireland.ie/series/ireland-men-bangladesh-2025/",
+            "find": false
+        },
+        {
+            "url": "https://www.skysports.com/cricket/bangladesh-v-ireland/scorecard/795750a8-6273-5410-a9fe-905f1eec4f5f",
+            "find": false
+        },
+        {
+            "url": "https://www.sofascore.com/cricket/match/ireland-bangladesh/UeAbsqfAb",
+            "find": false
+        },
+        {
+            "url": "https://www.espncricinfo.com/series/ireland-in-bangladesh-2025-26-1506008/match-schedule-fixtures-and-results",
+            "find": false
+        }
+    ],
+    "family man season 3": [
+        {
+            "url": "https://www.reddit.com/r/bollywood/comments/1p2aw2a/the_family_man_season_3_reviews_and_discussions/",
+            "find": false
+        },
+        {
+            "url": "https://en.wikipedia.org/wiki/The_Family_Man_(Indian_TV_series)",
+            "find": false
+        },
+        {
+            "url": "https://www.imdb.com/title/tt9544034/episodes/?season=3",
+            "find": false
+        },
+        {
+            "url": "https://www.primevideo.com/detail/The-Family-Man/0P3NCJMFKWU78I04U2IYOJUAF2",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=jsauQx_Fwrg",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/reel/DRUFqbuDYOO/",
+            "find": false
+        },
+        {
+            "url": "https://www.rottentomatoes.com/tv/the_family_man/s03",
+            "find": false
+        }
+    ],
+    "please unblock challenges.cloudflare.com to proceed.": [
+        {
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1p0a1v6/please_unblock_challengescloudflarecom_to_proceed/",
+            "find": false
+        },
+        {
+            "url": "https://community.cloudflare.com/t/blocked-from-challenges-cloudflare-com/619248",
+            "find": false
+        },
+        {
+            "url": "https://support.google.com/chrome/thread/388542705/i-don-t-know-how-to-fix-this-please-unblock-challenges-cloudflare-com-to-proceed?hl=en",
+            "find": false
+        },
+        {
+            "url": "https://m.economictimes.com/news/international/us/cloudflare-down-chatgpt-down-what-does-please-unblock-challenges-cloudflare-com-to-proceed-mean-heres-what-we-know-about-the-cloudfare-error/articleshow/125413447.cms",
+            "find": false
+        },
+        {
+            "url": "https://community.cloudflare.com/t/chat-gpt-message-please-unblock-challenges-cloudflare-com-to-proceed/652736",
+            "find": false
+        },
+        {
+            "url": "https://stackoverflow.com/questions/79823420/chat-gpt-web-please-unblock-challenges-cloudflare-com-to-proceed",
+            "find": false
+        },
+        {
+            "url": "https://community.cloudflare.com/t/unblock-challenges-cloudflare-com-to-proceed/858947",
+            "find": false
+        },
+        {
+            "url": "https://medium.com/@iamRadhaKulkarni/fix-please-unblock-challenges-cloudflare-com-to-proceed-error-quick-trusted-solutions-3605868bfd44",
+            "find": false
+        },
+        {
+            "url": "https://uk.finance.yahoo.com/news/chatgpt-down-asked-unblock-cloudflare-140852390.html",
+            "find": false
+        }
+    ],
+    "x 不具合": [
+        {
+            "url": "https://asset-inc.jp/nextwave/x-latest-issue-status-cause-fix/",
+            "find": false
+        },
+        {
+            "url": "https://search.yahoo.co.jp/realtime/search?rkf=1&p=X%E4%B8%8D%E5%85%B7%E5%90%88&btid=MTkzMDAzNDQ2OTUwOTE4MTUzNQ%3D%3D&ifr=tp_bz",
+            "find": false
+        },
+        {
+            "url": "https://x.com/search?q=Twitter%E4%B8%8D%E5%85%B7%E5%90%88",
+            "find": false
+        },
+        {
+            "url": "https://t-1.co.jp/column/2025/10/20/x-error-cause-solution/",
+            "find": false
+        },
+        {
+            "url": "https://www.chunichi.co.jp/article/1166232",
+            "find": false
+        },
+        {
+            "url": "https://www.yomiuri.co.jp/economy/20251118-OYT1T50216/",
+            "find": false
+        },
+        {
+            "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q12322381727",
+            "find": false
+        },
+        {
+            "url": "https://naninaze.hateblo.jp/entry/2025/11/18/223300",
+            "find": false
+        },
+        {
+            "url": "https://note.com/miccell/n/n8fc55d956dfb",
+            "find": false
+        },
+        {
+            "url": "https://k-tai.watch.impress.co.jp/docs/news/2064365.html",
+            "find": false
+        }
+    ],
+    "moderate snow ice warning": [
+        {
+            "url": "https://www.weather.gov/phi/winterwx",
+            "find": false
+        },
+        {
+            "url": "https://www.weather.gov/safety/winter-ww",
+            "find": false
+        },
+        {
+            "url": "https://www.nssl.noaa.gov/education/svrwx101/winter/types/",
+            "find": false
+        },
+        {
+            "url": "https://www.phila.gov/departments/oem/ready-or-not/how-to-get-ready/natural-hazards/winter-weather-preparedness/",
+            "find": false
+        },
+        {
+            "url": "https://rollingout.com/2025/11/23/winter-storm-warning-as-12-inches-snow/",
+            "find": false
+        },
+        {
+            "url": "https://paweatheraction.com/",
+            "find": false
+        },
+        {
+            "url": "https://www.weather.gov/lwx/warningsdefined",
+            "find": false
+        },
+        {
+            "url": "https://www.pennlive.com/weather-alerts/",
+            "find": false
+        }
+    ],
+    "kessler zwillinge": [
+        {
+            "url": "https://en.wikipedia.org/wiki/Kessler_Twins",
+            "find": false
+        },
+        {
+            "url": "https://www.theguardian.com/world/2025/nov/18/the-kessler-twins-sisters-alice-and-ellen-die-together-aged-89",
+            "find": false
+        },
+        {
+            "url": "https://www.cnn.com/2025/11/18/entertainment/kessler-twins-die-assisted-suicide-intl-scli",
+            "find": false
+        },
+        {
+            "url": "https://www.newsweek.com/entertainment/celebrity-news/kessler-twins-ellen-alice-cause-death-assisted-suicide-11073436",
+            "find": false
+        },
+        {
+            "url": "https://www.gettyimages.com/photos/the-kessler-twins",
+            "find": false
+        },
+        {
+            "url": "https://simple.wikipedia.org/wiki/Kessler_Twins",
+            "find": false
+        },
+        {
+            "url": "https://www.timesnownews.com/world/us/us-buzz/kessler-twins-cause-of-death-why-did-alice-and-ellen-end-their-lives-together-article-153168242",
+            "find": false
+        },
+        {
+            "url": "https://deadline.com/2025/11/kessler-twins-dead-assisted-suicide-1236621762/",
+            "find": false
+        }
+    ],
+    "dwd": [
+        {
+            "url": "https://dwd.wisconsin.gov/",
+            "find": false
+        },
+        {
+            "url": "https://www.in.gov/dwd/",
+            "find": false
+        },
+        {
+            "url": "https://en.wikipedia.org/wiki/DWD_(disambiguation)",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=CYPYrk7kis4",
+            "find": false
+        },
+        {
+            "url": "https://jobcenterofwisconsin.com/",
+            "find": false
+        },
+        {
+            "url": "https://www.lawinsider.com/dictionary/dwd",
+            "find": false
+        },
+        {
+            "url": "https://www.dwd.de/EN/Home/home_node.html",
+            "find": false
+        }
+    ],
+    "deutschland – slowakei": [
+        {
+            "url": "https://www.derwesten.de/sport/fussball/deutschland-slowakei-live-ticker-wm-quali-nagelsmann-id301907863.html",
+            "find": false
+        },
+        {
+            "url": "https://www.tagesschau.de/sport/fussball-wm-qualifikation-deutschland-slowakei-102.html",
+            "find": false
+        },
+        {
+            "url": "https://www.dfb.de/news/60-gegen-die-slowakei-deutschland-macht-wm-ticket-klar",
+            "find": false
+        },
+        {
+            "url": "https://www.kicker.de/deutschland-gegen-slowakei",
+            "find": false
+        },
+        {
+            "url": "https://www.11freunde.de/wm/wm-qualifikation-deutschland-vs-slowakei-reaktionen-so-ist-das-eben-mit-deutschland-a-60302305-f9cd-40d2-bb4d-9cebb232f50c",
+            "find": false
+        },
+        {
+            "url": "https://www.sportschau.de/fussball/nationalmannschaft/deutschland-zerlegt-die-slowakei-und-stuermt-zur-wm",
+            "find": false
+        },
+        {
+            "url": "spielbericht-wm-quali-ger-svk-100.html",
+            "find": false
+        },
+        {
+            "url": "https://www.mdr.de/sport/fussball_pokal/pokale-international/deutschland-slowakei-wm-qualifikation-leipzig-100.html",
+            "find": false
+        },
+        {
+            "url": "https://de.uefa.com/european-qualifiers/match/2044341--germany-vs-slovakia/",
+            "find": false
+        },
+        {
+            "url": "https://www.srf.ch/sport/fussball/wm-qualifikation/wm-qualifikation-gruppe-a-voellig-losgeloest-deutschland-schiesst-sich-mit-6-0-an-die-wm",
+            "find": false
+        }
+    ],
+    "ashes": [
+        {
+            "url": "https://en.wikipedia.org/wiki/The_Ashes",
+            "find": false
+        },
+        {
+            "url": "https://www.espncricinfo.com/records/trophy/team-series-results/the-ashes-1",
+            "find": false
+        },
+        {
+            "url": "https://www.cricket.com.au/matches/series/CA:3014/men-s-ashes-2025-26",
+            "find": false
+        },
+        {
+            "url": "https://www.lords.org/lords/our-history/the-ashes",
+            "find": false
+        },
+        {
+            "url": "https://www.theguardian.com/sport/live/2025/nov/22/australia-vs-england-live-ashes-first-1st-test-day-two-aus-v-eng-cricket-scores-updates-perth",
+            "find": false
+        },
+        {
+            "url": "https://www.dictionary.com/browse/ashes",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=CX11yw6YL1w",
+            "find": false
+        }
+    ],
+    "palmeiras x ec vitória": [
+        {
+            "url": "https://www.palmeiras.com.br/noticias/palmeiras-empata-com-vitoria-no-allianz-parque-pelo-campeonato-brasileiro/",
+            "find": false
+        },
+        {
+            "url": "https://www.sofascore.com/football/match/palmeiras-vitoria/mOsnO",
+            "find": false
+        },
+        {
+            "url": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/2025/11/19/palmeiras-0-x-0-vitoria-assista-aos-melhores-momentos.ghtml",
+            "find": false
+        },
+        {
+            "url": "https://www.flashscore.com/match/football/palmeiras-hMn9FTbH/vitoria-8bSbHipn/",
+            "find": false
+        },
+        {
+            "url": "https://www.estadao.com.br/esportes/ao-vivo-palmeiras-x-vitoria-brasileirao-37-rodada/?srsltid=AfmBOor3F7w4orRHnoR52DRbRbDlzIzm3100Cl0daZiCJfaWmNTmB_Mk",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/reel/DRQijIwjsr0/",
+            "find": false
+        },
+        {
+            "url": "https://www.lance.com.br/fora-de-campo/abel-ferreira-vira-assunto-apos-empate-em-palmeiras-x-vitoria-sem-condicoes.html",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=fsID3eRrTcY",
+            "find": false
+        }
+    ],
+    "corinthians x são paulo": [
+        {
+            "url": "https://www.youtube.com/watch?v=Y645a6owKyo",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=yhgWJKJ2xIw",
+            "find": false
+        },
+        {
+            "url": "https://www.cnnbrasil.com.br/esportes/brasileirao/memphis-e-yuri-brilham-corinthians-vence-o-sao-paulo-e-chega-aos-45-pontos/",
+            "find": false
+        },
+        {
+            "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2025/11/21/analise-sao-paulo-tem-lampejos-de-bom-futebol-mas-produz-muito-pouco-em-classico.ghtml",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/p/DRTGWOHCcN5/",
+            "find": false
+        },
+        {
+            "url": "https://www.uol.com.br/esporte/videos/gols/2025/11/20/corinthians-3-x-1-sao-paulo---34-rodada---campeonato-brasileiro-2024.htm",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=seX_riaazpk",
+            "find": false
+        },
+        {
+            "url": "https://www.meutimao.com.br/confrontos-entre-corinthians-e-sao_paulo",
+            "find": false
+        }
+    ],
+    "bolsonaro": [
+        {
+            "url": "https://en.wikipedia.org/wiki/Jair_Bolsonaro",
+            "find": false
+        },
+        {
+            "url": "https://apnews.com/article/brazil-bolsonaro-prison-arrest-d68ae43b99762c577efe7e6ba20b0542",
+            "find": false
+        },
+        {
+            "url": "https://www.theguardian.com/world/jair-bolsonaro",
+            "find": false
+        },
+        {
+            "url": "https://www.reuters.com/world/americas/brazil-ex-president-bolsonaro-arrested-by-federal-police-source-says-2025-11-22/",
+            "find": false
+        },
+        {
+            "url": "https://abcnews.go.com/International/wireStory/brazils-bolsonaro-meet-judge-day-after-early-arrest-127801942",
+            "find": false
+        },
+        {
+            "url": "https://www.britannica.com/biography/Jair-Bolsonaro",
+            "find": true
+        },
+        {
+            "url": "https://apnews.com/hub/jair-bolsonaro",
+            "find": true
+        },
+        {
+            "url": "https://www.ebsco.com/research-starters/politics-and-government/jair-bolsonaro",
+            "find": false
+        }
+    ],
+    "juventude x cruzeiro": [
+        {
+            "url": "https://www.youtube.com/watch?v=6v-ciX06rok",
+            "find": false
+        },
+        {
+            "url": "https://ge.globo.com/rs/futebol/brasileirao-serie-a/jogo/20-11-2025/juventude-cruzeiro.ghtml",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=1o-Ai4Vv0Vo",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/reel/DRSwk-rESZw/",
+            "find": false
+        },
+        {
+            "url": "https://www.sofascore.com/football/match/juventude-cruzeiro/eOsFO",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=yVrxnKF0V_w",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=VVbJP1bP05s",
+            "find": false
+        }
+    ],
+    "santos x mirassol": [
+        {
+            "url": "https://www.sofascore.com/football/match/mirassol-santos/tOsHOi",
+            "find": false
+        },
+        {
+            "url": "https://www.flashscoreusa.com/game/soccer/mirassol-pQ8ryEe7/santos-n3QdnjFB/",
+            "find": false
+        },
+        {
+            "url": "https://ge.globo.com/futebol/brasileirao-serie-a/video/santos-1-x-1-mirassol-melhores-momentos-34a-rodada-brasileirao-2025-14113446.ghtml",
+            "find": false
+        },
+        {
+            "url": "https://www.espn.com/soccer/match/_/gameId/732734/santos-mirassol",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/reel/DRRk4JNEXP2/",
+            "find": false
+        },
+        {
+            "url": "https://m.aiscore.com/head-to-head/soccer-mirassol-vs-santos",
+            "find": false
+        },
+        {
+            "url": "https://www.threads.com/@njdmarlon/post/DRQvzizDAua/fim-de-jogo-santos-x-mirassol",
+            "find": false
+        }
+    ],
+    "corinthians": [
+        {
+            "url": "https://en.wikipedia.org/wiki/SC_Corinthians_Paulista",
+            "find": false
+        },
+        {
+            "url": "https://www.biblegateway.com/passage/?search=1%20Corinthians%201&version=NIV",
+            "find": false
+        },
+        {
+            "url": "https://en.wikipedia.org/wiki/First_Epistle_to_the_Corinthians",
+            "find": false
+        },
+        {
+            "url": "https://www.espn.com/soccer/team/_/id/874/corinthians",
+            "find": true
+        },
+        {
+            "url": "https://www.transfermarkt.us/sport-club-corinthians-paulista/startseite/verein/199",
+            "find": false
+        },
+        {
+            "url": "https://bible.usccb.org/bible/1corinthians/0",
+            "find": false
+        },
+        {
+            "url": "https://www.sofascore.com/football/team/corinthians/1957",
+            "find": false
+        },
+        {
+            "url": "https://bibleproject.com/videos/1-corinthians/",
+            "find": false
+        }
+    ],
+    "vigilance forte neige/verglas": [
+        {
+            "url": "https://vigilance.meteofrance.fr/fr/neige-verglas",
+            "find": false
+        },
+        {
+            "url": "https://www.lemonde.fr/planete/article/2025/11/23/neige-et-verglas-fin-de-la-vigilance-orange-sur-l-ensemble-du-territoire-1-a-4-centimetres-de-neige-sont-tombes-en-region-parisienne_6654406_3245.html",
+            "find": false
+        },
+        {
+            "url": "https://x.com/VigiMeteoFrance?lang=en",
+            "find": false
+        },
+        {
+            "url": "https://www.francebleu.fr/infos/meteo/fin-de-la-vigilance-neige-verglas-en-picardie-ce-dimanche-matin-4972385",
+            "find": false
+        },
+        {
+            "url": "https://www.franceinfo.fr/environnement/meteo/alertes-meteo-et-vigilances/direct-vigilance-neige-verglas-la-vitesse-sur-les-routes-abaissee-de-20-km-h-a-partir-de-20-heures-en-ile-de-france_7633091.html",
+            "find": false
+        },
+        {
+            "url": "https://www.tf1info.fr/meteo/en-direct-alerte-meteo-france-neige-verglas-8-departements-en-vigilance-orange-a-partir-de-20h-2408238.html",
+            "find": false
+        },
+        {
+            "url": "https://vigilance.meteofrance.fr/fr/lot",
+            "find": false
+        },
+        {
+            "url": "https://www.ville-andilly-95.fr/vigilance-orange-neige-verglas-pour-le-departement-du-val-doise/",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/p/DRWfZn0jSTH/",
+            "find": false
+        },
+        {
+            "url": "https://www.isere.gouv.fr/contenu/telechargement/4672/31274/file/rappels+4+niveaux+vigilance+meteo.pdf",
+            "find": false
+        }
+    ],
+    "las vegas grand prix": [
+        {
+            "url": "https://www.f1lasvegasgp.com/",
+            "find": false
+        },
+        {
+            "url": "https://www.formula1.com/en/racing/2025/las-vegas",
+            "find": true
+        },
+        {
+            "url": "https://www.f1lasvegasgp.com/schedule/",
+            "find": false
+        },
+        {
+            "url": "https://www.motorsport.com/f1/news/lando-norris-oscar-piastri-disqualified-from-f1-las-vegas-gp/10779212/",
+            "find": false
+        },
+        {
+            "url": "https://en.wikipedia.org/wiki/Las_Vegas_Grand_Prix",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/f1lasvegas/?hl=en",
+            "find": false
+        },
+        {
+            "url": "https://www.formula1.com/en/latest/article/norris-and-piastri-disqualified-from-las-vegas-gp-as-mclarens-fail-post-race.10uHwsN6mLfCNoZ6nKQvPy",
+            "find": false
+        },
+        {
+            "url": "https://www.the-race.com/formula-1/f1-las-vegas-grand-prix-2025-winners-losers/",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=uQc-pW3QLuI",
+            "find": false
+        },
+        {
+            "url": "https://www.grandprixplaza.com/",
+            "find": false
+        }
+    ],
+    "catherine lucey": [
+        {
+            "url": "https://www.facebook.com/christinaloreynews/photos/this-is-catherine-lucey-the-journalist-the-president-of-the-united-states-so-pat/1245651710715405/",
+            "find": false
+        },
+        {
+            "url": "https://people.com/who-is-catherine-lucey-11852709",
+            "find": false
+        },
+        {
+            "url": "https://www.theguardian.com/us-news/2025/nov/18/trump-calls-reporter-piggy-bloomberg",
+            "find": false
+        },
+        {
+            "url": "https://x.com/catherine_lucey?lang=en",
+            "find": false
+        },
+        {
+            "url": "https://www.wsj.com/news/author/catherine-lucey?gaa_at=eafs&gaa_n=AWEtsqcBlRCGoq53WHlUiDE8uDXNP4wcniikF_Acpi9CbH2SP-mOOHvI0cBi&gaa_ts=692341be&gaa_sig=yor5KU8T1VjSdfpjD1_y6jHCqanrb51vBe-JTpGJIkRw1QwEMlOzxqmQePB4_rj_cwqndmnYqGL9pV_0xt1tvQ%3D%3D",
+            "find": false
+        },
+        {
+            "url": "https://bloomberg.com/authors/AXU1K1oWQsY/catherine-lucey",
+            "find": false
+        },
+        {
+            "url": "https://www.azcentral.com/story/entertainment/media/2025/11/19/who-is-catherine-lucy/87352910007/",
+            "find": false
+        },
+        {
+            "url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet/catherine-lucey",
+            "find": false
+        },
+        {
+            "url": "https://www.thetimes.com/us/news-today/article/trump-quiet-piggy-bloomberg-reporter-catherine-lucey-0qwrbj5dk",
+            "find": false
+        },
+        {
+            "url": "https://en.wikipedia.org/wiki/Catherine_R._Lucey",
+            "find": false
+        }
+    ],
+    "fatima bosch": [
+        {
+            "url": "https://en.wikipedia.org/wiki/F%C3%A1tima_Bosch",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/fatimaboschfdz/?hl=en",
+            "find": false
+        },
+        {
+            "url": "https://www.bbc.com/news/articles/cgmxmxljg8mo",
+            "find": false
+        },
+        {
+            "url": "https://nypost.com/2025/11/22/entertainment/miss-mexico-fatima-bosch-breaks-her-silence-following-viral-confrontation-and-miss-universe-win/",
+            "find": false
+        },
+        {
+            "url": "https://www.facebook.com/missosology/posts/%F0%9D%98%BF%F0%9D%99%80%F0%9D%99%8E%F0%9D%98%BE%F0%9D%99%8D%F0%9D%99%84%F0%9D%98%BD%F0%9D%99%80-the-newly-crowned-miss-universe-2025-f%C3%A1tima-bosch-of-mexico-in-one-word/1287197296777520/",
+            "find": false
+        },
+        {
+            "url": "https://www.eonline.com/news/1424655/fatima-bosch-miss-universe-breaks-silence-after-dumb-comment",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/reel/DRThAgQEfeX/",
+            "find": false
+        }
+    ],
+    "gemini 3": [
+        {
+            "url": "https://blog.google/products/gemini/gemini-3/",
+            "find": false
+        },
+        {
+            "url": "https://aistudio.google.com/models/gemini-3",
+            "find": false
+        },
+        {
+            "url": "https://gemini.google.com/",
+            "find": true
+        },
+        {
+            "url": "https://ai.google.dev/gemini-api/docs/gemini-3",
+            "find": false
+        },
+        {
+            "url": "https://www.oneusefulthing.org/p/three-years-from-gpt-3-to-gemini",
+            "find": false
+        },
+        {
+            "url": "https://deepmind.google/models/gemini/pro/",
+            "find": true
+        },
+        {
+            "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1p3vu35/gemini_3_is_absolutely_insane_it_created_a_video/",
+            "find": false
+        },
+        {
+            "url": "https://console.cloud.google.com/vertex-ai/publishers/google/model-garden/gemini-3-pro-preview",
+            "find": false
+        }
+    ],
+    "marjorie taylor greene resignation": [
+        {
+            "url": "https://abcnews.go.com/Politics/rep-marjorie-taylor-greene-resign-congress-january/story?id=127771912",
+            "find": false
+        },
+        {
+            "url": "https://www.pbs.org/newshour/show/what-to-know-about-rep-marjorie-taylor-greenes-resignation-and-falling-out-with-trump",
+            "find": false
+        },
+        {
+            "url": "https://www.newsweek.com/marjorie-taylor-greene-resigns-statement-in-full-11092645",
+            "find": false
+        },
+        {
+            "url": "https://www.bbc.com/news/articles/cj4qx1lenvjo",
+            "find": false
+        },
+        {
+            "url": "https://www.nbcnews.com/politics/congress/donald-trump-marjorie-taylor-greene-resignation-rcna245307",
+            "find": false
+        },
+        {
+            "url": "https://www.theguardian.com/us-news/2025/nov/22/marjorie-taylor-greene-political-reactions",
+            "find": false
+        },
+        {
+            "url": "https://www.cnn.com/2025/11/21/politics/marjorie-taylor-greene-resign-in-january",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=Fvv4xMSEoX0",
+            "find": false
+        }
+    ],
+    "epstein files released": [
+        {
+            "url": "https://www.politico.com/news/2025/11/21/epstein-files-what-to-know-00665689",
+            "find": false
+        },
+        {
+            "url": "https://www.pbs.org/newshour/politics/7-things-to-know-about-the-justice-departments-epstein-files",
+            "find": false
+        },
+        {
+            "url": "https://www.justice.gov/opa/pr/attorney-general-pamela-bondi-releases-first-phase-declassified-epstein-files",
+            "find": false
+        },
+        {
+            "url": "https://oversight.house.gov/release/oversight-committee-releases-additional-epstein-estate-documents/",
+            "find": true
+        },
+        {
+            "url": "https://www.congress.gov/bill/119th-congress/house-bill/4405",
+            "find": true
+        },
+        {
+            "url": "https://www.bbc.com/news/articles/cly2y40lj5go",
+            "find": false
+        },
+        {
+            "url": "https://en.wikipedia.org/wiki/Jeffrey_Epstein_client_list",
+            "find": true
+        },
+        {
+            "url": "https://www.npr.org/2025/11/20/nx-s1-5613427/epstein-files-chomsky-bannon-summers-democrats",
+            "find": false
+        }
+    ],
+    "cma awards 2025": [
+        {
+            "url": "https://cmaawards.com/nominees-winners/",
+            "find": false
+        },
+        {
+            "url": "https://www.eonline.com/news/1424894/cma-awards-2025-winners-list",
+            "find": false
+        },
+        {
+            "url": "https://www.foxnews.com/entertainment/2025-cma-awards-winners-losers",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/reel/DRQ3_FhjALi/",
+            "find": false
+        },
+        {
+            "url": "https://www.facebook.com/cma/",
+            "find": true
+        },
+        {
+            "url": "https://en.wikipedia.org/wiki/59th_Annual_Country_Music_Association_Awards",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=N6vPM6-crOg",
+            "find": false
+        }
+    ],
+    "shedeur sanders": [
+        {
+            "url": "https://www.espn.com/nfl/player/_/id/4432762/shedeur-sanders",
+            "find": true
+        },
+        {
+            "url": "https://en.wikipedia.org/wiki/Shedeur_Sanders",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/shedeursanders/?hl=en",
+            "find": false
+        },
+        {
+            "url": "https://cubuffs.com/sports/football/roster/shedeur-sanders/17232",
+            "find": false
+        },
+        {
+            "url": "https://www.clevelandbrowns.com/team/players-roster/shedeur-sanders/",
+            "find": false
+        },
+        {
+            "url": "https://gojsutigers.com/sports/football/roster/shedeur-sanders/2077",
+            "find": false
+        },
+        {
+            "url": "https://www.cbssports.com/nfl/news/browns-deshaun-watson-to-help-shedeur-sanders-from-sideline-during-first-nfl-start-vs-raiders-per-report/",
+            "find": false
+        }
+    ],
+    "jazz vs lakers": [
+        {
+            "url": "https://www.espn.com/nba/recap/_/gameId/401810108",
+            "find": false
+        },
+        {
+            "url": "https://www.sofascore.com/basketball/match/utah-jazz-los-angeles-lakers/CtbsJtb",
+            "find": false
+        },
+        {
+            "url": "https://www.nba.com/game/uta-vs-lal-0022500253",
+            "find": false
+        },
+        {
+            "url": "https://www.reddit.com/r/nba/comments/1p3bac2/the_play_the_lakers_and_jazz_kept_running_and_why/",
+            "find": false
+        },
+        {
+            "url": "https://www.espn.com/nba/game/_/gameId/401705334/jazz-lakers",
+            "find": false
+        },
+        {
+            "url": "https://www.statmuse.com/nba/ask/jazz-vs-lakers-game-log",
+            "find": false
+        },
+        {
+            "url": "https://www.nba.com/watch/video/game-recap-lakers-140-jazz-126",
+            "find": false
+        },
+        {
+            "url": "https://www.flashscore.com/match/basketball/los-angeles-lakers-ngegZ8bg/utah-jazz-hGuCX5Su/",
+            "find": false
+        }
+    ],
+    "buccaneers vs bills": [
+        {
+            "url": "https://www.buccaneers.com/news/bucs-lose-buffalo-bills-week-11-score-44-32",
+            "find": false
+        },
+        {
+            "url": "https://www.espn.com/nfl/game/_/gameId/401772776/buccaneers-bills",
+            "find": true
+        },
+        {
+            "url": "https://www.nfl.com/games/buccaneers-at-bills-2025-reg-11",
+            "find": false
+        },
+        {
+            "url": "https://www.buccaneers.com/game-day/2025/reg-week11/buccaneers-at-bills/",
+            "find": false
+        },
+        {
+            "url": "https://www.reddit.com/r/buffalobills/comments/1p0610v/final_thoughts_bills_vs_bucs_feel_free_to_discuss/",
+            "find": false
+        },
+        {
+            "url": "https://www.espn.com/nfl/game/_/gameId/401774030/bills-buccaneers",
+            "find": true
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=GCyuCfwbq2A",
+            "find": false
+        },
+        {
+            "url": "https://www.buccaneers.com/news/bills-bucs-week-11-recap-postgame-report-2025",
+            "find": false
+        }
+    ],
+    "whitney leavitt": [
+        {
+            "url": "https://www.instagram.com/whitleavitt/?hl=en",
+            "find": false
+        },
+        {
+            "url": "https://www.tiktok.com/@whitneyleavitt?lang=en",
+            "find": false
+        },
+        {
+            "url": "https://www.imdb.com/name/nm14508219/",
+            "find": false
+        },
+        {
+            "url": "https://pagesix.com/2025/11/21/entertainment/mormon-wives-star-whitney-leavitt-compares-dwts-elimination-to-breakup/",
+            "find": false
+        },
+        {
+            "url": "https://abc.com/cast/d0ad8b2c-4e6d-4d0b-b90b-14fcd41daa34",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/whitleavitt/reels/?hl=en",
+            "find": false
+        },
+        {
+            "url": "https://www.reddit.com/r/dancingwiththestars/comments/1p2mao3/the_secret_lives_of_mormon_wives_star_whitney/",
+            "find": false
+        }
+    ],
+    "chiefs": [
+        {
+            "url": "https://www.chiefs.com/",
+            "find": false
+        },
+        {
+            "url": "https://www.espn.com/nfl/team/_/name/kc/kansas-city-chiefs",
+            "find": true
+        },
+        {
+            "url": "https://www.instagram.com/chiefs/?hl=en",
+            "find": true
+        },
+        {
+            "url": "https://en.wikipedia.org/wiki/Kansas_City_Chiefs",
+            "find": true
+        }
+    ],
+    "ind a vs ban a": [
+        {
+            "url": "https://www.espncricinfo.com/series/asia-cup-rising-stars-2025-26-1509844/bangladesh-a-vs-india-a-1st-semi-final-1509867/full-scorecard",
+            "find": false
+        },
+        {
+            "url": "https://www.espn.com/cricket/series/1509844/game/1509867/bangladesh-a-vs-india-a-1st-semi-final-asia-cup-rising-stars-2025-26",
+            "find": false
+        },
+        {
+            "url": "https://sports.ndtv.com/cricket/india-a-vs-bangladesh-a-live-score-1st-semi-final-acc-mens-t20-asia-cup-rising-stars-2025-ind-a-vs-ban-a-live-scorecard-updates-vaibhav-suryavanshi-9675247",
+            "find": false
+        },
+        {
+            "url": "https://www.reddit.com/r/IndiaCricket/comments/1p2yjh1/india_a_has_lost_the_semi_final_vs_bangladesh_a_a/",
+            "find": false
+        },
+        {
+            "url": "https://www.cricbuzz.com/live-cricket-scores/137454/bana-vs-inda-1st-semi-final-a1-v-b2-acc-mens-asia-cup-rising-stars-2025",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=tsejtAloSS8",
+            "find": false
+        },
+        {
+            "url": "https://www.espncricinfo.com/series/asia-cup-rising-stars-2025-26-1509844/bangladesh-a-vs-india-a-1st-semi-final-1509867/match-report",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/reel/DRUgA4QCOTd/",
+            "find": false
+        }
+    ],
+    "sahibzada farhan": [
+        {
+            "url": "https://www.espncricinfo.com/cricketers/sahibzada-farhan-647785",
+            "find": false
+        },
+        {
+            "url": "https://en.wikipedia.org/wiki/Sahibzada_Farhan",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/sahibzadafarhanofficial/?hl=en",
+            "find": false
+        },
+        {
+            "url": "https://www.cricbuzz.com/profiles/13625/sahibzada-farhan",
+            "find": false
+        },
+        {
+            "url": "https://www.facebook.com/sahibzadafarhan51/",
+            "find": false
+        },
+        {
+            "url": "https://www.icc-cricket.com/rankings/64076/sahibzada-farhan",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/reel/DO5_M7NkluP/?hl=en",
+            "find": false
+        }
+    ],
+    "men's day": [
+        {
+            "url": "https://en.wikipedia.org/wiki/International_Men%27s_Day",
+            "find": true
+        },
+        {
+            "url": "https://internationalmensday.com/",
+            "find": false
+        },
+        {
+            "url": "https://www.internationalmensday.info/",
+            "find": false
+        },
+        {
+            "url": "https://www.nationaldaycalendar.com/international/international-mens-day",
+            "find": false
+        },
+        {
+            "url": "https://timesofindia.indiatimes.com/life-style/events/international-mens-day-2025-date-history-significance-celebration-and-theme/articleshow/125407723.cms",
+            "find": false
+        },
+        {
+            "url": "https://www.timeanddate.com/holidays/world/international-mens-day",
+            "find": false
+        },
+        {
+            "url": "https://www.awarenessdays.com/awareness-days-calendar/international-mens-day/",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/reel/DROp2fQCBfw/",
+            "find": false
+        }
+    ],
+    "吉田カバン": [
+        {
+            "url": "https://www.yoshidakaban.com/",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/porter_yoshida_co.official/",
+            "find": false
+        },
+        {
+            "url": "https://search.rakuten.co.jp/search/mall/%E5%90%89%E7%94%B0%E3%82%AB%E3%83%90%E3%83%B3/",
+            "find": false
+        },
+        {
+            "url": "https://ja.wikipedia.org/wiki/%E5%90%89%E7%94%B0%E3%82%AB%E3%83%90%E3%83%B3",
+            "find": false
+        },
+        {
+            "url": "https://www.amazon.co.jp/%E5%90%89%E7%94%B0%E3%82%AB%E3%83%90%E3%83%B3/s?k=%E5%90%89%E7%94%B0%E3%82%AB%E3%83%90%E3%83%B3",
+            "find": false
+        },
+        {
+            "url": "https://news.yahoo.co.jp/articles/55c0d47ce38e93d54574d0ded1306fa60a32748e",
+            "find": false
+        },
+        {
+            "url": "https://www.cattleyasacs.com/?srsltid=AfmBOoptJDQE3nEpccgT0iOsw-F6q1tzX-7qHf4d4gEuXZGRWUzE_psK",
+            "find": false
+        }
+    ],
+    "大分 火事": [
+        {
+            "url": "https://news.yahoo.co.jp/articles/aa9cee144b215b9fd10f6ebac2a0920a6b557e0c",
+            "find": false
+        },
+        {
+            "url": "https://www.yomiuri.co.jp/national/20251122-OYT1T50049/",
+            "find": false
+        },
+        {
+            "url": "https://newsdig.tbs.co.jp/articles/obs/2305492",
+            "find": false
+        },
+        {
+            "url": "https://news.ntv.co.jp/category/society/f82f6ff7d9734e4f85fb8bf46eaaa2c9",
+            "find": false
+        },
+        {
+            "url": "https://www.city.oita.oita.jp/o009/kinkyu/evacuationcenter.html",
+            "find": false
+        },
+        {
+            "url": "https://www.fnn.jp/articles/-/964455",
+            "find": false
+        },
+        {
+            "url": "https://tosonline.jp/news/20251120/00000008.html",
+            "find": false
+        }
+    ],
+    "ruby wax": [
+        {
+            "url": "https://en.wikipedia.org/wiki/Ruby_Wax",
+            "find": false
+        },
+        {
+            "url": "https://www.rubywax.net/",
+            "find": false
+        },
+        {
+            "url": "https://www.imdb.com/name/nm0915375/",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/rubywax/?hl=en",
+            "find": false
+        },
+        {
+            "url": "https://x.com/Rubywax",
+            "find": false
+        },
+        {
+            "url": "https://www.facebook.com/RubyWax/",
+            "find": false
+        },
+        {
+            "url": "https://www.the-independent.com/arts-entertainment/tv/ruby-wax-vogue-williams-im-a-celebrity-botox-b2870253.html",
+            "find": false
+        },
+        {
+            "url": "https://www.goodreads.com/author/show/60968.Ruby_Wax",
+            "find": false
+        }
+    ],
+    "scotland v denmark": [
+        {
+            "url": "https://www.youtube.com/watch?v=I6otoBe_6vM",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=73cVhK9qL1o",
+            "find": false
+        },
+        {
+            "url": "https://www.espn.com.au/football/story/_/id/47011300/scotland-vs-denmark-football-live-follow-world-cup-qualifier-winner-takes-all-hampden-park",
+            "find": false
+        },
+        {
+            "url": "https://www.reddit.com/r/soccer/comments/1p0p7jr/scotland_celebrating_after_full_time_whistle_vs/",
+            "find": false
+        },
+        {
+            "url": "https://www.reuters.com/sports/soccer/scotland-beat-denmark-4-2-thriller-reach-world-cup-2025-11-18/",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/reel/DRUjtRsEdGv/",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=8n74MHMjfM4",
+            "find": false
+        },
+        {
+            "url": "https://www.bbc.com/news/articles/c2084wyx1plo",
+            "find": false
+        }
+    ],
+    "jess glynne": [
+        {
+            "url": "https://en.wikipedia.org/wiki/Jess_Glynne",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/jessglynne/?hl=en",
+            "find": false
+        },
+        {
+            "url": "https://www.facebook.com/JessGlynne/",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/channel/UCRKNyJc9Bo1vbBO_67wyQEQ",
+            "find": false
+        },
+        {
+            "url": "https://open.spotify.com/artist/4ScCswdRlyA23odg9thgIO",
+            "find": false
+        },
+        {
+            "url": "https://www.tiktok.com/@jessglynne?lang=en",
+            "find": false
+        },
+        {
+            "url": "https://jessglynne.co.uk/",
+            "find": false
+        }
+    ],
+    "botafogo x grêmio": [
+        {
+            "url": "https://www.youtube.com/watch?v=R4T-iMEEOVE",
+            "find": false
+        },
+        {
+            "url": "https://www.lance.com.br/futebol-nacional/botafogo-vence-o-gremio-e-garante-vaga-na-libertadores-2026.html",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=3Q7Mj4Qsd4M",
+            "find": false
+        },
+        {
+            "url": "https://esportes.r7.com/futebol/campeonato-brasileiro-serie-a/video/botafogo-3-x-2-gremio-melhores-momentos-da-35-rodada-do-brasileirao-23112025/",
+            "find": false
+        },
+        {
+            "url": "https://www.correiodopovo.com.br/esportes/gr%C3%AAmio/brasileirao-acompanhe-botafogo-x-gremio-em-tempo-real-1.1669665",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=_ZGiaNeYSa8",
+            "find": false
+        },
+        {
+            "url": "https://www.espn.com.br/futebol/partida/_/jogoId/732937",
+            "find": false
+        },
+        {
+            "url": "https://www.sofascore.com/pt/football/match/gremio-botafogo/iOsBtc",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=ZaJ6eypbFTU",
+            "find": false
+        }
+    ],
+    "banco master": [
+        {
+            "url": "https://valorinternational.globo.com/business/news/2025/11/19/master-bank-collapse-ripples-through-brazilian-companies.ghtml",
+            "find": false
+        },
+        {
+            "url": "https://www.reuters.com/business/brazil-judge-flags-brb-role-banco-master-fraud-losses-may-top-19-bln-2025-11-19/",
+            "find": false
+        },
+        {
+            "url": "https://www.bloomberg.com/news/articles/2025-11-22/banco-master-ceo-denies-2-4-billion-fraud-as-bank-is-liquidated",
+            "find": false
+        },
+        {
+            "url": "https://www.bancomaster.com.br/",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/bancomaster/?hl=en",
+            "find": false
+        },
+        {
+            "url": "https://www.fitchratings.com/research/banks/banco-master-sa-30-09-2025",
+            "find": false
+        },
+        {
+            "url": "https://www.bancomasterbi.com.br/en-us",
+            "find": false
+        }
+    ],
+    "ceará sc x internacional": [
+        {
+            "url": "https://www.cnnbrasil.com.br/esportes/brasileirao/com-expulsoes-e-gol-contra-internacional-vence-ceara-e-se-afasta-do-z4/",
+            "find": false
+        },
+        {
+            "url": "https://ge.globo.com/ce/futebol/brasileirao-serie-a/jogo/20-11-2025/ceara-internacional.ghtml",
+            "find": false
+        },
+        {
+            "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/15984732/internacional-sofre-vence-ceara-respira-para-se-livrar-rebaixamento-no-brasileirao",
+            "find": false
+        },
+        {
+            "url": "https://www.sofascore.com/pt/football/match/ceara-internacional/qOsbP",
+            "find": false
+        },
+        {
+            "url": "https://www.lance.com.br/futebol-nacional/internacional-vence-ceara-com-gol-redentor-de-ricardo-mathias.html",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/p/DRTVqCDDZlt/",
+            "find": false
+        }
+    ],
+    "bahia x fortaleza": [
+        {
+            "url": "https://ge.globo.com/ba/futebol/brasileirao-serie-a/jogo/20-11-2025/bahia-fortaleza.ghtml",
+            "find": false
+        },
+        {
+            "url": "https://www.lance.com.br/fora-de-campo/atitude-de-deyverson-em-bahia-x-fortaleza-viraliza-lenda-viva.html",
+            "find": false
+        },
+        {
+            "url": "https://www.sofascore.com/pt/football/match/fortaleza-bahia/fOsvP",
+            "find": false
+        },
+        {
+            "url": "https://www.estadao.com.br/esportes/futebol/fortaleza-bate-bahia-em-jogo-de-cinco-gols-e-se-mantem-vivo-no-brasileirao/?srsltid=AfmBOorg13j-W2mt3KyzmxJyu6esXVmA3ohWkop1aMiYu9mUR0veEW_7",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=GX2cTSEBq1Q",
+            "find": false
+        },
+        {
+            "url": "https://diariodonordeste.verdesmares.com.br/jogada/bahia-x-fortaleza-veja-horario-onde-assistir-palpites-e-provaveis-escalacoes-1.3711431",
+            "find": false
+        }
+    ],
+    "grêmio x vasco da gama": [
+        {
+            "url": "https://www.youtube.com/watch?v=LHkwn_WU_N0",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=1Mt5EvOa800",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=xVwrEFkVqU0",
+            "find": false
+        },
+        {
+            "url": "https://www.sofascore.com/pt/football/match/gremio-vasco-da-gama/zOsBtc",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=T46uijKmb7E",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/reel/DRQ0usDDaeN/",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=fq98N_cmLX0",
+            "find": false
+        },
+        {
+            "url": "https://ge.globo.com/rs/futebol/brasileirao-serie-a/jogo/19-11-2025/gremio-vasco.ghtml",
+            "find": false
+        }
+    ],
+    "botafogo x sport recife": [
+        {
+            "url": "https://www.youtube.com/watch?v=tLio0aSXLto",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=F_QNJtSX2TU",
+            "find": false
+        },
+        {
+            "url": "https://ge.globo.com/pe/futebol/times/sport/noticia/2025/11/19/derrota-para-o-botafogo-foi-o-nono-jogo-na-serie-a-em-que-sport-abre-o-placar-e-nao-segura-o-resultado.ghtml",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=d-CTskBbzdI",
+            "find": false
+        },
+        {
+            "url": "https://x.com/sportrecife/status/1990956183335666004",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=AGeJbgw-j_o",
+            "find": false
+        },
+        {
+            "url": "https://www.itatiaia.com.br/esportes/futebol/futebol-nacional/futebol-carioca/botafogo/botafogo-perde-titular-para-partida-decisiva-do-brasileirao",
+            "find": false
+        },
+        {
+            "url": "https://www.sofascore.com/pt/football/match/sport-recife-botafogo/iOsjO",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=HeKKJ5RfrK8",
+            "find": false
+        },
+        {
+            "url": "https://meusport.com/noticias-do-sport-recife/botafogo-x-sport-gols/",
+            "find": false
+        }
+    ],
+    "flamengo x fluminense": [
+        {
+            "url": "https://www.youtube.com/watch?v=Ho7rXLTqSEI",
+            "find": false
+        },
+        {
+            "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2025/11/19/fluminense-provoca-flamengo-apos-vitoria-em-classico-e-normal.ghtml",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=voy0Jh6zfsY",
+            "find": false
+        },
+        {
+            "url": "https://www.sofascore.com/pt/football/match/flamengo-fluminense/lOsGuc",
+            "find": false
+        },
+        {
+            "url": "https://noticias.r7.com/rio-de-janeiro/rj-no-ar/video/fluminense-vence-flamengo-em-classico-no-maracana-pelo-brasileirao-20112025/",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=Fk57lRIGMZU",
+            "find": false
+        },
+        {
+            "url": "https://pt.wikipedia.org/wiki/Fla-Flu",
+            "find": false
+        },
+        {
+            "url": "https://www.uol.com.br/esporte/videos/gols/2025/11/20/fluminense-2-x-1-flamengo---34-rodada---campeonato-brasileiro-2025.htm",
+            "find": false
+        }
+    ],
+    "desbloqueie challenges.cloudflare.com para continuar.": [
+        {
+            "url": "https://community.cloudflare.com/t/blocked-from-challenges-cloudflare-com/619248",
+            "find": false
+        },
+        {
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1p0a1v6/please_unblock_challengescloudflarecom_to_proceed/",
+            "find": false
+        },
+        {
+            "url": "https://developers.cloudflare.com/cloudflare-challenges/",
+            "find": true
+        },
+        {
+            "url": "https://support.google.com/accounts/thread/388533731/como-desbloquear-challenges-cloudflare-com-para-continuar?hl=pt-BR",
+            "find": false
+        },
+        {
+            "url": "https://bobcares.com/blog/please-unblock-challenges-cloudflare-com-to-proceed/",
+            "find": false
+        },
+        {
+            "url": "https://community.cloudflare.com/t/chat-gpt-message-please-unblock-challenges-cloudflare-com-to-proceed/652736",
+            "find": false
+        },
+        {
+            "url": "https://www.lavozarizona.com/story/noticias/2025/11/18/falla-en-cloudflare-y-cae-x-chatgpt-y-mas-servicios/87339776007/",
+            "find": false
+        }
+    ],
+    "miss univers 2025": [
+        {
+            "url": "https://en.wikipedia.org/wiki/Miss_Universe_2025",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/missuniverse/",
+            "find": false
+        },
+        {
+            "url": "https://www.missuniverse.com/",
+            "find": true
+        },
+        {
+            "url": "https://www.businessinsider.com/miss-universe-pageant-contestants-photos-2025-11",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/missuniverse",
+            "find": false
+        },
+        {
+            "url": "https://www.facebook.com/MissUniverse/",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/reel/DRTkKu3k3GZ/?hl=en",
+            "find": false
+        }
+    ],
+    "tatiana schlossberg": [
+        {
+            "url": "https://en.wikipedia.org/wiki/Tatiana_Schlossberg",
+            "find": false
+        },
+        {
+            "url": "https://www.nytimes.com/2025/11/22/us/tatiana-schlossberg-kennedy-cancer.html",
+            "find": false
+        },
+        {
+            "url": "https://www.tatianaschlossberg.com/",
+            "find": false
+        },
+        {
+            "url": "https://www.nbcnews.com/news/us-news/tatiana-schlossberg-jfk-granddaughter-terminal-cancer-rcna245308",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/reel/DRX5XR3EdRd/",
+            "find": false
+        },
+        {
+            "url": "https://www.gettyimages.com/photos/tatiana-kennedy-schlossberg",
+            "find": false
+        },
+        {
+            "url": "https://www.bbc.com/news/articles/cpvdyg348pko",
+            "find": false
+        },
+        {
+            "url": "https://www.reddit.com/r/popculturechat/comments/1p3wp4j/tatiana_schlossberg_35_reveals_terminal_cancer/",
+            "find": false
+        }
+    ],
+    "department of education professional degrees": [
+        {
+            "url": "https://www.newsweek.com/full-list-degrees-professional-trump-administration-11085695",
+            "find": false
+        },
+        {
+            "url": "https://www.usatoday.com/story/news/nation/2025/11/21/what-considered-professional-degree-explained/87396245007/",
+            "find": false
+        },
+        {
+            "url": "https://www.facebook.com/groups/1580628378848993/posts/4314805005431303/",
+            "find": false
+        },
+        {
+            "url": "https://www.asha.org/news/2025/proposed-definition-of-professional-degree-programs-would-exclude-audiology-and-speech-language-pathology/?srsltid=AfmBOooccFTVVJrFZbPi7BQaViBkaE7SwgZXsl-HCNVKAIJAPp2WVNIr",
+            "find": false
+        },
+        {
+            "url": "https://www.snopes.com/fact-check/trump-professional-degrees-nursing/",
+            "find": false
+        },
+        {
+            "url": "https://aspph.org/department-of-education-proposal-excludes-public-health-degrees-from-professional-degree-definition/",
+            "find": false
+        },
+        {
+            "url": "https://nurse.org/news/nursing-excluded-as-professional-degree-dept-of-ed/",
+            "find": true
+        },
+        {
+            "url": "https://www.aacnnursing.org/news-data/all-news/article/aacn-alarmed-over-department-of-educations-proposed-limitation-of-student-loan-access-for-nursing",
+            "find": false
+        },
+        {
+            "url": "https://www.reddit.com/r/Teachers/comments/1p300gm/education_degrees_will_no_longer_be_considered/",
+            "find": false
+        }
+    ],
+    "arabic numerals": [
+        {
+            "url": "https://en.wikipedia.org/wiki/Arabic_numerals",
+            "find": false
+        },
+        {
+            "url": "https://www.newsweek.com/fact-check-mamdani-arabic-numerals-new-york-schools-11079540",
+            "find": false
+        },
+        {
+            "url": "https://www.madinaharabic.com/blog/arabic-numbers-1-to-20.html",
+            "find": false
+        },
+        {
+            "url": "https://www.ebsco.com/research-starters/history/arabic-numerals",
+            "find": false
+        },
+        {
+            "url": "https://opentext.uoregon.edu/introarabic/chapter/count-in-arabic/",
+            "find": false
+        },
+        {
+            "url": "https://www.britannica.com/topic/Hindu-Arabic-numerals",
+            "find": false
+        },
+        {
+            "url": "https://study.com/academy/lesson/arabic-numerals-definition-history-example.html",
+            "find": false
+        },
+        {
+            "url": "https://www.facebook.com/IFLScience/posts/56-percent-of-americans-dont-think-we-should-teach-arabic-numerals-in-school-do-/1404679464656500/",
+            "find": false
+        },
+        {
+            "url": "https://wpsu.org/math-hindu-arabic-numerals-and-algebra/",
+            "find": false
+        }
+    ],
+    "tennessee vs florida": [
+        {
+            "url": "https://floridagators.com/news/2025/11/22/football-final-florida-vs-no-20-tennessee-nov-22-2025",
+            "find": false
+        },
+        {
+            "url": "https://www.espn.com/college-football/recap?gameId=401752775",
+            "find": false
+        },
+        {
+            "url": "https://en.wikipedia.org/wiki/Florida%E2%80%93Tennessee_football_rivalry",
+            "find": false
+        },
+        {
+            "url": "https://www.ncaa.com/game/6458812",
+            "find": false
+        },
+        {
+            "url": "https://utsports.com/sports/football/opponent-history/florida/19",
+            "find": false
+        },
+        {
+            "url": "https://www.espn.com/college-football/game/_/gameId/401752775/tennessee-florida",
+            "find": true
+        },
+        {
+            "url": "https://www.cbssports.com/college-football/gametracker/recap/NCAAF_20251122_TENN@FLA/",
+            "find": false
+        },
+        {
+            "url": "https://floridagators.com/boxscore.aspx?id=26501",
+            "find": false
+        }
+    ],
+    "ryan wedding": [
+        {
+            "url": "https://en.wikipedia.org/wiki/Ryan_Wedding",
+            "find": false
+        },
+        {
+            "url": "https://www.fbi.gov/news/stories/reward-raised-for-ten-most-wanted-fugitive-ryan-wedding",
+            "find": false
+        },
+        {
+            "url": "https://home.treasury.gov/news/press-releases/sb0320",
+            "find": true
+        },
+        {
+            "url": "https://www.bbc.com/news/articles/c8747v1w7pyo",
+            "find": false
+        },
+        {
+            "url": "https://www.olympics.com/en/athletes/ryan-wedding",
+            "find": false
+        },
+        {
+            "url": "https://www.fbi.gov/contact-us/field-offices/losangeles/news/former-olympian-added-to-fbis-list-of-ten-most-wanted-fugitives",
+            "find": true
+        },
+        {
+            "url": "https://www.state.gov/ryan-james-wedding",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/reel/DBRAXhGCiAj/",
+            "find": false
+        }
+    ],
+    "spencer lofranco": [
+        {
+            "url": "https://en.wikipedia.org/wiki/Spencer_Lofranco",
+            "find": false
+        },
+        {
+            "url": "https://www.latimes.com/entertainment-arts/story/2025-11-21/spencer-lofranco-death-coroner-investigating-gotti-unbroken",
+            "find": false
+        },
+        {
+            "url": "https://www.imdb.com/name/nm4901642/",
+            "find": true
+        },
+        {
+            "url": "https://www.cbc.ca/news/entertainment/spencer-lofranco-obit-9.6987984",
+            "find": false
+        },
+        {
+            "url": "https://www.reddit.com/r/movies/comments/1p3bomd/spencer_lofranco_actor_in_gotti_unbroken_jamesy/",
+            "find": false
+        },
+        {
+            "url": "https://parade.com/news/how-did-spencer-lofranco-die-what-we-know-about-the-actors-untimely-death",
+            "find": false
+        },
+        {
+            "url": "https://www.facebook.com/AmazingTimeCapsule/posts/rip-spencer-lofranco-%EF%B8%8Foctober-18-1992-november-18-2025spencer-rocco-lofranco-was/864365932790442/",
+            "find": false
+        }
+    ],
+    "fascist": [
+        {
+            "url": "https://en.wikipedia.org/wiki/Fascism",
+            "find": true
+        },
+        {
+            "url": "https://www.merriam-webster.com/dictionary/fascism",
+            "find": true
+        },
+        {
+            "url": "https://www.reddit.com/r/CriticalTheory/comments/revy1r/can_someone_explain_to_me_what_fascism_is_exactly/",
+            "find": false
+        },
+        {
+            "url": "https://education.cfr.org/learn/learning-journey/what-does-fascism-really-mean/what-is-fascism",
+            "find": false
+        },
+        {
+            "url": "https://www.keene.edu/academics/cchgs/resources/presentation-materials/characteristics-and-appeal-of-fascism/download/",
+            "find": false
+        },
+        {
+            "url": "https://www.britannica.com/topic/fascism",
+            "find": true
+        },
+        {
+            "url": "https://www.newyorker.com/magazine/dispatches/what-does-it-mean-that-donald-trump-is-a-fascist",
+            "find": false
+        },
+        {
+            "url": "https://www.oerproject.com/OER-Materials/OER-Media/Videos/WHP-1200/Unit7/What-Is-Fascism",
+            "find": false
+        },
+        {
+            "url": "https://www.dictionary.com/browse/fascist",
+            "find": false
+        }
+    ],
+    "nebraska vs penn state": [
+        {
+            "url": "https://www.espn.com/college-football/game/_/gameId/401752908/nebraska-penn-state",
+            "find": false
+        },
+        {
+            "url": "https://www.reddit.com/r/CFB/comments/1p4c4t2/postgame_thread_penn_state_defeats_nebraska_3710/",
+            "find": false
+        },
+        {
+            "url": "https://www.cornnation.com/football/89373/huskers-football-recap-the-horror-the-horror-penn-state-37-nebraska-10",
+            "find": false
+        },
+        {
+            "url": "https://www.cbssports.com/college-football/gametracker/boxscore/NCAAF_20251122_NEB@PSU/",
+            "find": false
+        },
+        {
+            "url": "https://www.ncaa.com/game/6459599",
+            "find": false
+        },
+        {
+            "url": "https://www.huskermax.com/games/pennstateBT.html",
+            "find": false
+        },
+        {
+            "url": "https://cornhuskerswire.usatoday.com/story/sports/college/cornhuskers/football/2025/11/22/nebraska-football-penn-state-live-updates-score-highlights/87422034007/",
+            "find": false
+        }
+    ],
+    "hunger games sunrise on the reaping": [
+        {
+            "url": "https://en.wikipedia.org/wiki/The_Hunger_Games:_Sunrise_on_the_Reaping",
+            "find": false
+        },
+        {
+            "url": "https://www.imdb.com/title/tt32558705/",
+            "find": false
+        },
+        {
+            "url": "https://www.reddit.com/r/Hungergames/comments/1p2xbhi/sunrise_on_the_reaping_vs_the_hunger_games/",
+            "find": false
+        },
+        {
+            "url": "https://www.amazon.com/Sunrise-Reaping-Hunger-Games-Novel/dp/1546171460",
+            "find": false
+        },
+        {
+            "url": "https://www.facebook.com/EntertainmentTonight/videos/the-hunger-games-sunrise-on-the-reaping-official-teaser-trailer/2522597961457004/",
+            "find": false
+        },
+        {
+            "url": "https://people.com/sunrise-on-the-reaping-everything-to-know-11853484",
+            "find": false
+        },
+        {
+            "url": "https://www.barnesandnoble.com/w/sunrise-on-the-reaping-suzanne-collins/1145703863",
+            "find": false
+        }
+    ],
+    "arkansas vs texas": [
+        {
+            "url": "https://www.espn.com/college-football/game/_/gameId/401752780/arkansas-texas",
+            "find": false
+        },
+        {
+            "url": "https://en.wikipedia.org/wiki/Arkansas%E2%80%93Texas_football_rivalry",
+            "find": false
+        },
+        {
+            "url": "https://texaslonghorns.com/game-center/16772",
+            "find": false
+        },
+        {
+            "url": "https://www.reddit.com/r/razorbacks/comments/1p48pqn/post_game_thread_arkansas_loses_to_texas_3752/",
+            "find": false
+        },
+        {
+            "url": "https://arkansasrazorbacks.com/sport/m-footbl/schedule/",
+            "find": true
+        },
+        {
+            "url": "https://www.ncaa.com/game/6459250",
+            "find": false
+        }
+    ],
+    "black friday deals 2025": [
+        {
+            "url": "https://blackfriday.com/",
+            "find": false
+        },
+        {
+            "url": "https://www.target.com/c/target-black-friday/-/N-5q0f2",
+            "find": true
+        },
+        {
+            "url": "https://www.bestbuy.com/site/electronics/black-friday/pcmcat225600050002.c?id=pcmcat225600050002",
+            "find": true
+        },
+        {
+            "url": "https://www.walmart.com/shop/deals/black-friday",
+            "find": false
+        },
+        {
+            "url": "https://www.carters.com/c/black-friday-deals",
+            "find": false
+        },
+        {
+            "url": "https://www.aboutamazon.com/news/retail/amazon-black-friday-best-deals-shop-2025-us",
+            "find": false
+        },
+        {
+            "url": "https://www.nytimes.com/wirecutter/money/best-early-black-friday-deals-2025/",
+            "find": false
+        }
+    ],
+    "eastern il vs alabama": [
+        {
+            "url": "https://www.espn.com/college-football/game/_/gameId/401752773/e-illinois-alabama",
+            "find": false
+        },
+        {
+            "url": "https://www.reddit.com/r/CFB/comments/1p45lvy/postgame_thread_alabama_defeats_eastern_illinois/",
+            "find": false
+        },
+        {
+            "url": "https://www.cbssports.com/college-football/gametracker/boxscore/NCAAF_20251122_EIL@BAMA/",
+            "find": false
+        },
+        {
+            "url": "https://rolltidewire.usatoday.com/story/sports/college/crimson-tide/football/2025/11/22/alabama-football-eastern-illinois-live-updates-score-tv-channel/87375701007/",
+            "find": false
+        },
+        {
+            "url": "https://www.al.com/alabamafootball/2025/11/what-alabamas-win-over-eastern-illinois-means-for-rest-of-2025-season.html",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/reel/DRYBMLjDoKT/",
+            "find": false
+        },
+        {
+            "url": "https://rolltide.com/game-center/19782",
+            "find": false
+        },
+        {
+            "url": "https://tide1009.com/alabama-football-dominates-eastern-illionis-2025/",
+            "find": false
+        }
+    ],
+    "usc vs oregon": [
+        {
+            "url": "https://www.espn.com/college-football/recap/_/gameId/401752911",
+            "find": false
+        },
+        {
+            "url": "https://www.nytimes.com/athletic/live-blogs/usc-vs-oregon-live-updates-score-result-college-football-week-13/ItdeOh52adj2/",
+            "find": false
+        },
+        {
+            "url": "https://www.facebook.com/groups/1236746363609499/posts/1761258121158318/",
+            "find": false
+        },
+        {
+            "url": "https://www.cbssports.com/college-football/news/usc-oregon-live-updates-score-results-analysis/live/",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=7vMXRLwHZmo",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/reel/DRYBu-agZP_/",
+            "find": false
+        },
+        {
+            "url": "https://www.usatoday.com/story/sports/ncaaf/bigten/2025/11/22/usc-oregon-live-updates-score/87384455007/",
+            "find": false
+        }
+    ],
+    "benavidez vs yarde": [
+        {
+            "url": "https://sports.yahoo.com/boxing/breaking-news/live/david-benavidez-vs-anthony-yarde-live-results-round-by-round-updates-ring-walks-for-stacked-card-060017541.html",
+            "find": false
+        },
+        {
+            "url": "https://www.cbssports.com/boxing/news/david-benavidez-anthony-yarde-fight-live-updates-results-devin-haney-scorecard-highlights/live/",
+            "find": false
+        },
+        {
+            "url": "https://www.reddit.com/r/Boxing/comments/1p4bwz3/spoiler_david_benavidez_vs_anthony_yarde/",
+            "find": false
+        },
+        {
+            "url": "https://www.dazn.com/en-US/news/boxing/benavidez-vs-yarde-live-blog-updates-results-highlights/aage2wcylw218qbj1cnj649l",
+            "find": false
+        },
+        {
+            "url": "https://www.bbc.com/sport/boxing/articles/cy4733xz8v2o",
+            "find": false
+        },
+        {
+            "url": "https://www.badlefthook.com/boxing-results/111642/david-benavidez-batters-anthony-yarde-to-retain-wbc-title",
+            "find": false
+        }
+    ],
+    "syracuse vs notre dame": [
+        {
+            "url": "https://fightingirish.com/big-play-first-quarter-leads-to-historic-win-over-syracuse/",
+            "find": false
+        },
+        {
+            "url": "https://www.reddit.com/r/CFB/comments/1p47p41/postgame_thread_notre_dame_defeats_syracuse_707/",
+            "find": false
+        },
+        {
+            "url": "https://cuse.com/news/2025/11/22/football-syracuse-falls-to-9-notre-dame",
+            "find": false
+        },
+        {
+            "url": "https://www.syracuse.com/orangefootball/2025/11/syracuse-football-suffers-worst-loss-in-more-than-a-century-at-notre-dame.html",
+            "find": false
+        },
+        {
+            "url": "https://www.cbssports.com/college-football/gametracker/recap/NCAAF_20251122_CUSE@ND/",
+            "find": false
+        },
+        {
+            "url": "https://www.nunesmagician.com/syracuse-orange-football-fran/101061/syracuse-football-orange-trounced-70-7-by-no-9-notre-dame",
+            "find": false
+        }
+    ],
+    "pittsburgh vs georgia tech": [
+        {
+            "url": "https://www.espn.com/college-football/game/_/gameId/401754601/pitt-georgia-tech",
+            "find": true
+        },
+        {
+            "url": "https://ramblinwreck.com/football-recap-pitt-2025/",
+            "find": false
+        },
+        {
+            "url": "https://www.ncaa.com/game/6459533",
+            "find": false
+        },
+        {
+            "url": "https://www.cbssports.com/college-football/news/pitts-upset-win-over-georgia-tech-acc-college-football-playoff-doomsday/",
+            "find": false
+        },
+        {
+            "url": "https://pittsburghpanthers.com/sports/football/opponent-history/georgia-tech/40",
+            "find": false
+        },
+        {
+            "url": "https://www.espn.com/college-football/recap/_/gameId/401754601",
+            "find": false
+        },
+        {
+            "url": "https://www.post-gazette.com/sports/pitt/2025/11/22/analysis-acc-haynes-georgiatech-lovelace-heintschel-narduzzi/stories/202511220032",
+            "find": false
+        }
+    ],
+    "lane kiffin news": [
+        {
+            "url": "https://www.newsweek.com/sports/ncaa/florida-suffers-major-setback-in-pursuit-of-lane-kiffin-11094365",
+            "find": false
+        },
+        {
+            "url": "https://www.clarionledger.com/story/sports/college/ole-miss/2025/11/23/lane-kiffin-lsu-ole-miss-florida-news-contract-offer/87427365007/",
+            "find": false
+        },
+        {
+            "url": "https://www.usatoday.com/story/sports/ncaaf/sec/2025/11/21/lsu-offer-lane-kiffin-contract-90-million-tigers-football/87395768007/",
+            "find": false
+        },
+        {
+            "url": "https://sports.yahoo.com/college-football/breaking-news/article/misery-index-lane-kiffins-indecision-has-left-ole-miss-in-a-tough-spot-033939924.html",
+            "find": false
+        },
+        {
+            "url": "https://www.newsweek.com/sports/ncaa/lsu-lane-kiffin-98-million-ole-miss-college-football-11094082",
+            "find": false
+        },
+        {
+            "url": "https://www.nola.com/sports/lsu/football/espn-pete-thamel-lane-kiffin-update/article_074a614d-d650-423c-8c07-8d0421225510.html",
+            "find": false
+        },
+        {
+            "url": "https://www.espn.com/college-football/story/_/id/47051401/decision-kiffin-future-come-egg-bowl-ad-says",
+            "find": false
+        }
+    ],
+    "is aaron rodgers playing": [
+        {
+            "url": "https://www.usatoday.com/story/sports/nfl/2025/11/23/is-aaron-rodgers-playing-steelers-bears/87418556007/",
+            "find": false
+        },
+        {
+            "url": "https://www.espn.com/nfl/story/_/id/47072628/aaron-rodgers-vs-bears-steelers-start-mason-rudolph",
+            "find": false
+        },
+        {
+            "url": "https://www.livemint.com/sports/aaron-rodgers-injury-update-will-pittsburgh-steelers-qb-play-in-nfl-week-12-game-against-chicago-bears-check-details-11763904604428.html",
+            "find": false
+        },
+        {
+            "url": "https://www.si.com/nfl/steelers/onsi/news/pittsburgh-steelers-aaron-rodgers-playing-against-bears",
+            "find": false
+        },
+        {
+            "url": "https://x.com/RapSheet/status/1992620393870577971",
+            "find": false
+        },
+        {
+            "url": "https://www.nfl.com/players/aaron-rodgers/",
+            "find": false
+        },
+        {
+            "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/will-the-steelers-let-aaron-rodgers-play-with-a-broken-wrist",
+            "find": false
+        },
+        {
+            "url": "https://www.foxsports.com/nfl/aaron-rodgers-player",
+            "find": true
+        }
+    ],
+    "rutgers vs ohio state": [
+        {
+            "url": "https://www.reddit.com/r/CFB/comments/1p4386o/postgame_thread_ohio_state_defeats_rutgers_429/",
+            "find": false
+        },
+        {
+            "url": "https://www.espn.com/college-football/game/_/gameId/401752912/rutgers-ohio-state",
+            "find": true
+        },
+        {
+            "url": "https://www.app.com/story/sports/college/rutgers/2025/11/22/rutgers-football-vs-ohio-state-tv-score-updates/87394875007/",
+            "find": false
+        },
+        {
+            "url": "https://scarletknights.com/news/2025/11/22/football-loses-at-no-1-ohio-state.aspx",
+            "find": false
+        },
+        {
+            "url": "https://ohiostatebuckeyes.com/game-center/21025",
+            "find": false
+        },
+        {
+            "url": "https://www.dispatch.com/story/sports/college/football/2025/11/22/ohio-state-vs-rutgers-live-updates-score/87364338007/",
+            "find": false
+        },
+        {
+            "url": "https://scarletknights.com/sports/football/opponent-history/ohio-state-university/56",
+            "find": false
+        }
+    ],
+    "missouri vs oklahoma": [
+        {
+            "url": "https://www.espn.com/college-football/recap/_/gameId/401752778",
+            "find": false
+        },
+        {
+            "url": "https://www.oklahoman.com/story/sports/college/sooners/2025/11/22/oklahoma-missouri-game-score-live-updates-highlights-college-football/87411101007/",
+            "find": false
+        },
+        {
+            "url": "https://www.cbssports.com/college-football/gametracker/recap/NCAAF_20251122_MIZZOU@OKLA/",
+            "find": false
+        },
+        {
+            "url": "https://www.ncaa.com/game/6459237",
+            "find": false
+        },
+        {
+            "url": "https://www.espn.com/college-football/game/_/gameId/401752778/missouri-oklahoma",
+            "find": true
+        },
+        {
+            "url": "https://mutigers.com/sports/football/opponent-history/university-of-oklahoma/7",
+            "find": false
+        },
+        {
+            "url": "https://en.wikipedia.org/wiki/Missouri%E2%80%93Oklahoma_football_rivalry",
+            "find": false
+        }
+    ],
+    "barcelona - athletic": [
+        {
+            "url": "https://www.fcbarcelona.com/en/amateur-sports/athletics/",
+            "find": false
+        },
+        {
+            "url": "https://www.nytimes.com/athletic/football/team/fc-barcelona/",
+            "find": false
+        },
+        {
+            "url": "https://www.fcbarcelona.com/en/matches/127383/fc-barcelona-athletic-club-la-liga-2025-2026",
+            "find": false
+        },
+        {
+            "url": "https://en.wikipedia.org/wiki/FC_Barcelona_Atl%C3%A8tic",
+            "find": false
+        },
+        {
+            "url": "https://www.sofascore.com/football/match/athletic-club-barcelona/rgbsAgb",
+            "find": false
+        },
+        {
+            "url": "https://www.transfermarkt.us/fc-barcelona-b/startseite/verein/2464",
+            "find": false
+        }
+    ],
+    "florida state vs nc state": [
+        {
+            "url": "https://www.espn.com/college-football/recap/_/gameId/401754598",
+            "find": false
+        },
+        {
+            "url": "https://www.reddit.com/r/CFB/comments/1p3k6tk/postgame_thread_nc_state_defeats_florida_state/",
+            "find": false
+        },
+        {
+            "url": "https://www.espn.com/college-football/game/_/gameId/401754598/florida-st-nc-state",
+            "find": false
+        },
+        {
+            "url": "https://gopack.com/sports/football/opponent-history/florida-state/23",
+            "find": false
+        },
+        {
+            "url": "https://seminoles.com/sports/football/opponent-history/nc-state/6",
+            "find": false
+        },
+        {
+            "url": "https://www.tomahawknation.com/florida-state-football-fsu-seminoles-college-cfb-acc-norvell-team-roster-schedule-game/123036/breakdown-discussion-nc-carolina-wolfpack-questions-offensive-defensive-loss",
+            "find": false
+        },
+        {
+            "url": "https://theacc.com/boxscore.aspx?id=7ltyipP022aUJKmSgYVs3wXi7up73ghniwD5ElWyd07J7BNseBaMQePf0fY%2F3yUP%2BP1nJXML6tRQgtxathu3dUquIewcNjjgiPFR6tpORkntt4EyC%2BliC6UPczUM6u1SzcOjIfYP3djKyt7l%2B8A9WA%3D%3D&path=football",
+            "find": false
+        }
+    ],
+    "anna kepner": [
+        {
+            "url": "https://nypost.com/2025/11/22/us-news/anna-kepners-mom-found-out-about-daughters-cruise-death-on-google/",
+            "find": false
+        },
+        {
+            "url": "https://www.nbcnews.com/news/us-news/stepsibling-teenager-found-dead-cruise-ship-eyed-fbi-court-filing-says-rcna244764",
+            "find": true
+        },
+        {
+            "url": "https://www.reddit.com/r/Cruise/comments/1p2on42/anna_kepners_exboyfriend_alleges_the_suspect/",
+            "find": false
+        },
+        {
+            "url": "https://www.northbrevardfuneralhome.com/obituaries/Anna-Marie-Kepner?obId=46354353",
+            "find": false
+        },
+        {
+            "url": "https://www.upi.com/Top_News/US/2025/11/22/anna-kepner-stepbrother/3251763863333/",
+            "find": false
+        },
+        {
+            "url": "https://www.facebook.com/anna.kepner.2025/",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/reel/DRWHSP1FY1-/",
+            "find": false
+        }
+    ],
+    "moana live action": [
+        {
+            "url": "https://en.wikipedia.org/wiki/Moana_(2026_film)",
+            "find": true
+        },
+        {
+            "url": "https://www.imdb.com/title/tt27419466/fullcredits/",
+            "find": false
+        },
+        {
+            "url": "https://movies.disney.com/moana-2026",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/reel/DRLDFDzEelA/",
+            "find": false
+        },
+        {
+            "url": "https://deadline.com/2025/11/moana-trailer-record-traffic-1236624044/",
+            "find": false
+        },
+        {
+            "url": "https://www.facebook.com/jarredjermaine/posts/we-got-our-first-look-at-hei-hei-in-the-live-action-moana-remake/879628981299633/",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/shorts/q5aILXUI6aE",
+            "find": false
+        }
+    ],
+    "kris boyd": [
+        {
+            "url": "https://www.espn.com/nfl/player/_/id/3929845/kris-boyd",
+            "find": true
+        },
+        {
+            "url": "https://www.instagram.com/kris_boyd2/?hl=en",
+            "find": false
+        },
+        {
+            "url": "https://en.wikipedia.org/wiki/Kris_Boyd_(American_football)",
+            "find": false
+        },
+        {
+            "url": "https://nypost.com/2025/11/20/sports/nypd-reveals-new-details-on-jets-kris-boyd-shooting-as-185k-watch-left-at-scene-may-offer-clue/",
+            "find": false
+        },
+        {
+            "url": "https://www.pro-football-reference.com/players/B/BoydKr00.htm",
+            "find": false
+        },
+        {
+            "url": "https://www.newyorkjets.com/team/players-roster/kris-boyd/",
+            "find": false
+        },
+        {
+            "url": "https://texaslonghorns.com/sports/football/roster/kris-boyd/8113",
+            "find": false
+        }
+    ],
+    "expedition 33": [
+        {
+            "url": "https://www.expedition33.com/",
+            "find": false
+        },
+        {
+            "url": "https://en.wikipedia.org/wiki/Clair_Obscur:_Expedition_33",
+            "find": false
+        },
+        {
+            "url": "https://store.steampowered.com/app/1903340/Clair_Obscur_Expedition_33/",
+            "find": false
+        },
+        {
+            "url": "https://www.reddit.com/r/ShouldIbuythisgame/comments/1kmhce7/is_clair_obscur_expedition_33_as_good_as_everyone/",
+            "find": false
+        },
+        {
+            "url": "https://www.playstation.com/en-us/games/clair-obscur--expedition-33/",
+            "find": false
+        },
+        {
+            "url": "https://www.bbc.com/news/articles/c9894l4jr0go",
+            "find": false
+        },
+        {
+            "url": "https://www.gamebillet.com/clair-obscur-expedition-33-z",
+            "find": false
+        },
+        {
+            "url": "https://talking-time.net/index.php?threads/clair-obscur-expedition-33.2997/",
+            "find": false
+        }
+    ],
+    "kessler twins": [
+        {
+            "url": "https://en.wikipedia.org/wiki/Kessler_Twins",
+            "find": false
+        },
+        {
+            "url": "https://www.theguardian.com/world/2025/nov/18/the-kessler-twins-sisters-alice-and-ellen-die-together-aged-89",
+            "find": false
+        },
+        {
+            "url": "https://www.cnn.com/2025/11/18/entertainment/kessler-twins-die-assisted-suicide-intl-scli",
+            "find": false
+        },
+        {
+            "url": "https://www.nytimes.com/2025/11/19/arts/alice-ellen-kessler-dead.html",
+            "find": false
+        },
+        {
+            "url": "https://www.theguardian.com/music/2025/nov/21/inseperable-sensuous-and-confident-the-kessler-twins-were-pioneers-of-variety-show-culture",
+            "find": false
+        },
+        {
+            "url": "https://www.gettyimages.com/photos/alice-kessler-twins",
+            "find": false
+        },
+        {
+            "url": "https://filmstarpostcards.blogspot.com/2019/09/the-kessler-twins.html",
+            "find": false
+        }
+    ],
+    "mexico vs paraguay": [
+        {
+            "url": "https://www.espn.com/soccer/match/_/gameId/758974/paraguay-mexico",
+            "find": false
+        },
+        {
+            "url": "https://www.ticketmaster.com/mexico-national-football-team-vs-paraguay-san-antonio-texas-11-18-2025/event/3A00632CBA7A3972",
+            "find": false
+        },
+        {
+            "url": "https://www.fmfstateofmind.com/soccer-playbook-2025/26004/alarm-bells-ring-after-mexico-loses-against-paraguay",
+            "find": false
+        },
+        {
+            "url": "https://www.facebook.com/selqpfans/posts/yesterday-at-the-alamodome-for-the-mexico-vs-paraguay-soccer-match-chris-perez-p/1274551921373625/",
+            "find": false
+        },
+        {
+            "url": "https://www.alamodome.com/news/detail/mextour-2025-mexico-vs-paraguay",
+            "find": false
+        },
+        {
+            "url": "https://www.reddit.com/r/LigaMX/comments/1p0wuxf/post_partido_m%C3%A9xico_vs_paraguay/",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/reel/DRPVazogNqW/",
+            "find": false
+        },
+        {
+            "url": "https://www.sofascore.com/football/match/paraguay-mexico/GVbsOVb",
+            "find": false
+        }
+    ],
+    "bills game": [
+        {
+            "url": "https://www.buffalobills.com/schedule/",
+            "find": false
+        },
+        {
+            "url": "https://www.espn.com/nfl/team/_/name/buf/buffalo-bills",
+            "find": true
+        },
+        {
+            "url": "https://www.nfl.com/teams/buffalo-bills/",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/BuffaloBills",
+            "find": false
+        },
+        {
+            "url": "https://www.cbssports.com/nfl/teams/buf/buffalo-bills/schedule/",
+            "find": false
+        },
+        {
+            "url": "https://www.reddit.com/r/buffalobills/",
+            "find": false
+        },
+        {
+            "url": "https://www.ticketmaster.com/buffalo-bills-tickets/artist/805905?home_away=home",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=_vhzfsEZ8eo",
+            "find": false
+        },
+        {
+            "url": "https://www.buffalobills.com/news/bills-19-texans-23-final-score-game-recap-highlights",
+            "find": false
+        }
+    ],
+    "prince": [
+        {
+            "url": "https://en.wikipedia.org/wiki/Prince_(musician)",
+            "find": true
+        },
+        {
+            "url": "https://www.prince.com/",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/channel/UCv3mNSNjuWldihk1DUdnGtw",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/prince/?hl=en",
+            "find": false
+        },
+        {
+            "url": "https://open.spotify.com/artist/5a2EaR3hamoenG9rDuVn8j",
+            "find": false
+        },
+        {
+            "url": "https://www.facebook.com/prince/",
+            "find": false
+        },
+        {
+            "url": "https://www.prince.org/",
+            "find": false
+        },
+        {
+            "url": "https://www.nytimes.com/2016/04/22/arts/music/prince-dead.html",
+            "find": false
+        }
+    ],
+    "hawks vs spurs": [
+        {
+            "url": "https://www.espn.com/nba/recap/_/gameId/401810122",
+            "find": false
+        },
+        {
+            "url": "https://www.nba.com/game/0022500267/box-score",
+            "find": false
+        },
+        {
+            "url": "https://www.statmuse.com/nba/ask/hawks-vs-spurs-last-10-games",
+            "find": false
+        },
+        {
+            "url": "https://www.ticketmaster.com/atlanta-hawks-v-san-antonio-spurs-atlanta-georgia-12-19-2025/event/0E0062FD9AA81542",
+            "find": false
+        },
+        {
+            "url": "https://www.sofascore.com/basketball/match/san-antonio-spurs-atlanta-hawks/ytbsEtb",
+            "find": false
+        },
+        {
+            "url": "https://www.landofbasketball.com/head_to_head_gl/hawks_vs_spurs_game_log_season.htm",
+            "find": false
+        },
+        {
+            "url": "https://www.reddit.com/r/AtlantaHawks/comments/1p2jgzl/game_thread_your_atlanta_hawks_vs_san_antonio/",
+            "find": false
+        }
+    ],
+    "49ers vs cardinals": [
+        {
+            "url": "https://www.espn.com/nfl/game/_/gameId/401772885/49ers-cardinals",
+            "find": true
+        },
+        {
+            "url": "https://www.statefarmstadium.com/events/detail/49ers-vs-cardinals-2025",
+            "find": false
+        },
+        {
+            "url": "https://www.nfl.com/games/49ers-at-cardinals-2025-reg-11",
+            "find": false
+        },
+        {
+            "url": "https://www.azcardinals.com/news/how-to-watch-49ers-vs-cardinals-week-11-x6569",
+            "find": false
+        },
+        {
+            "url": "https://www.49ers.com/video/can-t-miss-play-64-yard-int-return-lenoir-flies-past-the-cardinals",
+            "find": false
+        },
+        {
+            "url": "https://en.wikipedia.org/wiki/49ers%E2%80%93Cardinals_rivalry",
+            "find": false
+        },
+        {
+            "url": "https://www.49ers.com/photos/arizona-cardinals-vs-san-francisco-49ers-game-highlights",
+            "find": false
+        }
+    ],
+    "dick cheney funeral": [
+        {
+            "url": "https://abcnews.go.com/Politics/biden-attend-dick-cheneys-funeral-bush-deliver-tribute/story?id=127491255",
+            "find": false
+        },
+        {
+            "url": "https://edition.cnn.com/2025/11/20/politics/dick-cheney-funeral-washington",
+            "find": false
+        },
+        {
+            "url": "https://apnews.com/article/dick-cheney-funeral-attendees-photos-1f83e5d5705fb4c7e0654099000a5b31",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=7qZYpAq-l2k",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/p/DRSd_cMEsmY/",
+            "find": false
+        },
+        {
+            "url": "https://en.wikipedia.org/wiki/Dick_Cheney",
+            "find": false
+        },
+        {
+            "url": "https://www.axios.com/2025/11/20/trump-dick-cheney-funeral-snub",
+            "find": false
+        }
+    ],
+    "usa vs uruguay": [
+        {
+            "url": "https://www.ussoccer.com/competitions/usmnt-friendlies-2025/matches/united-states-uruguay-tickets-live-score-match-hub-lineups-highlights",
+            "find": false
+        },
+        {
+            "url": "https://www.espn.com/soccer/match/_/gameId/758377/uruguay-united-states",
+            "find": false
+        },
+        {
+            "url": "https://www.fiba.basketball/en/events/fiba-americup-2025/games/121417-USA-URU",
+            "find": false
+        },
+        {
+            "url": "https://www.sofascore.com/football/match/uruguay-usa/zUbsAUb",
+            "find": false
+        },
+        {
+            "url": "https://www.skysports.com/football/united-states-of-america-vs-uruguay/548547",
+            "find": false
+        },
+        {
+            "url": "https://www.reddit.com/r/ussoccer/comments/1mtv7sh/uruguayian_media_reporting_usmnt_vs_uruguay_on/",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/live/CRWLHux8LiE?pp=YAA%3D",
+            "find": false
+        }
+    ],
+    "ja'marr chase": [
+        {
+            "url": "https://www.instagram.com/lahjay10_/?hl=en",
+            "find": false
+        },
+        {
+            "url": "https://www.nfl.com/players/ja-marr-chase/",
+            "find": false
+        },
+        {
+            "url": "https://www.espn.com/nfl/story/_/id/47016818/jamarr-chase-suspension-upheld-bengals-wr-sit-vs-pats",
+            "find": false
+        },
+        {
+            "url": "https://www.pro-football-reference.com/players/C/ChasJa00.htm",
+            "find": false
+        },
+        {
+            "url": "https://en.wikipedia.org/wiki/Ja%27Marr_Chase",
+            "find": false
+        },
+        {
+            "url": "https://lsusports.net/sports/fb/roster/player/jamarr-chase/",
+            "find": false
+        },
+        {
+            "url": "https://x.com/Real10jayy__",
+            "find": false
+        }
+    ],
+    "george pickens": [
+        {
+            "url": "https://www.espn.com/nfl/player/_/id/4426354/george-pickens",
+            "find": true
+        },
+        {
+            "url": "https://en.wikipedia.org/wiki/George_Pickens",
+            "find": false
+        },
+        {
+            "url": "https://www.newsweek.com/sports/nfl/nfl-drops-the-hammer-on-cowboys-george-pickens-for-actions-vs-raiders-11093990",
+            "find": false
+        },
+        {
+            "url": "https://www.pro-football-reference.com/players/P/PickGe00.htm",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/1.issue/?hl=en",
+            "find": false
+        },
+        {
+            "url": "https://www.facebook.com/NFLonFOX/posts/george-pickens-may-be-regretting-this-one/1370259831129008/",
+            "find": false
+        },
+        {
+            "url": "https://www.nfl.com/players/george-pickens/",
+            "find": false
+        }
+    ],
+    "cowboys": [
+        {
+            "url": "https://www.dallascowboys.com/",
+            "find": true
+        },
+        {
+            "url": "https://www.espn.com/nfl/team/depth/_/name/dal",
+            "find": true
+        },
+        {
+            "url": "https://www.instagram.com/dallascowboys/?hl=en",
+            "find": false
+        },
+        {
+            "url": "https://www.philadelphiaeagles.com/news/eagles-cowboys-game-preview-spadaro-storylines-nfl-week-12",
+            "find": false
+        },
+        {
+            "url": "https://sports.yahoo.com/nfl/teams/dallas/",
+            "find": false
+        },
+        {
+            "url": "https://en.wikipedia.org/wiki/Dallas_Cowboys",
+            "find": true
+        },
+        {
+            "url": "https://www.usatoday.com/sports/nfl/dallas-cowboys",
+            "find": false
+        }
+    ],
+    "ravens": [
+        {
+            "url": "https://www.baltimoreravens.com/",
+            "find": false
+        },
+        {
+            "url": "https://www.espn.com/nfl/team/_/name/bal/baltimore-ravens",
+            "find": true
+        },
+        {
+            "url": "https://www.instagram.com/ravens/?hl=en",
+            "find": false
+        },
+        {
+            "url": "https://x.com/Ravens",
+            "find": false
+        }
+    ],
+    "packers": [
+        {
+            "url": "https://www.packers.com/",
+            "find": false
+        },
+        {
+            "url": "https://x.com/packers",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/packers/?hl=en",
+            "find": false
+        },
+        {
+            "url": "https://www.facebook.com/Packers/",
+            "find": false
+        }
+    ],
+    "stock market": [
+        {
+            "url": "https://www.cnn.com/markets",
+            "find": false
+        },
+        {
+            "url": "https://tradingeconomics.com/united-states/stock-market",
+            "find": false
+        },
+        {
+            "url": "https://en.wikipedia.org/wiki/Stock_market",
+            "find": false
+        },
+        {
+            "url": "https://finance.yahoo.com/",
+            "find": true
+        },
+        {
+            "url": "https://www.stockmarketgame.org/",
+            "find": false
+        },
+        {
+            "url": "https://www.nasdaq.com/",
+            "find": true
+        },
+        {
+            "url": "https://www.google.com/finance/",
+            "find": true
+        }
+    ],
+    "rams": [
+        {
+            "url": "https://www.therams.com/",
+            "find": false
+        },
+        {
+            "url": "https://www.espn.com/nfl/team/_/name/lar/los-angeles-rams",
+            "find": true
+        },
+        {
+            "url": "https://www.instagram.com/rams/?hl=en",
+            "find": false
+        },
+        {
+            "url": "https://en.wikipedia.org/wiki/Los_Angeles_Rams",
+            "find": true
+        },
+        {
+            "url": "https://www.nfl.com/teams/los-angeles-rams/",
+            "find": false
+        }
+    ],
+    "nfl standings": [
+        {
+            "url": "https://www.espn.com/nfl/standings",
+            "find": true
+        },
+        {
+            "url": "https://www.nfl.com/standings/playoff-picture",
+            "find": false
+        },
+        {
+            "url": "https://www.nfl.com/standings/",
+            "find": true
+        },
+        {
+            "url": "https://www.cbssports.com/nfl/standings/",
+            "find": true
+        },
+        {
+            "url": "https://sportsbook.fanduel.com/teams/nfl/standings",
+            "find": false
+        },
+        {
+            "url": "https://www.tsn.ca/nfl/standings/",
+            "find": false
+        },
+        {
+            "url": "https://www.nytimes.com/athletic/live-blogs/nfl-week-12-live-updates-scores-inactives-highlights-stats-standings-playoff-race-predictions-odds-latest/mpi4JeAwElU0/",
+            "find": false
+        },
+        {
+            "url": "https://www.espn.com/nfl/standings/_/view/playoff",
+            "find": true
+        }
+    ],
+    "barcelona vs athletic club": [
+        {
+            "url": "https://www.bbc.com/sport/football/live/cwy54pkpd99t",
+            "find": false
+        },
+        {
+            "url": "https://www.fotmob.com/matches/athletic-club-vs-barcelona/2diy4x",
+            "find": false
+        },
+        {
+            "url": "https://www.sofascore.com/football/match/athletic-club-barcelona/rgbsAgb",
+            "find": false
+        },
+        {
+            "url": "https://www.fcbarcelona.com/en/tickets/football/regular/laliga/fcbarcelona-athleticclub",
+            "find": false
+        },
+        {
+            "url": "https://www.espn.com/soccer/match/_/gameId/705035/barcelona-athletic-club",
+            "find": false
+        }
+    ],
+    "dubai airshow tejas fighter jet crash": [
+        {
+            "url": "https://apnews.com/article/dubai-air-show-plane-crash-9df3d47f6220c7772a1d24762b0e2836",
+            "find": false
+        },
+        {
+            "url": "https://www.reddit.com/r/CatastrophicFailure/comments/1p3t7ef/final_moments_of_tejas_fighter_jet_crash_in_dubai/",
+            "find": false
+        },
+        {
+            "url": "https://www.ndtv.com/world-news/tejas-fighter-jet-crash-dubai-air-show-namansh-syal-new-close-up-shots-from-dubai-show-tejas-wreckage-engulfed-in-flames-9680579",
+            "find": false
+        },
+        {
+            "url": "https://www.indiatoday.in/india/story/tejas-fighter-jet-crash-new-video-last-moments-pilot-ejection-attempt-2824338-2025-11-22",
+            "find": false
+        },
+        {
+            "url": "https://en.wikipedia.org/wiki/2025_HAL_Tejas_Dubai_Air_Show_crash",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=JJM7n22c5Xk",
+            "find": false
+        },
+        {
+            "url": "https://indianexpress.com/article/india/tejas-jet-crash-dubai-air-show-iaf-namansh-syal-lauded-village-grieves-10380386/",
+            "find": false
+        }
+    ],
+    "pakistan national cricket team vs zimbabwe national cricket team match scorecard": [
+        {
+            "url": "https://www.timesnownews.com/sports/cricket/pakistan-vs-zimbabwe-live-score-4th-t20i-pak-vs-zim-match-pakistan-national-cricket-team-vs-zimbabwe-cricket-team-scorecard-commentary-liveblog-153193121",
+            "find": false
+        },
+        {
+            "url": "https://www.pcb.com.pk/pakistan-sri-lanka-and-zimbabwe-trination-t20i-series-202526/match/36435.html",
+            "find": false
+        },
+        {
+            "url": "https://www.espn.com/cricket/series/1502043/scorecard/1502048/pakistan-vs-zimbabwe-1st-match-pakistan-t20i-tri-series-2025-26",
+            "find": false
+        },
+        {
+            "url": "https://www.espncricinfo.com/records/headtohead/team-match-results/pakistan-zimbabwe-7vs9/twenty20-matches-6",
+            "find": false
+        },
+        {
+            "url": "https://www.sofascore.com/cricket/match/pakistan-zimbabwe/VeAbsefAb",
+            "find": false
+        },
+        {
+            "url": "https://www.cricbuzz.com/live-cricket-scores/134408/pak-vs-zim-1st-match-pakistan-t20i-tri-series-2025",
+            "find": false
+        },
+        {
+            "url": "https://www.cricketworld.com/cricket/pakistan-vs-zimbabwe/match/scorecard/94300",
+            "find": false
+        },
+        {
+            "url": "https://www.skysports.com/cricket/pakistan-v-zimbabwe/scorecard/ad8fa839-d023-5c8f-9069-a3ae579d5a05",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=0LbwoeqHVBw",
+            "find": false
+        }
+    ],
+    "palash muchhal": [
+        {
+            "url": "https://en.wikipedia.org/wiki/Palash_Muchhal",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/palash_muchhal/?hl=en",
+            "find": false
+        },
+        {
+            "url": "https://open.spotify.com/artist/33YZ8dADtqLFO3Ku60tGVS",
+            "find": false
+        },
+        {
+            "url": "https://sports.ndtv.com/cricket/smriti-mandhana-ditches-shy-avatar-for-pre-wedding-dance-with-palash-muchhal-internet-stunned-9684436",
+            "find": false
+        },
+        {
+            "url": "https://www.jiosaavn.com/artist/palash-muchhal-songs/KeOKGMqziWk_",
+            "find": false
+        },
+        {
+            "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/palaash-muchhal-and-smriti-mandhana-wedding-live-update-smriti-mandhana-marriage-photo-video-pictures-latest-news-update-pm-narendra-modi-guest-list/liveblog/125515648.cms",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/p/DQOrNjpj-Oy/?hl=en",
+            "find": false
+        }
+    ],
+    "dhurandhar": [
+        {
+            "url": "https://en.wikipedia.org/wiki/Dhurandhar",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=BKOVzHcjEIo",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/reel/DRUa2ThjTva/",
+            "find": false
+        },
+        {
+            "url": "https://www.imdb.com/title/tt33014583/",
+            "find": false
+        },
+        {
+            "url": "https://www.reddit.com/r/BollyBlindsNGossip/comments/1p30qek/where_is_dhurandhar_promotion/",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/p/DQ03dYRDKqg/?hl=en",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/reel/DRWNXpXjM2c/",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=rZ_e-s6VvR4",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/reel/DRZ_i5bDOCZ/",
+            "find": false
+        }
+    ],
+    "pak a vs ban a": [
+        {
+            "url": "https://www.hindustantimes.com/cricket/bangladesh-a-vs-pakistan-a-final-live-score-ban-vs-pak-mens-asia-cup-rising-stars-2025-today-match-23-nov-latest-updates-101763894778336.html",
+            "find": false
+        },
+        {
+            "url": "https://www.business-standard.com/cricket/news/pakistan-vs-bangladesh-live-score-updates-pak-a-vs-ban-a-full-scorecard-asia-cup-rising-stars-final-key-moments-125112300425_1.html",
+            "find": false
+        },
+        {
+            "url": "https://www.espncricinfo.com/series/asia-cup-rising-stars-2025-26-1509844/bangladesh-a-vs-pakistan-shaheens-final-1509869/live-cricket-score",
+            "find": false
+        },
+        {
+            "url": "https://www.cricbuzz.com/live-cricket-scores/137476/paka-vs-bana-final-acc-mens-asia-cup-rising-stars-2025",
+            "find": false
+        },
+        {
+            "url": "https://crex.com/scoreboard/XNM/1ZS/Final/PX/RJ/ban-a-vs-pak-a-final-asia-cup-rising-stars-2025/info",
+            "find": false
+        },
+        {
+            "url": "https://sports.ndtv.com/cricket/bangladesh-a-vs-pakistan-a-live-score-updates-asia-cup-rising-stars-2025-final-ban-a-vs-pak-a-live-9686284",
+            "find": false
+        },
+        {
+            "url": "https://www.espncricinfo.com/series/asia-cup-rising-stars-2025-26-1509844/bangladesh-a-vs-pakistan-shaheens-final-1509869/full-scorecard",
+            "find": false
+        }
+    ],
+    "earthquake kolkata": [
+        {
+            "url": "https://www.youtube.com/watch?v=3BqU4LBrCsI",
+            "find": false
+        },
+        {
+            "url": "https://m.economictimes.com/news/new-updates/kolkata-earthquake-why-eastern-india-felt-short-but-strong-tremors-what-caused-it-and-which-regions-fall-in-high-risk-zone/articleshow/125478692.cms",
+            "find": false
+        },
+        {
+            "url": "https://timesofindia.indiatimes.com/city/kolkata/strong-tremors-felt-in-kolkata/articleshow/125477566.cms",
+            "find": false
+        },
+        {
+            "url": "https://earthquaketrack.com/in-28-kolkata/recent",
+            "find": false
+        },
+        {
+            "url": "https://www.hindustantimes.com/india-news/kolkata-earthquake-panic-in-kolkata-after-strong-earthquake-tremors-people-rush-out-to-streets-101763700897635.html",
+            "find": false
+        },
+        {
+            "url": "https://www.livemint.com/news/world/strong-5-5-magnitude-earthquake-jolts-narsingdi-in-bangladesh-tremors-felt-in-kolkata-11763701674839.html",
+            "find": false
+        },
+        {
+            "url": "https://www.newsonair.gov.in/west-bengal-kolkata-shake-as-5-7-magnitude-earthquake-hits-near-dhaka/",
+            "find": false
+        }
+    ],
+    "matt henry": [
+        {
+            "url": "https://www.espncricinfo.com/cricketers/matt-henry-506612",
+            "find": false
+        },
+        {
+            "url": "https://en.wikipedia.org/wiki/Matt_Henry_(singer)",
+            "find": false
+        },
+        {
+            "url": "https://en.wikipedia.org/wiki/Matt_Henry_(cricketer)",
+            "find": false
+        },
+        {
+            "url": "https://matthenryphoto.com/",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/mrmatthenry/?hl=en",
+            "find": false
+        },
+        {
+            "url": "https://www.cricbuzz.com/profiles/9067/matt-henry",
+            "find": false
+        }
+    ],
+    "sheikh hasina": [
+        {
+            "url": "https://en.wikipedia.org/wiki/Sheikh_Hasina",
+            "find": false
+        },
+        {
+            "url": "https://worldleaders.columbia.edu/directory/sheikh-hasina",
+            "find": false
+        },
+        {
+            "url": "https://www.bbc.com/news/articles/c17p4z8q9zko",
+            "find": false
+        },
+        {
+            "url": "https://awpc.cattcenter.iastate.edu/directory/sheikh-hasina/",
+            "find": false
+        },
+        {
+            "url": "https://www.britannica.com/biography/Sheikh-Hasina-Wazed",
+            "find": false
+        },
+        {
+            "url": "https://www.aljazeera.com/tag/sheikh-hasina/",
+            "find": false
+        },
+        {
+            "url": "https://www.thehindu.com/news/national/bangladesh-sends-extradition-request-to-india-for-sheikh-hasina/article70314969.ece",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=-RUdIdVhmqg",
+            "find": false
+        }
+    ],
+    "sai sudharsan": [
+        {
+            "url": "https://en.wikipedia.org/wiki/Sai_Sudharsan",
+            "find": false
+        },
+        {
+            "url": "https://www.espncricinfo.com/cricketers/sai-sudharsan-1151288",
+            "find": false
+        },
+        {
+            "url": "https://www.facebook.com/sais1509/",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/sais_1509/?hl=en",
+            "find": false
+        },
+        {
+            "url": "https://www.cricbuzz.com/profiles/13866/sai-sudharsan",
+            "find": false
+        },
+        {
+            "url": "https://x.com/sais_1509",
+            "find": false
+        },
+        {
+            "url": "https://www.reddit.com/r/IndiaCricket/comments/1ows2e8/why_was_sai_sudharsan_dropped_after_an_87/",
+            "find": false
+        }
+    ],
+    "human sagar": [
+        {
+            "url": "https://en.wikipedia.org/wiki/Humane_Sagar",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/humanesagar_official/?hl=en",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=fBZhADchJCk",
+            "find": false
+        },
+        {
+            "url": "https://www.instagram.com/reel/DRKh2ZTks0c/",
+            "find": false
+        },
+        {
+            "url": "https://open.spotify.com/artist/1IAxCg69vwVdpzolmS7irH",
+            "find": false
+        },
+        {
+            "url": "https://www.youtube.com/playlist?list=PL9t_M1O2Dx2bDf3m8wtRs0L1uAkj1ZHNX",
+            "find": false
+        },
+        {
+            "url": "https://m.economictimes.com/news/new-updates/humane-sagars-untimely-passing-at-34-all-about-the-odia-singers-life-struggles-and-timeless-musical-legacy/articleshow/125390178.cms",
+            "find": false
+        },
+        {
+            "url": "https://www.facebook.com/rourkelashines/posts/odia-singer-humane-sagar-passes-away-at-34-due-to-multi-organ-dysfunction-syndro/1293052049518822/",
+            "find": false
+        }
     ]
 }

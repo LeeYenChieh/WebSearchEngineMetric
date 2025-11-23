@@ -96,11 +96,11 @@ def test(args):
             context.test()
     if 'fetch' in args.measure:
         for i in range(len(dataset)):
-            context.setMeasure(URLDiscoveryMeasure(dataset[i], args.url, resultDataset[i]["fetch"]))
+            context.setMeasure(URLFetchedMeasure(dataset[i], args.url, resultDataset[i]["fetch"]))
             context.test()
     if 'upload' in args.measure:
         for i in range(len(dataset)):
-            context.setMeasure(URLDiscoveryMeasure(dataset[i], args.url, resultDataset[i]["upload"]))
+            context.setMeasure(URLUploadedMeasure(dataset[i], args.url, resultDataset[i]["upload"]))
             context.test()
 
 def main():
