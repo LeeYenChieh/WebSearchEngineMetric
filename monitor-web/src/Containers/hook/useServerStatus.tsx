@@ -1,7 +1,7 @@
 // src/context/ServerStatusContext.tsx
 import { createContext, useContext, useEffect, useState, type ReactNode } from "react";
-import type { ServerStatusContextProps, ServerNumStatsProps, ServerStatusProps, GroupCardProps, StatCardProps } from "../../type";
-import { METRIC, METRIC_MEASURE } from "../../consts";
+import type { ServerStatusContextProps, ServerNumStatsProps, ServerStatusProps, GroupCardProps, PerformanceStatCardProps } from "../../type";
+import { METRIC } from "../../consts";
 
 // 建立 context
 const ServerStatusContext = createContext<ServerStatusContextProps | undefined>(undefined);
@@ -115,18 +115,36 @@ export const ServerStatusProvider = ({ children }: { children: ReactNode }) => {
 		const readFile = async () => {
 			const allPerformance: GroupCardProps[] = [];
 			for(const t of METRIC){
-				const performance: StatCardProps[] = [];
-				for(const m of METRIC_MEASURE){
-					const rawdata = await fetch(`result/${t}_${m}.json`)
-					const data = await rawdata.json()
-					console.log(data)
-					performance.push({
-						title: capitalize(m),
-						value: data.__total__.find
-					})
-				}
+				const performance: PerformanceStatCardProps[] = [];
+				const rawdata = await fetch(`result/${t}_all.json`)
+				const data = await rawdata.json()
+				console.log(data)
+				performance.push({
+					title: "Discover",
+					performance: data.__total__.discover_find,
+					total: data.__total__.total,
+					percent: (data.__total__.discover_find / data.__total__.total * 100).toFixed(2)
+				})
+				performance.push({
+					title: "Fetch",
+					performance: data.__total__.fetch_find,
+					total: data.__total__.total,
+					percent: (data.__total__.fetch_find / data.__total__.total * 100).toFixed(2)
+				})
+				performance.push({
+					title: "Upload",
+					performance: data.__total__.upload_find,
+					total: data.__total__.total,
+					percent: (data.__total__.upload_find / data.__total__.total * 100).toFixed(2)
+				})
+				performance.push({
+					title: "Rank",
+					performance: 0,
+					total: data.__total__.total,
+					percent: (0 / data.__total__.total * 100).toFixed(2)
+				})
 				allPerformance.push({
-					title: t,
+					title: capitalize(t) + ' Dataset',
 					values: performance
 				})
 			}

@@ -15,7 +15,7 @@ export interface ServerNumStatsProps {
 // GroupCard props
 export interface GroupCardProps {
     title: string;
-    values: StatCardProps[];
+    values: PerformanceStatCardProps[];
 }
 
 // Server 狀態
@@ -30,6 +30,13 @@ export interface StatusDotProps {
 export interface StatCardProps {
     title: string;
     value: number;
+}
+
+export interface PerformanceStatCardProps {
+    title: string;
+    performance: number;
+    total: number;
+    percent: string;
 }
 
 export interface ServerStatusContextProps {

@@ -13,6 +13,7 @@ from Measure.MeasureContext import MeasureContext
 from Measure.URLDiscoverMeasure import URLDiscoveryMeasure
 from Measure.URLFetchedMeasure import URLFetchedMeasure
 from Measure.URLUploadedMeasure import URLUploadedMeasure
+from Measure.URLAllMeasure import URLAllMeasure
 
 from argparse import ArgumentParser
 
@@ -23,7 +24,7 @@ def parseArgs():
 
     parser.add_argument("--datadir", help="Metric data dir path")
     parser.add_argument("--strategy", nargs='+', choices=['random', 'head'], help="raw data path")
-    parser.add_argument("--measure", nargs='+', choices=['discover', 'fetch', 'upload'], help="raw data path")
+    parser.add_argument("--measure", nargs='+', choices=['discover', 'fetch', 'upload', 'all'], help="raw data path")
 
     parser.add_argument("--create", action='store_true', help="create dataset")
     parser.add_argument("--rawdatareader", choices=['csv', 'auto'], help="raw data reader strategy")
@@ -80,6 +81,7 @@ def test(args):
             "fetch": DatasetFactory().getDataset(f'{args.resultdir}/random_fetch.json'),
             "upload": DatasetFactory().getDataset(f'{args.resultdir}/randomd_upload.json'),
             "rank": DatasetFactory().getDataset(f'{args.resultdir}/random_rank.json'),
+            "all": DatasetFactory().getDataset(f'{args.resultdir}/random_all.json'),
         })
     if 'head' in args.strategy:
         dataset.append(DatasetFactory().getDataset(get_latest_dataset_file(args.datadir, 'head', '.csv')))
@@ -88,6 +90,7 @@ def test(args):
             "fetch": DatasetFactory().getDataset(f'{args.resultdir}/head_fetch.json'),
             "upload": DatasetFactory().getDataset(f'{args.resultdir}/head_upload.json'),
             "rank": DatasetFactory().getDataset(f'{args.resultdir}/head_rank.json'),
+            "all": DatasetFactory().getDataset(f'{args.resultdir}/head_all.json'),
         })
 
     if 'discover' in args.measure:
@@ -101,6 +104,10 @@ def test(args):
     if 'upload' in args.measure:
         for i in range(len(dataset)):
             context.setMeasure(URLUploadedMeasure(dataset[i], args.url, resultDataset[i]["upload"]))
+            context.test()
+    if 'all' in args.measure:
+        for i in range(len(dataset)):
+            context.setMeasure(URLAllMeasure(dataset[i], args.url, resultDataset[i]["all"]))
             context.test()
 
 def main():

@@ -16,6 +16,9 @@ class Dataset:
         if result == None:
             print(f'Can not find key in our dataset')
         return result
+    
+    def clear(self):
+        self.query = {}
 
     def getKeys(self):
         if self.query == None:

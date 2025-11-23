@@ -9,6 +9,7 @@ class URLUploadedMeasure(Measure):
         self.dataset = dataset
         self.url = url
         self.resultDataset = resultDataset
+        self.resultDataset.clear()
     
     def test(self):
         correct = 0
