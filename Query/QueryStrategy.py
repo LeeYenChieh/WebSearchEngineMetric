@@ -12,15 +12,23 @@ class QueryStrategy:
         pass
     
     def getQuery(self, query, nums=10):
-        params = {
-            "engine": "google",
-            "q": query,
-            "num": nums,
-            "api_key": os.environ.get('SERPAPI_KEY')
-        }
+        try:
+            params = {
+                "engine": "google",
+                "q": query,
+                "num": nums,
+                "api_key": os.environ.get('SERPAPI_KEY')
+            }
 
-        search = GoogleSearch(params)
-        results = search.get_dict()
-        urls = [r["link"] for r in results.get("organic_results", []) if "link" in r]
-        
-        return urls
+            search = GoogleSearch(params)
+            results = search.get_dict()
+            if "error" in results:
+                raise Exception(results['error'])
+
+            urls = [r["link"] for r in results.get("organic_results", []) if "link" in r]
+            
+            return urls
+        except Exception as e:
+            error_msg = str(e)
+            print(error_msg)
+            return []

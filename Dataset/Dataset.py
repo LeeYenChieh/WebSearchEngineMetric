@@ -2,6 +2,7 @@ class Dataset:
     def __init__(self, path):
         self.query: dict = None
         self.path = path
+        self.load()
     
     def store(self, key, val):
         if self.query == None:

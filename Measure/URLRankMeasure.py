@@ -14,7 +14,7 @@ class URLUploadedMeasure(Measure):
         correct = 0
         total = 0
         for keyword in self.dataset.getKeys():
-            for goldenurl in self.dataset.get(keyword):
+            for goldenurl in self.dataset.get(keyword)['url']:
                 total += 1
                 response = requests.get(f'{self.url}/status/url?url={goldenurl}')
 

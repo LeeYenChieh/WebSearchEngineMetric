@@ -42,7 +42,6 @@ def parseArgs():
 
 def createDataset(args):
     rawDataReader: RawDataReader = None
-    rawdata_timestamp = None
     if args.rawdatareader == "csv":
         rawDataReader = CSVRawDataReader(args.rawdatapath)
     elif args.rawdatareader == "auto":
@@ -52,11 +51,11 @@ def createDataset(args):
     context: QueryContext = QueryContext()
 
     if 'random' in args.strategy:
-        dataset: Dataset  = DatasetFactory().getDataset('{args.datadir}/random.csv', True, rawdata_timestamp)
+        dataset: Dataset  = DatasetFactory().getDataset(f'{args.datadir}/random.json', True)
         context.setQueryStrategy(RandomQueryStrategy(dataset, rawData, args.keywordNums))
         context.getGoldenSet()
     if 'head' in args.strategy:
-        dataset: Dataset  = DatasetFactory().getDataset('{args.datadir}/head.csv', True, rawdata_timestamp)
+        dataset: Dataset  = DatasetFactory().getDataset(f'{args.datadir}/head.json', True)
         context.setQueryStrategy(HeadQueryStrategy(dataset, rawData, args.keywordNums))
         context.getGoldenSet()
 
@@ -75,7 +74,7 @@ def test(args):
     context: MeasureContext = MeasureContext()
 
     if 'random' in args.strategy:
-        dataset.append(DatasetFactory().getDataset(get_latest_dataset_file(args.datadir, 'random', '.csv')))
+        dataset.append(DatasetFactory().getDataset(get_latest_dataset_file(args.datadir, 'random', '.json')))
         resultDataset.append({
             "discover": DatasetFactory().getDataset(f'{args.resultdir}/random_discover.json'),
             "fetch": DatasetFactory().getDataset(f'{args.resultdir}/random_fetch.json'),
@@ -84,7 +83,7 @@ def test(args):
             "all": DatasetFactory().getDataset(f'{args.resultdir}/random_all.json'),
         })
     if 'head' in args.strategy:
-        dataset.append(DatasetFactory().getDataset(get_latest_dataset_file(args.datadir, 'head', '.csv')))
+        dataset.append(DatasetFactory().getDataset(get_latest_dataset_file(args.datadir, 'head', '.json')))
         resultDataset.append({
             "discover": DatasetFactory().getDataset(f'{args.resultdir}/head_discover.json'),
             "fetch": DatasetFactory().getDataset(f'{args.resultdir}/head_fetch.json'),
