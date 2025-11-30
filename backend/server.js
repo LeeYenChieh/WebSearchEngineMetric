@@ -18,6 +18,7 @@ app.get("/api/crawl/health", async (req, res) => {
         });
         const data = await response.json();
         console.log(data)
+        console.log(data.daily[0].fail_reasons)
         res.json(data);
     } catch (err) {
         res.status(500).json({ error: "Crawler unreachable" });

@@ -46,4 +46,32 @@ export interface ServerStatusContextProps {
     setServerNumStats: React.Dispatch<React.SetStateAction<ServerNumStatsProps>>;
     metrics: GroupCardProps[];
     setMetrics: React.Dispatch<React.SetStateAction<GroupCardProps[]>>;
+    daily: ServerDailyStat[];
+    setDaily: React.Dispatch<React.SetStateAction<ServerDailyStat[]>>;
+}
+
+// 根據您提供的 JSON 結構定義介面
+export interface ServerDailyStat {
+    fetch_ok: number;
+    update_count: number;
+    typesense_fail: number;
+    failed_rate: number;
+    fail_reasons: FailReasons; // 或 Record<string, any>，因為沒用到細節先用 any
+    upload_error: number;
+    offer_error: number;
+    maintenance_error: number;
+    new_links: number;
+    offered_count: number;
+    stat_date: string; // '2025-11-23'
+    fetch_fail: number;
+    typesense_ok: number;
+    update_rate: number;
+    error_count: number;
+    ingest_error: number;
+    refill_error: number;
+    json_read_error: number;
+}
+
+export interface FailReasons {
+    [key: string]: number;
 }

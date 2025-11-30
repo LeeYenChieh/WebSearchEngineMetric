@@ -1,6 +1,6 @@
 // src/context/ServerStatusContext.tsx
 import { createContext, useContext, useEffect, useState, type ReactNode } from "react";
-import type { ServerStatusContextProps, ServerNumStatsProps, ServerStatusProps, GroupCardProps, PerformanceStatCardProps } from "../../type";
+import type { ServerStatusContextProps, ServerNumStatsProps, ServerStatusProps, GroupCardProps, PerformanceStatCardProps, ServerDailyStat } from "../../type";
 import { METRIC } from "../../consts";
 
 // 建立 context
@@ -18,6 +18,8 @@ export const ServerStatusProvider = ({ children }: { children: ReactNode }) => {
 
 	// Bottom Metrics mock data (可擴充)
 	const [metrics, setMetrics] = useState<GroupCardProps[]>([]);
+
+	const [daily, setDaily] = useState<ServerDailyStat[]>([]);
 	
 	// 模擬 server health check
 	useEffect(() => {
@@ -53,6 +55,8 @@ export const ServerStatusProvider = ({ children }: { children: ReactNode }) => {
 						b: data["fetched_urls"],
 						c: data["uploaded_urls"],
 					});
+
+					setDaily(data.daily)
 				}
 
 			} catch(error) {
@@ -156,7 +160,7 @@ export const ServerStatusProvider = ({ children }: { children: ReactNode }) => {
 
 	return (
 		<ServerStatusContext.Provider value={{ 
-			serverStatus, setServerStatus,serverNumStats, setServerNumStats, metrics, setMetrics
+			serverStatus, setServerStatus,serverNumStats, setServerNumStats, metrics, setMetrics, daily, setDaily
 		}}>
 			{children}
 		</ServerStatusContext.Provider>

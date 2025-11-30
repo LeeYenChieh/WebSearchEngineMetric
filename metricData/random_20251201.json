@@ -1029,22 +1029,6 @@
             "https://www.tripadvisor.com/Attraction_Review-g42088-d2549060-Reviews-The_Mall_at_Partridge_Creek-Clinton_Township_Michigan.html"
         ]
     },
-    "weather": {
-        "frequency": 1012000,
-        "started": 1763962800,
-        "url nums": 9,
-        "url": [
-            "https://weather.com/",
-            "https://www.accuweather.com/en/us/new-york/10021/weather-forecast/349727",
-            "https://www.weather.gov/okx/",
-            "https://weather.com/weather/today/l/Central+Park+Manhattan+New+York?canonicalCityId=60b5c1800361f33890fcedaa749a5e3a",
-            "https://www.wunderground.com/",
-            "https://weather.com/weather/tenday/l/Garden+City+NY?canonicalCityId=43a261a1198a2a7165fcca77fc67ab89239eb1215cc96017098aae1432654863",
-            "https://www.fox5ny.com/weather",
-            "https://weather.com/weather/tenday/l/West+Hempstead+NY?canonicalCityId=407eb7afd4e2d7f57c83d698470b5310",
-            "https://www.weather.gov/"
-        ]
-    },
     "ap top 25 basketball": {
         "frequency": 2000,
         "started": 1764008400,
@@ -1418,18 +1402,6 @@
             "https://www.instagram.com/kevinhollinrakemp/?hl=en"
         ]
     },
-    "liverpool vs psv": {
-        "frequency": 424000,
-        "started": 1764169800,
-        "url nums": 5,
-        "url": [
-            "https://www.uefa.com/uefachampionsleague/match/2045985--liverpool-vs-psv/",
-            "https://www.sofascore.com/football/match/psv-eindhoven-liverpool/Uscjb",
-            "https://www.tiktok.com/@psvesports/video/7577824491779132705",
-            "https://www.flashscore.com/match/football/liverpool-lId4TMwf/psv-M9UEHJWi/",
-            "https://www.liverpoolfc.com/tickets/tickets-availability/liverpool-fc-v-psv-eindhoven-26-nov-2025-0800pm-481"
-        ]
-    },
     "heat – bucks": {
         "frequency": 700,
         "started": 1764212400,
@@ -1604,6 +1576,27 @@
             "https://www.skysports.com/football/galatasaray-vs-union-saint-gilloise/547987",
             "https://www.fotmob.com/matches/union-stgilloise-vs-galatasaray/2a6t0p",
             "https://www.aiscore.com/head-to-head/soccer-galatasaray-vs-union-saint-gilloise"
+        ]
+    },
+    "sonyliv": {
+        "frequency": 7000,
+        "started": 1764100200,
+        "url nums": 0,
+        "url": []
+    },
+    "miroslav klose": {
+        "frequency": 200,
+        "started": 1763922600,
+        "url nums": 8,
+        "url": [
+            "https://en.wikipedia.org/wiki/Miroslav_Klose",
+            "https://www.transfermarkt.us/miroslav-klose/profil/spieler/10",
+            "https://www.instagram.com/miroslav_klose/?hl=en",
+            "https://fbref.com/en/players/5e36a0dd/Miroslav-Klose",
+            "https://www.britannica.com/biography/Miroslav-Klose",
+            "https://www.worldfootball.net/person/pe3205/miroslav-klose/",
+            "https://www.bundesliga.com/en/bundesliga/news/miroslav-klose-germany-fifa-world-cup-legend-bayern-munich-lazio-werder-bremen-17848",
+            "https://www.espn.com/soccer/player/_/id/10955/miroslav-klose"
         ]
     }
 }
