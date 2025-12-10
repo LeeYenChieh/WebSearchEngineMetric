@@ -3,7 +3,7 @@ from Dataset.Dataset import Dataset
 from tqdm import tqdm
 import requests
 
-class URLFetchedMeasure(Measure):
+class CrawlerUploadMeasure(Measure):
     def __init__(self, dataset: Dataset, url, resultDataset: Dataset):
         super().__init__()
         self.dataset = dataset
@@ -23,7 +23,7 @@ class URLFetchedMeasure(Measure):
                 fail = True
                 if response.status_code == 200:
                     data = response.json()
-                    if data['fetched']:
+                    if data['uploaded']:
                         correct += 1
                         fail = False
                 else:

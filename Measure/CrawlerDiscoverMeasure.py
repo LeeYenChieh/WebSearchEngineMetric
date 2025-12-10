@@ -3,7 +3,7 @@ from Dataset.Dataset import Dataset
 from tqdm import tqdm
 import requests
 
-class URLDiscoveryMeasure(Measure):
+class CrawlerDiscoverMeasure(Measure):
     def __init__(self, dataset: Dataset, url, resultDataset: Dataset):
         super().__init__()
         self.dataset = dataset

@@ -16,5 +16,5 @@ class JsonDataset(Dataset):
     
     def dump(self):
         with open(self.path, 'w', encoding='utf-8') as f:
-            json.dump(self.query, f, ensure_ascii=False, indent=4)  # indent 可以調整縮排層級
+            json.dump(self.query, f, ensure_ascii=False, indent=5, sort_keys=True)  # indent 可以調整縮排層級
 

@@ -10,10 +10,13 @@ from Query.RandomQueryStrategy import RandomQueryStrategy
 from Query.HeadQueryStrategy import HeadQueryStrategy
 
 from Measure.MeasureContext import MeasureContext
-from Measure.URLDiscoverMeasure import URLDiscoveryMeasure
-from Measure.URLFetchedMeasure import URLFetchedMeasure
-from Measure.URLUploadedMeasure import URLUploadedMeasure
-from Measure.URLAllMeasure import URLAllMeasure
+from Measure.CrawlerDiscoverMeasure import CrawlerDiscoverMeasure
+from Measure.CrawlerFetchMeasure import CrawlerFetchMeasure
+from Measure.CrawlerUploadMeasure import CrawlerUploadMeasure
+from Measure.TypesenseRankMeasure import TypesenseRankMeasure
+from Measure.CrawlerAllMetricMeasure import CrawlerAllMetricMeasure
+from Measure.SearchEngineAllMetricMeasure import SearchEngineAllMetricMeasure
+from Measure.CrawlerStatusMeasure import CrawlerStatusMeasure
 
 from argparse import ArgumentParser
 
@@ -23,8 +26,8 @@ def parseArgs():
     parser = ArgumentParser()
 
     parser.add_argument("--datadir", help="Metric data dir path")
-    parser.add_argument("--strategy", nargs='+', choices=['random', 'head'], help="raw data path")
-    parser.add_argument("--measure", nargs='+', choices=['discover', 'fetch', 'upload', 'all'], help="raw data path")
+    parser.add_argument("--strategy", nargs='+', choices=['random', 'head'], default=[], help="raw data path")
+    parser.add_argument("--measure", nargs='+', choices=['status', 'discover', 'fetch', 'upload', 'rank', 'crawler_all', 'all'], help="raw data path")
 
     parser.add_argument("--create", action='store_true', help="create dataset")
     parser.add_argument("--rawdatareader", choices=['csv', 'auto'], help="raw data reader strategy")
@@ -34,7 +37,8 @@ def parseArgs():
     parser.add_argument("--keywordNums", type=int, default=100, help="Metric Data Keyword Nums")
 
     parser.add_argument("--test", action='store_true', help="test performance")
-    parser.add_argument("--url", help="raw data path")
+    parser.add_argument("--crawler_url", help="crawler url")
+    parser.add_argument("--typesense_url", help="typesense url")
     parser.add_argument("--resultdir", help="Result Dir")
 
     args = parser.parse_args()
@@ -76,37 +80,52 @@ def test(args):
     if 'random' in args.strategy:
         dataset.append(DatasetFactory().getDataset(get_latest_dataset_file(args.datadir, 'random', '.json')))
         resultDataset.append({
-            "discover": DatasetFactory().getDataset(f'{args.resultdir}/random_discover.json'),
-            "fetch": DatasetFactory().getDataset(f'{args.resultdir}/random_fetch.json'),
-            "upload": DatasetFactory().getDataset(f'{args.resultdir}/randomd_upload.json'),
-            "rank": DatasetFactory().getDataset(f'{args.resultdir}/random_rank.json'),
-            "all": DatasetFactory().getDataset(f'{args.resultdir}/random_all.json'),
+            "discover": DatasetFactory().getDataset(f'{args.resultdir}/random_discover.json', True),
+            "fetch": DatasetFactory().getDataset(f'{args.resultdir}/random_fetch.json', True),
+            "upload": DatasetFactory().getDataset(f'{args.resultdir}/randomd_upload.json', True),
+            "rank": DatasetFactory().getDataset(f'{args.resultdir}/random_rank.json', True),
+            "crawler_all": DatasetFactory().getDataset(f'{args.resultdir}/random_crawler_all.json', True),
+            "all": DatasetFactory().getDataset(f'{args.resultdir}/random_all.json', True),
         })
     if 'head' in args.strategy:
         dataset.append(DatasetFactory().getDataset(get_latest_dataset_file(args.datadir, 'head', '.json')))
         resultDataset.append({
-            "discover": DatasetFactory().getDataset(f'{args.resultdir}/head_discover.json'),
-            "fetch": DatasetFactory().getDataset(f'{args.resultdir}/head_fetch.json'),
-            "upload": DatasetFactory().getDataset(f'{args.resultdir}/head_upload.json'),
-            "rank": DatasetFactory().getDataset(f'{args.resultdir}/head_rank.json'),
-            "all": DatasetFactory().getDataset(f'{args.resultdir}/head_all.json'),
+            "discover": DatasetFactory().getDataset(f'{args.resultdir}/head_discover.json', True),
+            "fetch": DatasetFactory().getDataset(f'{args.resultdir}/head_fetch.json', True),
+            "upload": DatasetFactory().getDataset(f'{args.resultdir}/head_upload.json', True),
+            "rank": DatasetFactory().getDataset(f'{args.resultdir}/head_rank.json', True),
+            "crawler_all": DatasetFactory().getDataset(f'{args.resultdir}/head_crawler_all.json', True),
+            "all": DatasetFactory().getDataset(f'{args.resultdir}/head_all.json', True),
         })
+
+    if 'status' in args.measure:
+        statusResultDataset = DatasetFactory().getDataset('status.json')
+        context.setMeasure(CrawlerStatusMeasure(args.crawler_url, statusResultDataset))
+        context.test()
 
     if 'discover' in args.measure:
         for i in range(len(dataset)):
-            context.setMeasure(URLDiscoveryMeasure(dataset[i], args.url, resultDataset[i]["discover"]))
+            context.setMeasure(CrawlerDiscoverMeasure(dataset[i], args.crawler_url, resultDataset[i]["discover"]))
             context.test()
     if 'fetch' in args.measure:
         for i in range(len(dataset)):
-            context.setMeasure(URLFetchedMeasure(dataset[i], args.url, resultDataset[i]["fetch"]))
+            context.setMeasure(CrawlerFetchMeasure(dataset[i], args.crawler_url, resultDataset[i]["fetch"]))
             context.test()
     if 'upload' in args.measure:
         for i in range(len(dataset)):
-            context.setMeasure(URLUploadedMeasure(dataset[i], args.url, resultDataset[i]["upload"]))
+            context.setMeasure(CrawlerUploadMeasure(dataset[i], args.crawler_url, resultDataset[i]["upload"]))
+            context.test()
+    if 'rank' in args.measure:
+        for i in range(len(dataset)):
+            context.setMeasure(TypesenseRankMeasure(dataset[i], args.typesense_url, resultDataset[i]["rank"]))
+            context.test()
+    if 'crawler_all' in args.measure:
+        for i in range(len(dataset)):
+            context.setMeasure(CrawlerUploadMeasure(dataset[i], args.crawler_url, resultDataset[i]["crawler_all"]))
             context.test()
     if 'all' in args.measure:
         for i in range(len(dataset)):
-            context.setMeasure(URLAllMeasure(dataset[i], args.url, resultDataset[i]["all"]))
+            context.setMeasure(SearchEngineAllMetricMeasure(dataset[i], args.crawler_url, args.typesense_url, resultDataset[i]["all"]))
             context.test()
 
 def main():
