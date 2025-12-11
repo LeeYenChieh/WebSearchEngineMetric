@@ -145,11 +145,11 @@ export default function App() {
         discovered: entry.discovered,
         crawled: entry.crawled,
         indexed: entry.indexed,
-        new_links: entry.detail.new_links,
-        fetch_ok: entry.detail.fetch_ok,
-        fetch_fail: entry.detail.fetch_fail,
-        failed_rate: entry.detail.failed_rate,
-        fail_reasons: entry.detail.fail_reasons,
+        new_links: entry.detail?.new_links,
+        fetch_ok: entry.detail?.fetch_ok,
+        fetch_fail: entry.detail?.fetch_fail,
+        failed_rate: entry.detail?.failed_rate,
+        fail_reasons: entry.detail?.fail_reasons,
       };
     });
 
