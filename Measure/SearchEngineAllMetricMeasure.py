@@ -4,6 +4,7 @@ from Dataset.DatasetFactory import DatasetFactory
 
 from Measure.CrawlerAllMetricMeasure import CrawlerAllMetricMeasure
 from Measure.TypesenseRankMeasure import TypesenseRankMeasure
+from tqdm import tqdm
 import os
 
 class SearchEngineAllMetricMeasure(Measure):
@@ -26,7 +27,11 @@ class SearchEngineAllMetricMeasure(Measure):
         for keyword in self.dataset.getKeys():
             crawlerdata = crawlerTempDataset.get(keyword)
             typesensedata = typesenseTempDataset.get(keyword)
-            for goldenurl in self.dataset.get(keyword)['url']:
-                result = crawlerdata | typesensedata
+
+            result = []
+            for idx in range(len(self.dataset.get(keyword)['url'])):
+                result.append(crawlerdata[idx] | typesensedata[idx])
             self.resultDataset.store(keyword, result)
+        result_total = crawlerTempDataset.get("__total__") | typesenseTempDataset.get("__total__")
+        self.resultDataset.store("__total__", result_total)
         self.resultDataset.dump()

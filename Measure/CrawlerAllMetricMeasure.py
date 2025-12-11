@@ -17,6 +17,7 @@ class CrawlerAllMetricMeasure(Measure):
         upload_correct = 0
         total = 0
 
+        print('Start Measuring Crawler')
         pbar = tqdm(total=len(self.dataset.getKeys()))
         for keyword in self.dataset.getKeys():
             for goldenurl in self.dataset.get(keyword)['url']:

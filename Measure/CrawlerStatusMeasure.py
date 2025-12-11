@@ -14,6 +14,7 @@ class CrawlerStatusMeasure(Measure):
         date = now.strftime('%Y-%m-%d')
         datedata = {}
 
+        print('Start Measuring Status')
         response = requests.get(f'{self.url}/status')
         if response.status_code == 200:
             data = response.json()
@@ -24,15 +25,14 @@ class CrawlerStatusMeasure(Measure):
             for daily in data["daily"]:
                 old_datedata = self.resultDataset.get(daily["stat_date"])
                 if old_datedata == None:
-                    old_datedata = {}
+                    old_datedata = datedata if daily["stat_date"] == date else {}
                 old_datedata["detail"] = daily
                 self.resultDataset.store(daily["stat_date"], old_datedata)
 
         else:
             print("Response Status Code: " + response.status_code)
             datedata["error"] = response
-        
-        self.resultDataset.store(date, datedata)
+            self.resultDataset.store(date, datedata)
         
 
         self.resultDataset.dump()

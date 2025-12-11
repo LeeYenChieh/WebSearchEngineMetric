@@ -13,8 +13,8 @@ class Dataset:
         if self.query == None:
             self.load()
         result = self.query.get(key)
-        if result == None:
-            print(f'Can not find key in our dataset')
+        # if result == None:
+        #     print(f'Can not find key in our dataset')
         return result
     
     def clear(self):

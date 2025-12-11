@@ -99,7 +99,7 @@ def test(args):
         })
 
     if 'status' in args.measure:
-        statusResultDataset = DatasetFactory().getDataset('status.json')
+        statusResultDataset = DatasetFactory().getDataset(f'{args.resultdir}/status.json')
         context.setMeasure(CrawlerStatusMeasure(args.crawler_url, statusResultDataset))
         context.test()
 
@@ -121,7 +121,7 @@ def test(args):
             context.test()
     if 'crawler_all' in args.measure:
         for i in range(len(dataset)):
-            context.setMeasure(CrawlerUploadMeasure(dataset[i], args.crawler_url, resultDataset[i]["crawler_all"]))
+            context.setMeasure(CrawlerAllMetricMeasure(dataset[i], args.crawler_url, resultDataset[i]["crawler_all"]))
             context.test()
     if 'all' in args.measure:
         for i in range(len(dataset)):

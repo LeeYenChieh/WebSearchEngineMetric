@@ -1,7 +1,7 @@
 from Measure.Measure import Measure
 from Dataset.Dataset import Dataset
 import typesense
-import requests
+from tqdm import tqdm
 import os
 
 class TypesenseRankMeasure(Measure):
@@ -26,6 +26,9 @@ class TypesenseRankMeasure(Measure):
             'connection_timeout_seconds': 10
         })
 
+        print('Start Measuring Rank')
+        pbar = tqdm(total=len(self.dataset.getKeys()))
+
         for keyword in self.dataset.getKeys():
             search_parameters = {
                 'q': keyword,             # **核心參數：您要搜尋的關鍵詞 (keyword)**
@@ -39,14 +42,20 @@ class TypesenseRankMeasure(Measure):
                 total += 1
                 find = False
                 for hit in search_result['hits']:
-                    document_data = hit['url']
+                    document_data = hit['document']['url']
                     if document_data == goldenurl:
                         correct += 1
                         find = True
                         break
                 if self.resultDataset.get(keyword) == None:
-                    self.resultDataset.store(keyword, [{'url': goldenurl, 'rank_find': not find}])
+                    self.resultDataset.store(keyword, [{'url': goldenurl, 'rank_find': find}])
                 else:
-                    self.resultDataset.get(keyword).append({'url': goldenurl, 'rank_find': not find})
-        print(f'Performance: {correct} / {total}')
+                    self.resultDataset.get(keyword).append({'url': goldenurl, 'rank_find': find})
+            pbar.update(1)
+        pbar.close()
+        print(f'Rank Performance: {correct} / {total}')
+        self.resultDataset.store("__total__", {
+            "rank_find": correct,
+            "total": total
+        })
         self.resultDataset.dump()
