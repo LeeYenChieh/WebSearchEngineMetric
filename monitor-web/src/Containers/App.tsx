@@ -3,6 +3,7 @@ import { format, parseISO, startOfWeek, startOfMonth } from 'date-fns';
 
 // Types
 import type { RawData, ServerDailyStat, TimeFrame, FailReasonChartData, FailureReasons } from '../types';
+import { CRAWLER_URL, TYPESENSE_URL } from '../url';
 
 // Containers
 import StatusCardContainer from './StatusCardContainer';
@@ -255,8 +256,8 @@ export default function App() {
 
         {/* Status Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-          <StatusCardContainer name="Scheduler Server" url="http://127.0.0.1:4000/api/crawl/health" urlName="http://ws2.csie.ntu.edu.tw:22225" />
-          <StatusCardContainer name="TypeSense Server" url="http://127.0.0.1:4000/api/typesense/health" urlName="http://ws2.csie.ntu.edu.tw:22222" />
+          <StatusCardContainer name="Scheduler Server" url={CRAWLER_URL} urlName="http://ws2.csie.ntu.edu.tw:22225" />
+          <StatusCardContainer name="TypeSense Server" url={TYPESENSE_URL} urlName="http://ws2.csie.ntu.edu.tw:22222" />
         </div>
 
         {/* Main Charts */}
