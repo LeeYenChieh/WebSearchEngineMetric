@@ -235,7 +235,7 @@
           },
           {
                "url": "https://www.rottentomatoes.com/tv/stranger_things",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -3918,9 +3918,9 @@
           {
                "url": "https://www.scotland.org/events/st-andrews-day",
                "discover_find": true,
-               "fetch_find": false,
-               "upload_find": false,
-               "rank_find": false
+               "fetch_find": true,
+               "upload_find": true,
+               "rank_find": true
           },
           {
                "url": "https://www.facebook.com/BeingScottish/posts/happy-st-andrews-day-a-day-to-celebrate-being-scottish-have-a-cracking-day-every/1274660234687384/",
@@ -3931,7 +3931,7 @@
           },
           {
                "url": "https://www.scotland.org/events/st-andrews-day/who-was-st-andrew",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -4398,7 +4398,7 @@
                "discover_find": true,
                "fetch_find": true,
                "upload_find": true,
-               "rank_find": true
+               "rank_find": false
           },
           {
                "url": "https://www.sofascore.com/pt/football/match/mirassol-ceara/bPsHOi",
@@ -4412,7 +4412,7 @@
                "discover_find": true,
                "fetch_find": true,
                "upload_find": true,
-               "rank_find": true
+               "rank_find": false
           },
           {
                "url": "https://www.espn.com/soccer/match/_/gameId/732741/mirassol-ceara",
@@ -5798,10 +5798,10 @@
           }
      ],
      "__total__": {
-          "discover_find": 188,
-          "fetch_find": 64,
-          "upload_find": 64,
+          "discover_find": 190,
+          "fetch_find": 65,
+          "upload_find": 65,
           "total": 797,
-          "rank_find": 11
+          "rank_find": 10
      }
 }

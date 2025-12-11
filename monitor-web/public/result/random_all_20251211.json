@@ -98,9 +98,9 @@
           {
                "url": "https://blog.playstation.com/2025/11/25/helldivers-2-python-commandos-premium-warbond-airdrops-dec-2/",
                "discover_find": true,
-               "fetch_find": false,
-               "upload_find": false,
-               "rank_find": false
+               "fetch_find": true,
+               "upload_find": true,
+               "rank_find": true
           },
           {
                "url": "https://www.reddit.com/r/Helldivers/comments/1p6dbhq/python_commandos_warbond_coming_the_2nd_of/",
@@ -608,7 +608,7 @@
                "discover_find": true,
                "fetch_find": true,
                "upload_find": true,
-               "rank_find": true
+               "rank_find": false
           },
           {
                "url": "https://www.reddit.com/r/johannesburg/",
@@ -848,7 +848,7 @@
                "discover_find": true,
                "fetch_find": true,
                "upload_find": true,
-               "rank_find": true
+               "rank_find": false
           },
           {
                "url": "https://pub-zhtb.hizh.cn/a/202511/29/AP692a6b48e4b0a0fbdabc0386.html",
@@ -1196,7 +1196,7 @@
                "discover_find": true,
                "fetch_find": true,
                "upload_find": true,
-               "rank_find": true
+               "rank_find": false
           },
           {
                "url": "https://www.tbs.co.jp/asiangames/athlete/athletics_f22.html",
@@ -2768,7 +2768,7 @@
           },
           {
                "url": "https://www.pro-football-reference.com/players/W/WhitRa01.htm",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -3021,7 +3021,7 @@
           },
           {
                "url": "https://www.rottentomatoes.com/tv/stranger_things",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -4352,8 +4352,8 @@
           {
                "url": "https://www.pfw.edu/",
                "discover_find": true,
-               "fetch_find": false,
-               "upload_find": false,
+               "fetch_find": true,
+               "upload_find": true,
                "rank_find": false
           }
      ],
@@ -4432,7 +4432,7 @@
           },
           {
                "url": "https://www.pro-football-reference.com/players/J/JoneEr01.htm",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -4527,7 +4527,7 @@
           },
           {
                "url": "https://www.pro-football-reference.com/players/H/HuntKa00.htm",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -6048,10 +6048,10 @@
           }
      ],
      "__total__": {
-          "discover_find": 237,
-          "fetch_find": 84,
-          "upload_find": 84,
+          "discover_find": 241,
+          "fetch_find": 86,
+          "upload_find": 86,
           "total": 833,
-          "rank_find": 22
+          "rank_find": 20
      }
 }
