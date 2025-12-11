@@ -28,6 +28,7 @@ class CrawlerStatusMeasure(Measure):
                     old_datedata = datedata if daily["stat_date"] == date else {}
                 old_datedata["detail"] = daily
                 self.resultDataset.store(daily["stat_date"], old_datedata)
+            self.resultDataset.store(date, datedata)
 
         else:
             print("Response Status Code: " + response.status_code)
