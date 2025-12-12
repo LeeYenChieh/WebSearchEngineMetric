@@ -528,8 +528,61 @@
           }
      },
      "2025-12-12": {
-          "discovered": 37518914,
-          "crawled": 5551860,
-          "indexed": 5551021
+          "discovered": 37638275,
+          "crawled": 5572398,
+          "indexed": 5571695,
+          "detail": {
+               "new_links": 899354,
+               "fetch_fail": 23336,
+               "stat_date": "2025-12-12",
+               "typesense_ok": 150802,
+               "typesense_fail": 0,
+               "update_rate": 0.8281077804716773,
+               "error_count": 1,
+               "ingest_error": 1,
+               "refill_error": 0,
+               "json_read_error": 0,
+               "offered_count": 181480,
+               "fetch_ok": 155139,
+               "update_count": 150285,
+               "failed_rate": 0.12858717214018073,
+               "fail_reasons": {
+                    "ValueError": 16,
+                    "ConnectError": 10,
+                    "TimeoutError": 7259,
+                    "HttpError 400": 17,
+                    "HttpError 401": 31,
+                    "HttpError 403": 3679,
+                    "HttpError 404": 3860,
+                    "HttpError 406": 5,
+                    "HttpError 410": 18,
+                    "HttpError 429": 2,
+                    "HttpError 460": 52,
+                    "HttpError 500": 300,
+                    "HttpError 502": 66,
+                    "HttpError 503": 30,
+                    "HttpError 504": 24,
+                    "HttpError 520": 3,
+                    "CancelledError": 15,
+                    "DNSLookupError": 170,
+                    "ResponseFailed": 225,
+                    "TCPTimedOutError": 386,
+                    "FileNotFoundError": 3,
+                    "UnicodeEncodeError": 1,
+                    "ResponseNeverReceived": 19,
+                    "ConnectionRefusedError": 4,
+                    "IgnoreRequest Forbidden by robots.txt": 7103,
+                    "IgnoreRequest max redirections reached": 35,
+                    "IgnoreRequest exceeded DOWNLOAD_MAXSIZE": 3
+               },
+               "upload_error": 0,
+               "offer_error": 0,
+               "maintenance_error": 0
+          }
+     },
+     "2025-12-13": {
+          "discovered": 37653330,
+          "crawled": 5575327,
+          "indexed": 5574965
      }
 }
