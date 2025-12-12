@@ -26,7 +26,7 @@ class TypesenseRankMeasure(Measure):
             'connection_timeout_seconds': 10
         })
 
-        print('Start Measuring Rank')
+        print(f'Start Measuring Rank, dataset: {self.dataset.path}')
         pbar = tqdm(total=len(self.dataset.getKeys()))
 
         for keyword in self.dataset.getKeys():
