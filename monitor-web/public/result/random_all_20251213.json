@@ -885,7 +885,7 @@
                "discover_find": true,
                "fetch_find": true,
                "upload_find": true,
-               "rank_find": true
+               "rank_find": false
           },
           {
                "url": "https://www.clubamerica.com.mx/",
@@ -943,7 +943,7 @@
                "discover_find": true,
                "fetch_find": true,
                "upload_find": true,
-               "rank_find": true
+               "rank_find": false
           },
           {
                "url": "https://www.gsmarena.com/nothing_phone_3a_phone_3a_pro_android_16_nothing_os_4_stable_update-news-70499.php",
@@ -3772,7 +3772,7 @@
                "discover_find": true,
                "fetch_find": true,
                "upload_find": true,
-               "rank_find": true
+               "rank_find": false
           },
           {
                "url": "https://www.youtube.com/channel/UCWskz0X5u4pqmMaI0rN7rGw",
@@ -4345,8 +4345,8 @@
           {
                "url": "https://www.pnw.edu/",
                "discover_find": true,
-               "fetch_find": false,
-               "upload_find": false,
+               "fetch_find": true,
+               "upload_find": true,
                "rank_find": false
           },
           {
@@ -4845,7 +4845,7 @@
           },
           {
                "url": "https://newyork.china-consulate.gov.cn/",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -6048,10 +6048,10 @@
           }
      ],
      "__total__": {
-          "discover_find": 244,
-          "fetch_find": 88,
-          "upload_find": 88,
+          "discover_find": 245,
+          "fetch_find": 89,
+          "upload_find": 89,
           "total": 833,
-          "rank_find": 18
+          "rank_find": 15
      }
 }
