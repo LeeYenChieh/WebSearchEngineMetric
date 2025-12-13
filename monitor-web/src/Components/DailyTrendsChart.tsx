@@ -16,7 +16,7 @@ const DailyTrendsChart: React.FC<Props> = ({ data }) => {
         <h3 className="text-white text-xl font-bold mb-4">Crawl Throughput & Health</h3>
         <div className="h-[400px] w-full">
             <ResponsiveContainer width="100%" height="100%">
-            <ComposedChart data={data}>
+            <ComposedChart data={data.slice(-8)}>
                 <CartesianGrid strokeDasharray="3 3" stroke="#374151" vertical={false} />
                 <XAxis dataKey="displayDate" stroke="#9CA3AF" tick={{ fill: '#9CA3AF' }} />
                 <YAxis yAxisId="left" stroke="#9CA3AF" tickFormatter={formatNumber} tick={{ fill: '#9CA3AF' }} />

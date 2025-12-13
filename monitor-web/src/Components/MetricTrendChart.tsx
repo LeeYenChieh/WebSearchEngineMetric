@@ -65,7 +65,7 @@ const MetricTrendChart: React.FC<MetricTrendChartProps> = ({ title, data }) => {
         <h3 className="text-lg font-semibold text-gray-200 mb-4">{title}</h3>
         <div className="h-[300px] w-full">
             <ResponsiveContainer width="100%" height="100%">
-            <LineChart data={data} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
+            <LineChart data={data.slice(-8)} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
                 <CartesianGrid strokeDasharray="3 3" stroke="#374151" vertical={false} />
                 <XAxis
                     dataKey="date"
