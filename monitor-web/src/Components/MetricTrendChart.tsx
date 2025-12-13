@@ -67,26 +67,89 @@ const MetricTrendChart: React.FC<MetricTrendChartProps> = ({ title, data }) => {
             <ResponsiveContainer width="100%" height="100%">
             <LineChart data={data} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
                 <CartesianGrid strokeDasharray="3 3" stroke="#374151" vertical={false} />
-                <XAxis 
-                dataKey="date" 
-                stroke="#9CA3AF" 
-                tickFormatter={(str) => format(parseISO(str), 'MM-dd')}
-                tick={{ fontSize: 12 }}
+                <XAxis
+                    dataKey="date"
+                    stroke="#9CA3AF"
+                    tickFormatter={(str) => format(parseISO(str), 'MM-dd')}
+                    tick={{ fontSize: 12 }}
                 />
-                <YAxis 
-                stroke="#9CA3AF" 
-                unit="%" 
-                domain={[0, 100]} 
-                tick={{ fontSize: 12 }}
+                <YAxis
+                    stroke="#9CA3AF"
+                    unit="%"
+                    tick={{ fontSize: 12 }}
                 />
                 <Tooltip content={<CustomTooltip />} />
-                <Legend wrapperStyle={{ paddingTop: '10px' }} />
                 
-                {/* 定義四條線，存的是計算好的百分比 */}
-                <Line type="monotone" dataKey="discover_pct" name="Discover" stroke="#3B82F6" strokeWidth={2} dot={false} activeDot={{ r: 6 }} />
-                <Line type="monotone" dataKey="fetch_pct" name="Fetch" stroke="#10B981" strokeWidth={2} dot={false} />
-                <Line type="monotone" dataKey="upload_pct" name="Upload" stroke="#8B5CF6" strokeWidth={2} dot={false} />
-                <Line type="monotone" dataKey="rank_pct" name="Rank" stroke="#F59E0B" strokeWidth={2} dot={false} />
+                <Legend
+                    wrapperStyle={{ paddingTop: '10px' }}
+                    content={() => {
+                        // 定義顯示順序
+                        const order = ["Discovered", "Crawled", "Indexed", "Ranked"];
+
+                        // 定義顏色映射 (包含原本的 Ranked 黃色)
+                        const colorMap: Record<string, string> = {
+                            Discovered: "#32b363ff", // 新顏色
+                            Crawled: "#f5760eff",    // 新顏色
+                            Indexed: "#8B5CF6",      // 紫色
+                            Ranked: "#F59E0B",       // 原本的黃色
+                        };
+
+                        return (
+                            <div style={{ display: "flex", gap: "20px", paddingTop: "10px", justifyContent: "center" }}>
+                                {order.map((name) => (
+                                    <span key={name} style={{ display: "flex", alignItems: "center", gap: "6px" }}>
+                                        <span
+                                            style={{
+                                                width: 12,
+                                                height: 12,
+                                                backgroundColor: colorMap[name],
+                                                borderRadius: 2, // 如果想要圓形改成 '50%'
+                                                display: "inline-block",
+                                            }}
+                                        />
+                                        <span style={{ color: "#d1d5db", fontSize: "14px", fontWeight: 500 }}>{name}</span>
+                                    </span>
+                                ))}
+                            </div>
+                        );
+                    }}
+                />
+
+                {/* 注意：這裡的 stroke 顏色必須手動更新，以符合上面 Legend 定義的顏色 
+                */}
+                <Line 
+                    type="monotone" 
+                    dataKey="discover_pct" 
+                    name="Discovered" 
+                    stroke="#32b363ff" 
+                    strokeWidth={2} 
+                    dot={{ r: 3 }} 
+                    activeDot={{ r: 6 }} 
+                />
+                <Line 
+                    type="monotone" 
+                    dataKey="fetch_pct" 
+                    name="Crawled" 
+                    stroke="#f5760eff" 
+                    strokeWidth={2} 
+                    dot={{ r: 3 }} 
+                />
+                <Line 
+                    type="monotone" 
+                    dataKey="upload_pct" 
+                    name="Indexed" 
+                    stroke="#8B5CF6" 
+                    strokeWidth={2} 
+                    dot={{ r: 3 }} 
+                />
+                <Line 
+                    type="monotone" 
+                    dataKey="rank_pct" 
+                    name="Ranked" 
+                    stroke="#F59E0B" 
+                    strokeWidth={2} 
+                    dot={{ r: 3 }} 
+                />
             </LineChart>
             </ResponsiveContainer>
         </div>

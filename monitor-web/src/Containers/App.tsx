@@ -13,7 +13,7 @@ import DashboardHeader from '../Components/DashboardHeader';
 import TotalVolumeChart from '../Components/TotalVolumeChart';
 import DailyTrendsChart from '../Components/DailyTrendsChart';
 import FailReasonsChart from '../Components/FailReasonsChart';
-import MetricTrendChart from '../Components/MetricTrendChart'; // Import 新組件
+import MetricTrendChart from '../Components/MetricTrendChart';
 
 // 定義 Metric 的資料結構
 interface MetricRawData {
@@ -58,7 +58,6 @@ export default function App() {
   }, []);
 
   // --- 1.1 Fetching Logic (Metrics) ---
-  // 當 rawData 改變時 (拿到日期列表後)，去抓取每天的詳細 Metric
   useEffect(() => {
     if (!rawData) return;
 
@@ -68,11 +67,8 @@ export default function App() {
       const headResults: ProcessedMetric[] = [];
       const randomResults: ProcessedMetric[] = [];
 
-      // 為了效能，你可以限制只抓最近 30 天，或全部抓取(視資料量而定)
-      // 這裡示範全部抓取
       await Promise.all(
         dates.map(async (date) => {
-          // 將 YYYY-MM-DD 轉為 YYYYMMDD
           const fileDate = date.replace(/-/g, '');
           
           try {
@@ -88,7 +84,6 @@ export default function App() {
                 fetch_find: t.fetch_find,
                 upload_find: t.upload_find,
                 rank_find: t.rank_find,
-                // 計算百分比
                 discover_pct: t.total > 0 ? (t.discover_find / t.total) * 100 : 0,
                 fetch_pct: t.total > 0 ? (t.fetch_find / t.total) * 100 : 0,
                 upload_pct: t.total > 0 ? (t.upload_find / t.total) * 100 : 0,
@@ -121,7 +116,6 @@ export default function App() {
         })
       );
 
-      // 排序資料 (Promise.all 完成順序不一定)
       setHeadMetrics(headResults.sort((a, b) => a.date.localeCompare(b.date)));
       setRandomMetrics(randomResults.sort((a, b) => a.date.localeCompare(b.date)));
     };
@@ -136,12 +130,11 @@ export default function App() {
 
     const sortedDates = Object.keys(rawData).sort();
 
-    // 每日基礎資料
     const dailyBase: ServerDailyStat[] = sortedDates.map((date) => {
       const entry = rawData[date];
       return {
         stat_date: date,
-        displayDate: date.slice(5), // MM-DD
+        displayDate: date.slice(5),
         discovered: entry.discovered,
         crawled: entry.crawled,
         indexed: entry.indexed,
@@ -155,7 +148,6 @@ export default function App() {
 
     if (timeFrame === 'daily') return dailyBase;
 
-    // 處理 Weekly / Monthly 聚合
     const groupedData: Record<string, ServerDailyStat[]> = {};
 
     dailyBase.forEach((item) => {
@@ -170,12 +162,11 @@ export default function App() {
     });
 
     return Object.entries(groupedData).map(([key, group]) => {
-      const lastEntry = group[group.length - 1]; // Snapshot 數據取最後
+      const lastEntry = group[group.length - 1];
       
       const sumField = (field: keyof ServerDailyStat) =>
         group.reduce((acc, curr) => acc + (curr[field] as number), 0);
 
-      // 錯誤原因聚合
       const aggregatedReasons: FailureReasons = {};
       group.forEach((g) => {
         if (g.fail_reasons) {
@@ -254,48 +245,53 @@ export default function App() {
         {/* Header Section */}
         <DashboardHeader timeFrame={timeFrame} setTimeFrame={setTimeFrame} />
 
-        {/* Status Cards */}
+        {/* 1. Health Status Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
           <StatusCardContainer name="Scheduler Server" url={CRAWLER_URL} urlName="http://ws2.csie.ntu.edu.tw:22225" />
           <StatusCardContainer name="TypeSense Server" url={TYPESENSE_URL} urlName="http://ws2.csie.ntu.edu.tw:22222" />
         </div>
 
-        {/* Main Charts */}
+        {/* 2. Total Volume Chart */}
         <div className="mb-6">
           <TotalVolumeChart data={processedData} />
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-          <DailyTrendsChart data={processedData} />
-          <FailReasonsChart chartData={failReasonChartData} keys={failReasonKeys} />
+        {/* 3. Algorithm Metrics Section (Moved Up) */}
+        <div className="mb-12">
+            <h2 className="text-xl font-bold text-gray-200 mb-4 mt-8 border-l-4 border-purple-500 pl-3">
+            Algorithm Performance Metrics
+            </h2>
+            
+            <div className="grid grid-cols-1 gap-6">
+            {headMetrics.length > 0 && (
+                <MetricTrendChart 
+                title="Head Strategy Performance (Daily)" 
+                data={headMetrics} 
+                />
+            )}
+            
+            {randomMetrics.length > 0 && (
+                <MetricTrendChart 
+                title="Random Strategy Performance (Daily)" 
+                data={randomMetrics} 
+                />
+            )}
+
+            {headMetrics.length === 0 && randomMetrics.length === 0 && (
+                <div className="p-8 text-center bg-gray-900 border border-gray-800 rounded-xl text-gray-500">
+                Loading metrics data...
+                </div>
+            )}
+            </div>
         </div>
 
-        {/* Algorithm Metrics Section */}
-        <h2 className="text-xl font-bold text-gray-200 mb-4 mt-10 border-l-4 border-purple-500 pl-3">
-          Algorithm Performance Metrics
+        {/* 4. Daily Trends & Fail Reasons (Moved Down) */}
+        <h2 className="text-xl font-bold text-gray-200 mb-4 border-l-4 border-blue-500 pl-3">
+          Detailed Crawl Statistics
         </h2>
-        
-        {/* 這裡替換掉了原本的 Benchmarks placeholder */}
-        <div className="grid grid-cols-1 gap-6">
-          {headMetrics.length > 0 && (
-            <MetricTrendChart 
-              title="Head Strategy Performance (Daily)" 
-              data={headMetrics} 
-            />
-          )}
-          
-          {randomMetrics.length > 0 && (
-            <MetricTrendChart 
-              title="Random Strategy Performance (Daily)" 
-              data={randomMetrics} 
-            />
-          )}
-
-          {headMetrics.length === 0 && randomMetrics.length === 0 && (
-            <div className="p-8 text-center bg-gray-900 border border-gray-800 rounded-xl text-gray-500">
-              Loading metrics data...
-            </div>
-          )}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
+          <DailyTrendsChart data={processedData} />
+          <FailReasonsChart chartData={failReasonChartData} keys={failReasonKeys} />
         </div>
 
       </div>
