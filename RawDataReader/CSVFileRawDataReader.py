@@ -5,7 +5,7 @@ import re
 
 
 # 用於讀取google trending上的csv data
-class CSVRawDataReader(RawDataReader):
+class CSVFileRawDataReader(RawDataReader):
     def __init__(self, path):
         super().__init__()
         self.path = path

@@ -1,4 +1,4 @@
-from RawDataReader.AutoUpdateRawDataReader import AutoUpdateRawDataReader
+from WebSearchEngineMetric.RawDataReader.AutoUpdateCSVRawDataReader import AutoUpdateRawDataReader
 import random
 
 

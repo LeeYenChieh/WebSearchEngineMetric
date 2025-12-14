@@ -5,7 +5,7 @@ import re
 from RawDataReader.RawDataReader import RawDataReader
 from serpapi import GoogleSearch
 
-class AutoUpdateRawDataReader(RawDataReader):
+class AutoUpdateCSVRawDataReader(RawDataReader):
     def __init__(self, update_day=14, dirpath='.'):
         super().__init__()
         self.update_day = update_day

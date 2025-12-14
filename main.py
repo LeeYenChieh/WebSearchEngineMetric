@@ -2,8 +2,9 @@ from Dataset.Dataset import Dataset
 from Dataset.DatasetFactory import DatasetFactory
 
 from RawDataReader.RawDataReader import RawDataReader
-from RawDataReader.CSVRawDataReader import CSVRawDataReader
-from RawDataReader.AutoUpdateRawDataReader import AutoUpdateRawDataReader
+from RawDataReader.CSVFileRawDataReader import CSVFileRawDataReader
+from RawDataReader.AutoUpdateJsonRawDataReader import AutoUpdateJsonRawDataReader
+from RawDataReader.AutoUpdateCSVRawDataReader import AutoUpdateCSVRawDataReader
 
 from Query.QueryContext import QueryContext
 from Query.RandomQueryStrategy import RandomQueryStrategy
@@ -18,6 +19,8 @@ from Measure.CrawlerAllMetricMeasure import CrawlerAllMetricMeasure
 from Measure.SearchEngineAllMetricMeasure import SearchEngineAllMetricMeasure
 from Measure.CrawlerStatusMeasure import CrawlerStatusMeasure
 
+from utils.getLastest import get_latest_dataset_file
+
 from argparse import ArgumentParser
 
 import os
@@ -30,7 +33,7 @@ def parseArgs():
     parser.add_argument("--measure", nargs='+', choices=['status', 'discover', 'fetch', 'upload', 'rank', 'crawler_all', 'all'], help="raw data path")
 
     parser.add_argument("--create", action='store_true', help="create dataset")
-    parser.add_argument("--rawdatareader", choices=['csv', 'auto'], help="raw data reader strategy")
+    parser.add_argument("--rawdatareader", choices=['csvfile', 'json', 'csv'], help="raw data reader strategy")
     parser.add_argument("--rawdatapath", help="Raw data path")
     parser.add_argument("--rawdatadir", default='.', help="Auto generator raw data dir")
     parser.add_argument("--update", type=int, default=14, help="auto generator days")
@@ -46,10 +49,12 @@ def parseArgs():
 
 def createDataset(args):
     rawDataReader: RawDataReader = None
-    if args.rawdatareader == "csv":
-        rawDataReader = CSVRawDataReader(args.rawdatapath)
-    elif args.rawdatareader == "auto":
-        rawDataReader = AutoUpdateRawDataReader(args.update, args.rawdatadir)
+    if args.rawdatareader == "csvfile":
+        rawDataReader = CSVFileRawDataReader(args.rawdatapath)
+    elif args.rawdatareader == "json":
+        rawDataReader = AutoUpdateJsonRawDataReader(args.rawdatadir, args.update)
+    elif args.rawdatareader == "csvs":
+        rawDataReader = AutoUpdateCSVRawDataReader(args.update, args.rawdatadir)
     rawData = rawDataReader.readData()
 
     context: QueryContext = QueryContext()
@@ -62,15 +67,6 @@ def createDataset(args):
         dataset: Dataset  = DatasetFactory().getDataset(f'{args.datadir}/head.json', True)
         context.setQueryStrategy(HeadQueryStrategy(dataset, rawData, args.keywordNums))
         context.getGoldenSet()
-
-def get_latest_dataset_file(dir, base, ext):
-    prefix = base + "_"
-    files = [
-        f for f in os.listdir(dir)
-        if f.startswith(prefix) and f.endswith(ext)
-    ]
-    files = sorted(files)   # 今天最大
-    return f'{dir}/{files[-1]}' if files else None
 
 def test(args):
     dataset: list  = []
