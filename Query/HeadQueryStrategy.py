@@ -23,7 +23,7 @@ class HeadQueryStrategy(QueryStrategy):
             }
             self.dataset.store(key, result)
 
-            print(f'Golden URL Nums: {len(urlSet)}')
-            print(f'Golden URL Set: {urlSet}')
-            print("=" * 30)
+            # print(f'Golden URL Nums: {len(urlSet)}')
+            # print(f'Golden URL Set: {urlSet}')
+            # print("=" * 30)
         self.dataset.dump()

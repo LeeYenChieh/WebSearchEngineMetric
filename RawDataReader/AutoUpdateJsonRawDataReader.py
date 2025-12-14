@@ -6,6 +6,7 @@ from utils.getLastest import get_latest_dataset_file
 
 from serpapi import GoogleSearch
 from datetime import datetime
+import time
 import os
 
 
@@ -95,47 +96,58 @@ class AutoUpdateJsonRawDataReader(RawDataReader):
     def _fetch_trending_now(self, geo: str) -> list:
         """
         從 SerpApi 獲取指定國家的 Google Trends Trending Now 數據
+        包含重試機制：失敗重試 3 次，每次間隔 30 秒
         """
-        try:
-            params = {
-                "engine": "google_trends_trending_now",
-                "geo": geo,
-                "api_key": os.environ.get('SERPAPI_KEY'),
-                "hours": 168  # 過去 7 天
-            }
+        max_retries = 3
+        retry_delay = 30  # 秒
 
-            search = GoogleSearch(params)
-            results = search.get_dict()
-
-            # 檢查 API 是否回傳錯誤訊息 (例如 Quota 不足)
-            if "error" in results:
-                raise Exception(results['error'])
-            
-            # 獲取主要數據列表
-            trending_searches = results.get("trending_searches", [])
-
-            trending_list = []
-            for row in trending_searches:
-                keyword = row.get("query")
-                freq = row.get("search_volume")
-                started_ts = row.get("start_timestamp")
-                
-                
-                data = {
-                    "keyword": keyword,
-                    "frequency": freq,
-                    "started": started_ts,
-                    "geo": geo
+        # 嘗試次數 = 1 (原本) + 3 (重試) = 4 次
+        for attempt in range(max_retries + 1):
+            try:
+                params = {
+                    "engine": "google_trends_trending_now",
+                    "geo": geo,
+                    "api_key": os.environ.get('SERPAPI_KEY'),
+                    "hours": 168  # 過去 7 天
                 }
-                trending_list.append(data)
+
+                search = GoogleSearch(params)
+                results = search.get_dict()
+
+                # 檢查 API 是否回傳錯誤訊息
+                if "error" in results:
+                    raise Exception(results['error'])
                 
-            print(f'Fetch {geo} Trending Query Success')
-            return trending_list
+                # 獲取主要數據列表
+                trending_searches = results.get("trending_searches", [])
 
-        except Exception as e:
-            # 捕捉所有錯誤 (包含 Quota 不足)，印出 Log 但不中斷整個程式
-            # 這樣單一國家失敗不會影響其他國家的數據收集
-            error_msg = str(e)
-            print(f"Error fetching {geo}: {error_msg}")
+                trending_list = []
+                for row in trending_searches:
+                    keyword = row.get("query")
+                    # 防禦性寫法：若無 search_volume 則補 0
+                    freq = row.get("search_volume") or 0
+                    started_ts = row.get("start_timestamp")
+                    
+                    data = {
+                        "keyword": keyword,
+                        "frequency": freq,
+                        "started": started_ts,
+                        "geo": geo
+                    }
+                    trending_list.append(data)
+                    
+                print(f'Fetch {geo} Trending Query Success')
+                return trending_list
 
-            return []
+            except Exception as e:
+                error_msg = str(e)
+                print(f"Error fetching {geo} (Attempt {attempt + 1}/{max_retries + 1}): {error_msg}")
+
+                # 如果還不是最後一次嘗試，就等待並重試
+                if attempt < max_retries:
+                    print(f"Waiting {retry_delay} seconds before retrying...")
+                    time.sleep(retry_delay)
+                else:
+                    # 如果是最後一次嘗試依然失敗
+                    print(f"All {max_retries + 1} attempts failed for {geo}. Giving up.")
+                    return []
