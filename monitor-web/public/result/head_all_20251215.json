@@ -1644,7 +1644,7 @@
           },
           {
                "url": "https://www.nba.com/news/victor-wembanyama-return-lifts-spurs",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -3439,7 +3439,7 @@
           },
           {
                "url": "https://www.pbs.org/wnet/americanmasters/dick-van-dyke-documentary/37036/",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -3687,14 +3687,14 @@
           },
           {
                "url": "https://en.wikipedia.org/wiki/UEFA_Champions_League",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
           },
           {
                "url": "https://www.instagram.com/championsleague/",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -3708,7 +3708,7 @@
           },
           {
                "url": "https://www.facebook.com/ChampionsLeague/",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -4754,7 +4754,7 @@
           },
           {
                "url": "https://www.nba.com/game/nyk-vs-orl-0022500269",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -5672,7 +5672,7 @@
           },
           {
                "url": "https://www.sofascore.com/football/match/tigres-uanl-cd-toluca/GNsPN",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -6451,7 +6451,7 @@
           },
           {
                "url": "https://natalie.mu/music/news/651508",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -8580,7 +8580,7 @@
      "monaco – galatasaray": [
           {
                "url": "https://www.uefa.com/uefachampionsleague/match/2045999--monaco-vs-galatasaray/",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -8688,8 +8688,8 @@
           {
                "url": "https://blog.playstation.com/2025/12/11/new-clair-obscur-expedition-33-content-available-today-including-versos-drafts-level/",
                "discover_find": true,
-               "fetch_find": false,
-               "upload_find": false,
+               "fetch_find": true,
+               "upload_find": true,
                "rank_find": false
           }
      ],
@@ -9016,7 +9016,7 @@
      "playstation wrapped": [
           {
                "url": "https://wrapup.playstation.com/",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -9024,8 +9024,8 @@
           {
                "url": "https://blog.playstation.com/2025/12/09/playstation-2025-wrap-up-launches-starting-today-explore-your-personalized-gaming-recap-for-2025/",
                "discover_find": true,
-               "fetch_find": false,
-               "upload_find": false,
+               "fetch_find": true,
+               "upload_find": true,
                "rank_find": false
           },
           {
@@ -10041,7 +10041,7 @@
           },
           {
                "url": "https://www.skysports.com/football/news/11095/13478222/celtic-1-2-hearts-wilfried-nancy-endures-nightmare-start-as-hoops-boss-as-visitors-stay-top-of-league-with-win-at-celtic-park",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -10665,7 +10665,7 @@
           },
           {
                "url": "https://www.axios.com/2025/12/12/jasmine-crockett-house-democrats-senate-texas",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -12850,7 +12850,7 @@
           },
           {
                "url": "https://natalie.mu/owarai/artist/6381",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -13331,7 +13331,7 @@
                "discover_find": true,
                "fetch_find": true,
                "upload_find": true,
-               "rank_find": true
+               "rank_find": false
           },
           {
                "url": "https://topics.smt.docomo.ne.jp/article/jisin/nation/jisin-https_jisin.jp_p_2545313",
@@ -16098,7 +16098,7 @@
           },
           {
                "url": "https://www.facebook.com/EuropaLeague/",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -17051,7 +17051,7 @@
      "playstation wrap up 2025": [
           {
                "url": "https://wrapup.playstation.com/",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -17059,8 +17059,8 @@
           {
                "url": "https://blog.playstation.com/2025/12/09/playstation-2025-wrap-up-launches-starting-today-explore-your-personalized-gaming-recap-for-2025/",
                "discover_find": true,
-               "fetch_find": false,
-               "upload_find": false,
+               "fetch_find": true,
+               "upload_find": true,
                "rank_find": false
           },
           {
@@ -17842,21 +17842,21 @@
           },
           {
                "url": "https://en.wikipedia.org/wiki/UEFA_Champions_League",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
           },
           {
                "url": "https://www.instagram.com/championsleague/",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
           },
           {
                "url": "https://www.facebook.com/ChampionsLeague/",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -18190,7 +18190,7 @@
           },
           {
                "url": "https://en.wikipedia.org/wiki/UEFA_Champions_League",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -18575,7 +18575,7 @@
      "barcelona": [
           {
                "url": "https://www.fcbarcelona.com/en/",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -18872,7 +18872,7 @@
           },
           {
                "url": "https://www.nba.com/game/nyk-vs-orl-0022500269",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -19644,7 +19644,7 @@
           },
           {
                "url": "https://www.basketball-reference.com/boxscores/202512080IND.html",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -22290,7 +22290,7 @@
           },
           {
                "url": "https://play.google.com/store/apps/details?id=com.disney.disneyplus&hl=en_US",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -23408,7 +23408,7 @@
           },
           {
                "url": "https://www.uefa.com/under19/",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -31040,7 +31040,7 @@
      "atalanta": [
           {
                "url": "https://en.wikipedia.org/wiki/Atalanta",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -31068,7 +31068,7 @@
           },
           {
                "url": "https://en.atalanta.it/",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -31344,14 +31344,14 @@
           },
           {
                "url": "https://en.wikipedia.org/wiki/UEFA_Champions_League",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
           },
           {
                "url": "https://www.instagram.com/championsleague/",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -31943,7 +31943,7 @@
                "discover_find": true,
                "fetch_find": true,
                "upload_find": true,
-               "rank_find": true
+               "rank_find": false
           },
           {
                "url": "https://www.espn.com/nba/player/_/id/4566434/franz-wagner",
@@ -31976,9 +31976,9 @@
           {
                "url": "https://www.nba.com/player/1630532/franz-wagner",
                "discover_find": true,
-               "fetch_find": false,
-               "upload_find": false,
-               "rank_find": false
+               "fetch_find": true,
+               "upload_find": true,
+               "rank_find": true
           },
           {
                "url": "https://mgoblue.com/sports/mens-basketball/roster/franz-wagner/21114",
@@ -32049,7 +32049,7 @@
      "wrap up playstation": [
           {
                "url": "https://wrapup.playstation.com/",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -32064,8 +32064,8 @@
           {
                "url": "https://blog.playstation.com/2025/12/09/playstation-2025-wrap-up-launches-starting-today-explore-your-personalized-gaming-recap-for-2025/",
                "discover_find": true,
-               "fetch_find": false,
-               "upload_find": false,
+               "fetch_find": true,
+               "upload_find": true,
                "rank_find": false
           },
           {
@@ -32646,8 +32646,8 @@
           {
                "url": "https://blog.playstation.com/2025/12/11/tomb-raider-catalyst-and-tomb-raider-legacy-of-atlantis-coming-to-ps5/",
                "discover_find": true,
-               "fetch_find": false,
-               "upload_find": false,
+               "fetch_find": true,
+               "upload_find": true,
                "rank_find": false
           },
           {
@@ -34685,9 +34685,9 @@
           {
                "url": "https://blog.playstation.com/2025/12/11/control-resonant-brings-a-new-paranatural-crisis-to-ps5-out-2026/",
                "discover_find": true,
-               "fetch_find": false,
-               "upload_find": false,
-               "rank_find": false
+               "fetch_find": true,
+               "upload_find": true,
+               "rank_find": true
           },
           {
                "url": "https://www.engadget.com/gaming/control-resonant-steps-into-a-larger-world-thats-inspired-by-neon-genesis-evangelion-021310781.html",
@@ -35194,7 +35194,7 @@
      "evan peters": [
           {
                "url": "https://en.wikipedia.org/wiki/Evan_Peters",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -36006,7 +36006,7 @@
           },
           {
                "url": "https://www.imdb.com/title/tt1798709/",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -37330,7 +37330,7 @@
           },
           {
                "url": "https://www.businessinsider.com/taylor-swift-net-worth",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -40716,7 +40716,7 @@
           },
           {
                "url": "https://www.espn.com/mlb/player/_/id/4705673/angel-zerpa",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -44060,7 +44060,7 @@
      "mizzou basketball": [
           {
                "url": "https://mutigers.com/sports/mens-basketball/schedule",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -44089,8 +44089,8 @@
           {
                "url": "https://mutigers.com/sports/mens-basketball",
                "discover_find": true,
-               "fetch_find": false,
-               "upload_find": false,
+               "fetch_find": true,
+               "upload_find": true,
                "rank_find": false
           },
           {
@@ -48031,7 +48031,7 @@
           },
           {
                "url": "http://www.otake-shinobu.com/",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -48045,7 +48045,7 @@
           },
           {
                "url": "https://natalie.mu/stage/news/652099",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -50404,7 +50404,7 @@
           },
           {
                "url": "https://natalie.mu/eiga/artist/117161",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -54371,7 +54371,7 @@
      "maverick": [
           {
                "url": "https://www.merriam-webster.com/dictionary/maverick",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -55564,9 +55564,9 @@
           }
      ],
      "__total__": {
-          "discover_find": 880,
-          "fetch_find": 177,
-          "upload_find": 177,
+          "discover_find": 918,
+          "fetch_find": 185,
+          "upload_find": 185,
           "total": 7652,
           "rank_find": 14
      }

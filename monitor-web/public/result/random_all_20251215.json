@@ -2169,7 +2169,7 @@
      "endrick": [
           {
                "url": "https://en.wikipedia.org/wiki/Endrick_(footballer,_born_2006)",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -6189,7 +6189,7 @@
           },
           {
                "url": "https://natalie.mu/music/news/648536",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -6776,7 +6776,7 @@
           },
           {
                "url": "https://www.olympiacos.org/en/",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -6950,7 +6950,7 @@
           },
           {
                "url": "https://www.nba.com/game/min-vs-phx-0022500053",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -7718,7 +7718,7 @@
           },
           {
                "url": "https://tempo.si.edu/",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -10484,7 +10484,7 @@
           },
           {
                "url": "https://www.arthritis.org/diseases/rheumatoid-arthritis",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -10542,7 +10542,7 @@
           },
           {
                "url": "https://www.sofascore.com/football/match/fcsb-feyenoord/jjbsbqb",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -11187,7 +11187,7 @@
           },
           {
                "url": "https://www.uefa.com/under19/",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -13156,7 +13156,7 @@
           },
           {
                "url": "https://www.businessinsider.com/taylor-swift-net-worth",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -13381,7 +13381,7 @@
           },
           {
                "url": "https://www.psv.nl/en/home",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -14852,7 +14852,7 @@
           },
           {
                "url": "https://www.nhl.com/blues/news/blues-sign-dube-to-ahl-professional-tryout",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -15847,7 +15847,7 @@
      "série a": [
           {
                "url": "https://en.wikipedia.org/wiki/Serie_A",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -15861,14 +15861,14 @@
           },
           {
                "url": "https://www.legaseriea.it/en",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
           },
           {
                "url": "https://www.youtube.com/@seriea",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -18335,8 +18335,8 @@
           {
                "url": "https://www.basketball-reference.com/players/k/kuminjo01.html",
                "discover_find": true,
-               "fetch_find": false,
-               "upload_find": false,
+               "fetch_find": true,
+               "upload_find": true,
                "rank_find": false
           },
           {
@@ -19798,7 +19798,7 @@
           },
           {
                "url": "https://www.bet365.com/",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -20221,7 +20221,7 @@
                "discover_find": true,
                "fetch_find": true,
                "upload_find": true,
-               "rank_find": true
+               "rank_find": false
           },
           {
                "url": "https://newsdig.tbs.co.jp/articles/-/2338334",
@@ -20900,7 +20900,7 @@
           },
           {
                "url": "https://www.britannica.com/biography/Andrew-Scott",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -21960,14 +21960,14 @@
           },
           {
                "url": "https://en.wikipedia.org/wiki/UEFA_Champions_League",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
           },
           {
                "url": "https://www.instagram.com/championsleague/",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -21981,7 +21981,7 @@
           },
           {
                "url": "https://www.facebook.com/ChampionsLeague/",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -23582,7 +23582,7 @@
           },
           {
                "url": "https://www.flashscore.com/player/hernandez-lucas/x2fvnkud/",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -24209,7 +24209,7 @@
                "discover_find": true,
                "fetch_find": true,
                "upload_find": true,
-               "rank_find": true
+               "rank_find": false
           },
           {
                "url": "https://en.wikipedia.org/wiki/Romeo_Doubs",
@@ -26756,7 +26756,7 @@
           },
           {
                "url": "https://www.nhl.com/sabres/video/ruff-postgame-at-van-6386370995112",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -27750,8 +27750,8 @@
           {
                "url": "https://science.nasa.gov/solar-system/comets/3i-atlas/",
                "discover_find": true,
-               "fetch_find": false,
-               "upload_find": false,
+               "fetch_find": true,
+               "upload_find": true,
                "rank_find": false
           },
           {
@@ -27937,7 +27937,7 @@
           },
           {
                "url": "https://www.britannica.com/place/Accra",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -28526,7 +28526,7 @@
           },
           {
                "url": "https://www.theskytaipei.com/zh",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -29714,7 +29714,7 @@
           },
           {
                "url": "https://www.fcbarcelona.com/en/football/first-team/players/116719/pablo-martin-paez-gavira",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -35054,9 +35054,9 @@
           {
                "url": "https://www.basketball-reference.com/players/d/dortlu01.html",
                "discover_find": true,
-               "fetch_find": false,
-               "upload_find": false,
-               "rank_find": false
+               "fetch_find": true,
+               "upload_find": true,
+               "rank_find": true
           },
           {
                "url": "https://www.nba.com/player/1629652/luguentz-dort",
@@ -36844,7 +36844,7 @@
           },
           {
                "url": "https://theanalyst.com/",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -40401,7 +40401,7 @@
           },
           {
                "url": "https://www.facebook.com/EuropaLeague/",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -44967,7 +44967,7 @@
           },
           {
                "url": "https://www.instagram.com/laliga/",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -45011,7 +45011,7 @@
           },
           {
                "url": "https://www.olympiacos.org/en/",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -47368,7 +47368,7 @@
           },
           {
                "url": "https://www.fcbarcelona.com/en/football/first-team/players/24156/raphael-dias-belloli",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -49570,7 +49570,7 @@
      "mónaco - galatasaray": [
           {
                "url": "https://www.uefa.com/uefachampionsleague/match/2045999--monaco-vs-galatasaray/",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -49985,7 +49985,7 @@
           },
           {
                "url": "http://www.army.mil/d-day/",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -51150,7 +51150,7 @@
           },
           {
                "url": "https://www.cbssports.com/college-football/news/2025-heisman-trophy-winner-indiana-qb-fernando-mendoza/",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -51443,8 +51443,8 @@
           {
                "url": "https://www.nhl.com/sharks/",
                "discover_find": true,
-               "fetch_find": false,
-               "upload_find": false,
+               "fetch_find": true,
+               "upload_find": true,
                "rank_find": false
           },
           {
@@ -52819,8 +52819,8 @@
           {
                "url": "https://blog.playstation.com/2025/12/11/new-clair-obscur-expedition-33-content-available-today-including-versos-drafts-level/",
                "discover_find": true,
-               "fetch_find": false,
-               "upload_find": false,
+               "fetch_find": true,
+               "upload_find": true,
                "rank_find": false
           }
      ],
@@ -56001,16 +56001,16 @@
           {
                "url": "https://www.basketball-reference.com/players/s/suggsja01.html",
                "discover_find": true,
-               "fetch_find": false,
-               "upload_find": false,
-               "rank_find": false
+               "fetch_find": true,
+               "upload_find": true,
+               "rank_find": true
           },
           {
                "url": "https://www.nba.com/player/1630591/jalen-suggs",
                "discover_find": true,
-               "fetch_find": false,
-               "upload_find": false,
-               "rank_find": false
+               "fetch_find": true,
+               "upload_find": true,
+               "rank_find": true
           },
           {
                "url": "https://www.instagram.com/jalensuggs/?hl=en",
@@ -57552,7 +57552,7 @@
           },
           {
                "url": "https://www.pbs.org/newshour/show/indiana-republican-explains-why-he-defied-trump-and-rejected-congressional-redistricting",
-               "discover_find": false,
+               "discover_find": true,
                "fetch_find": false,
                "upload_find": false,
                "rank_find": false
@@ -57993,10 +57993,10 @@
           }
      ],
      "__total__": {
-          "discover_find": 871,
-          "fetch_find": 138,
-          "upload_find": 138,
+          "discover_find": 904,
+          "fetch_find": 145,
+          "upload_find": 145,
           "total": 7999,
-          "rank_find": 15
+          "rank_find": 16
      }
 }
